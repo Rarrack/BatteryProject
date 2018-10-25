@@ -26,9 +26,10 @@ public class Rotation : MonoBehaviour
             col.gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, 0.1f);
             col.gameObject.transform.Rotate(0, 0, 180);
             isSet = true;
+            col.gameObject.GetComponent<BatteryBehavior>().ResetMovement();
             col.gameObject.GetComponent<BatteryBehavior>().HasMoved = false;
-            col.gameObject.GetComponent<BatteryBehavior>().selected = false;
-            col.gameObject.GetComponent<BatteryBehavior>().ResetDirection();
+            //col.gameObject.GetComponent<BatteryBehavior>().selected = false;
+            //col.gameObject.GetComponent<BatteryBehavior>().ResetDirection();
         }
     }
 

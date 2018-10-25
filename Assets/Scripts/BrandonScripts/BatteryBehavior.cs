@@ -42,10 +42,16 @@ public class BatteryBehavior : MonoBehaviour
         currentDirection = Vector3.zero;
     }
 
+    public void ResetMovement()
+    {
+        selected = false;
+        GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        currentDirection = Vector3.zero;
+    }
+
     void Start ()
     {
         GetComponent<Rigidbody2D>().freezeRotation = true;
-        
 	}
 
     void Update()
@@ -87,20 +93,15 @@ public class BatteryBehavior : MonoBehaviour
 
         if(selected == true && GetComponent<Rigidbody2D>().velocity.Equals(Vector3.zero) && hasMoved == true)
         {
-            Debug.Log("Collided");
-            selected = false;
-            GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-            currentDirection = Vector3.zero;
-            
+            //Debug.Log("Collided");
+            ResetMovement();
         }
 
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        selected = false;
-        currentDirection = Vector3.zero;
-        GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        ResetMovement();
         hasMoved = false;
 
         #region Realign Battery

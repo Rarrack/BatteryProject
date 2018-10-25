@@ -14,9 +14,20 @@ public class MoveWalls : MonoBehaviour
     {
         
     }
-	
-	
-	void Update ()
+
+    public bool Activate
+    {
+        get
+        {
+            return activate;
+        }
+        set
+        {
+            activate = value;
+        }
+    }
+
+    void Update ()
     {
         if (GameObject.Find("Moveable Walls") != null && setup != true)
         {
@@ -55,16 +66,4 @@ public class MoveWalls : MonoBehaviour
             activate = false;
         }
 	}
-
-    public bool Activate
-    {
-        get
-        {
-            return activate;
-        }
-        set
-        {
-            activate = value;
-        }
-    }
 }

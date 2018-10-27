@@ -44,7 +44,7 @@ public class BatteryBehavior : MonoBehaviour
 
     public void ResetMovement()
     {
-        selected = false;
+        this.selected = false;
         GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         currentDirection = Vector3.zero;
     }
@@ -66,13 +66,13 @@ public class BatteryBehavior : MonoBehaviour
                 if (hits[i].transform.tag != "Untagged")
                 {
 
-                    if (hits[i].transform.tag == "Battery")
+                    if (hits[i].transform.tag == "Battery" && hits[i].transform == transform)
                     {
-                        selected = true;
+                        this.selected = true;
                     }
                     else
                     {
-                        selected = false;
+                        this.selected = false;
                     }
                 }
             }
@@ -80,7 +80,7 @@ public class BatteryBehavior : MonoBehaviour
         }
 
 
-        if (selected == true && currentDirection.Equals(Vector3.zero))
+        if (this.selected == true && currentDirection.Equals(Vector3.zero))
         {
             Vector3 inputDirection = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
             if (!inputDirection.Equals(Vector3.zero))
@@ -91,7 +91,7 @@ public class BatteryBehavior : MonoBehaviour
             }
         }
 
-        if(selected == true && GetComponent<Rigidbody2D>().velocity.Equals(Vector3.zero) && hasMoved == true)
+        if(this.selected == true && GetComponent<Rigidbody2D>().velocity.Equals(Vector3.zero) && hasMoved == true)
         {
             //Debug.Log("Collided");
             ResetMovement();
@@ -103,30 +103,6 @@ public class BatteryBehavior : MonoBehaviour
     {
         ResetMovement();
         hasMoved = false;
-
-        #region Realign Battery
-        //Collider2D collider = col.collider;
-        //
-        //Vector3 contactPoint = col.contacts[0].point;
-        //Vector3 center = collider.bounds.center;
-        //
-        //if(contactPoint.x > center.x)
-        //{
-        //    transform.localPosition += new Vector3(0, 0.06f, 0);
-        //}
-        //if (contactPoint.x < center.x)
-        //{
-        //    transform.localPosition -= new Vector3(0, 0.06f, 0);
-        //}
-        //if (contactPoint.y > center.y)
-        //{
-        //    transform.localPosition += new Vector3(0.06f, 0, 0);
-        //}
-        //if (contactPoint.y < center.y)
-        //{
-        //    transform.localPosition -= new Vector3(0.06f, 0, 0);
-        //}
-        #endregion
     }
 
     void OnTriggerEnter2D(Collider2D col)

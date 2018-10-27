@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveWalls : MonoBehaviour
 {
     private bool activate = false;
-
+    
     private bool setup = false;
 
     public List<GameObject> walls;
@@ -31,14 +31,6 @@ public class MoveWalls : MonoBehaviour
     {
         if (GameObject.Find("Moveable Walls") != null && setup != true)
         {
-            //Transform[] ts = GameObject.Find("Moveable Walls").gameObject.GetComponentsInChildren<Transform>();
-            //foreach (Transform t in ts)
-            //{
-            //    if (t != null && t.gameObject != null)
-            //    {
-            //        walls.Add(t.gameObject);
-            //    }
-            //}
             for(int i = 0; i < GameObject.Find("Moveable Walls").transform.childCount; i++)
             {
                 walls.Add(GameObject.Find("Moveable Walls").transform.GetChild(i).gameObject);
@@ -52,12 +44,6 @@ public class MoveWalls : MonoBehaviour
 
         if (activate == true)
         {
-            //foreach (GameObject child in walls)
-            //{
-            //    //Debug.Log("Move");
-            //    //Debug.Log(child.transform);
-            //    child.GetComponent<Movement>().Move();
-            //}
             for (int i = 0; i < walls.Count; i++)
             {
                 walls[i].GetComponent<Movement>().Move();

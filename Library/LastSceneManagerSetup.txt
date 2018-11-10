@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 sceneSetups:
 - path: Assets/Scenes/MateuszTesting/MateuszTestScene.unity
   isLoaded: 1
   isActive: 1
+=======
+sceneSetups: []
+>>>>>>> ce071e0780181d7e9440a8fa465c4a01c6e25f01

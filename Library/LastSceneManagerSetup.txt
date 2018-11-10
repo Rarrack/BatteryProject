@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/LoganTesting/LoganLevel1.unity
+=======
+- path: Assets/Scenes/BrandonTesting/ChargePanelsTest.unity
+>>>>>>> 4441f1fa679b8f1c73b4900f597574ce12ca7614
   isLoaded: 1
   isActive: 1

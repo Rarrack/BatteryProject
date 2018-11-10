@@ -70,6 +70,16 @@
     <Compile Include="Assets\Scripts\BrandonScripts\Movement.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\MoveWalls.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\Rotation.cs" />
+    <None Include="Assets\Art\MasterArt\PlaceHolder.txt" />
+    <None Include="Assets\Art\SamArt\PlaceHolder.txt" />
+    <None Include="Assets\Art\LoganArt\PlaceHolder.txt" />
+    <None Include="Assets\Prefabs\LoganPrefabs\PlaceHolder.txt" />
+    <None Include="Assets\Art\MateuszArt\PlaceHolder.txt" />
+    <None Include="Assets\Scripts\MasterScripts\PlaceHolder.txt" />
+    <None Include="Assets\Prefabs\MateuszPrefabs\PlaceHolder.txt" />
+    <None Include="Assets\Scripts\LoganScripts\PlaceHolder.txt" />
+    <None Include="Assets\Scripts\MateuszScripts\PlaceHolder.txt" />
+    <None Include="Assets\Prefabs\MasterPrefabs\PlaceHolder.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/logan/Documents/GitHub/BatteryProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

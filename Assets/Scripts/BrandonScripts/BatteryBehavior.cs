@@ -56,7 +56,7 @@ public class BatteryBehavior : MonoBehaviour
 
     void Update()
     {
-
+        
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 rayPos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
@@ -97,6 +97,7 @@ public class BatteryBehavior : MonoBehaviour
             //Debug.Log("Collided");
             ResetMovement();
         }
+        
 
     }
 
@@ -136,10 +137,104 @@ public class BatteryBehavior : MonoBehaviour
             col.gameObject.GetComponent<MoveWalls>().Activate = true;
         }
     }
-
+    #region Mouse Movement Code
+    /*
     void OnMouseDrag()
     {
-        
-    }
+        Vector2 rayPos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(rayPos, Vector2.zero, 0.01f);
 
+        for (int i = 0; i < hits.Length; i++)
+        {
+            if (hits[i].transform.tag != "Untagged")
+            {
+
+                if (hits[i].transform.tag == "Battery" && hits[i].transform == transform)
+                {
+                    this.selected = true;
+                }
+            }
+        }
+    }
+    
+    void OnMouseUp()
+    {
+        Vector2 rayPos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(rayPos, Vector2.zero, 0.01f);
+
+        for (int i = 0; i < hits.Length; i++)
+        {
+            if (hits[i].transform.tag != "Battery")
+            {
+                if (this.selected == true && currentDirection.Equals(Vector3.zero))
+                {
+                    Vector3 inputDirection = Vector3.zero;
+
+                    if (Camera.main.WorldToScreenPoint(this.transform.localPosition).x < rayPos.x)
+                    {
+                        inputDirection = new Vector3(1, 0, 0);
+                    }
+                    if (Camera.main.WorldToScreenPoint(this.transform.localPosition).x > rayPos.x)
+                    {
+                        inputDirection = new Vector3(-1, 0, 0);
+                    }
+                    if (Camera.main.WorldToScreenPoint(this.transform.localPosition).y < rayPos.y)
+                    {
+                        inputDirection = new Vector3(0, 1, 0);
+                    }
+                    if (Camera.main.WorldToScreenPoint(this.transform.localPosition).y > rayPos.y)
+                    {
+                        inputDirection = new Vector3(0, -1, 0);
+                    }
+
+                    if (!inputDirection.Equals(Vector3.zero))
+                    {
+                        currentDirection = inputDirection;
+                        GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
+                        hasMoved = true;
+                    }
+                }
+            }
+            else
+            {
+                if (hits[i].transform.tag == "Battery" && hits[i].transform == transform)
+                {
+                    this.selected = false;
+                }
+            }
+        }
+        if(hits.Length == 0)
+        {
+            if (this.selected == true && currentDirection.Equals(Vector3.zero))
+            {
+                Vector3 inputDirection = Vector3.zero;
+
+                if (this.transform.position.x < rayPos.x)
+                {
+                    inputDirection = new Vector3(1, 0, 0);
+                }
+                if (this.transform.position.x > rayPos.x)
+                {
+                    inputDirection = new Vector3(-1, 0, 0);
+                }
+                if (this.transform.position.y < rayPos.y)
+                {
+                    inputDirection = new Vector3(0, 1, 0);
+                }
+                if (this.transform.position.y > rayPos.y)
+                {
+                    inputDirection = new Vector3(0, -1, 0);
+                }
+
+                if (!inputDirection.Equals(Vector3.zero))
+                {
+                    currentDirection = inputDirection;
+                    GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
+                    hasMoved = true;
+                }
+            }
+        }
+    }
+    */
+    #endregion
 }

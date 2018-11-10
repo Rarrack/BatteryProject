@@ -56,6 +56,7 @@ public class BatteryBehavior : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0))
         {
             Vector2 rayPos = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
@@ -135,4 +136,10 @@ public class BatteryBehavior : MonoBehaviour
             col.gameObject.GetComponent<MoveWalls>().Activate = true;
         }
     }
+
+    void OnMouseDrag()
+    {
+        
+    }
+
 }

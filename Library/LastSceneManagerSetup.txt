@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LoganTesting/LoganLevel1.unity
+- path: Assets/Scenes/MateuszTesting/rotation level 1.unity
   isLoaded: 1
   isActive: 1

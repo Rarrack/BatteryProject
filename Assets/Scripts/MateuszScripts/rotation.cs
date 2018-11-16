@@ -54,14 +54,11 @@ public class rotation : MonoBehaviour {
         }
         else
         {
-            collision.gameObject.GetComponent<moveInput>().x = 0f;
-            collision.gameObject.GetComponent<moveInput>().y = 0f;
-            collision.gameObject.GetComponent<moveInput>().moving = false;
             c.isTrigger = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision)
     {
         c.isTrigger = false;
     }

@@ -12,11 +12,14 @@ public class goal : MonoBehaviour {
     Vector3 b;
     Vector3 e;
 
-	// Use this for initialization
-	void Start () {
+    Collider2D c;
+
+    // Use this for initialization
+    void Start () {
         b = battery.position;
-        e = end.position;		
-	}
+        e = end.position;
+        c = GetComponent<Collider2D>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -41,9 +44,12 @@ public class goal : MonoBehaviour {
         }
         else
         {
-            collision.gameObject.GetComponent<moveInput>().x = 0f;
-            collision.gameObject.GetComponent<moveInput>().y = 0f;
-            collision.gameObject.GetComponent<moveInput>().moving = false;
+            c.isTrigger = true;
         }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        c.isTrigger = false;
     }
 }

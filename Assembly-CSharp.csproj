@@ -70,6 +70,9 @@
     <Compile Include="Assets\Scripts\BrandonScripts\Movement.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\MoveWalls.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\Rotation.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\goal.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\moveInput.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\rotation.cs" />
     <None Include="Assets\Art\MasterArt\PlaceHolder.txt" />
     <None Include="Assets\Art\SamArt\PlaceHolder.txt" />
     <None Include="Assets\Art\LoganArt\PlaceHolder.txt" />

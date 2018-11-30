@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class moveInput : MonoBehaviour {
 
+    //still have to find a way to make sure you can only move one object at a time, as well as getting rid of the collision issue
+
     private Color og; //original color
 
     private SpriteRenderer r;
@@ -74,7 +76,7 @@ public class moveInput : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "dummy" || collision.gameObject.tag == "Battery" || collision.gameObject.tag == "wall")
+        if(collision.gameObject.tag == "dummy" || collision.gameObject.tag == "Battery" || collision.gameObject.tag == "wall" || collision.gameObject.tag == "switch")
         {
             x = 0f;
             y = 0f;

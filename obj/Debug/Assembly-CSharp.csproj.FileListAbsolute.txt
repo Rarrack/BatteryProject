@@ -327,8 +327,8 @@ C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\Temp\bin\Debug\Uni
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
-C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.dll
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache

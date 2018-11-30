@@ -9,6 +9,9 @@ TagManager:
   - rotate
   - goal
   - dummy
+  - switch
+  - plug
+  - placebo
   layers:
   - Default
   - TransparentFX

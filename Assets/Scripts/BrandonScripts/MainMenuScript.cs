@@ -8,13 +8,16 @@ public class MainMenuScript : MonoBehaviour
 {
     GameObject MainMenu;
     GameObject StageSelect;
+    GameObject Settings;
 
     void Start ()
     {
         MainMenu = GameObject.Find("Main Menu");
         StageSelect = GameObject.Find("Stage Select");
+        Settings = GameObject.Find("Settings");
 
         StageSelect.SetActive(false);
+        Settings.SetActive(false);
     }
 	
 	void Update ()
@@ -26,13 +29,26 @@ public class MainMenuScript : MonoBehaviour
     {
         MainMenu.SetActive(false);
         StageSelect.SetActive(true);
+        Settings.SetActive(false);
+    }
+    public void SettingsSelect()
+    {
+        MainMenu.SetActive(false);
+        StageSelect.SetActive(false);
+        Settings.SetActive(true);
     }
 
     public void BackOut()
     {
         MainMenu.SetActive(true);
         StageSelect.SetActive(false);
+        Settings.SetActive(false);
     }
+
+    //public void ExitGame()
+    //{
+    //    Application.Quit();
+    //}
 
     public void StartLevel1()
     {

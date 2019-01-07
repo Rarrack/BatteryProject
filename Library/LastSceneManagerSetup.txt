@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MateuszTesting/swapRooms level 1.unity
+- path: Assets/Scenes/BrandonTesting/MainMenu.unity
   isLoaded: 1
   isActive: 1

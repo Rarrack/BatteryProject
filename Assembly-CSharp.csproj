@@ -70,12 +70,16 @@
     <Compile Include="Assets\Scripts\BrandonScripts\Movement.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\MoveWalls.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\Rotation.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\conduit.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\container.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\goal.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\moveInput.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\multiOutlets.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\open.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\parentalRights.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\plugInChild.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\rotation.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\subGoal.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\swapRoom.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\wallToggle.cs" />
     <None Include="Assets\Art\MasterArt\PlaceHolder.txt" />
@@ -86,7 +90,6 @@
     <None Include="Assets\Scripts\MasterScripts\PlaceHolder.txt" />
     <None Include="Assets\Prefabs\MateuszPrefabs\PlaceHolder.txt" />
     <None Include="Assets\Scripts\LoganScripts\PlaceHolder.txt" />
-    <None Include="Assets\Scripts\MateuszScripts\PlaceHolder.txt" />
     <None Include="Assets\Prefabs\MasterPrefabs\PlaceHolder.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Owner/Desktop/clear circuits git repo/BatteryProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

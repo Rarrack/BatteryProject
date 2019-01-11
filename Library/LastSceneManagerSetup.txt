@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MateuszTesting/swapRooms level 1.unity
+- path: Assets/Scenes/MateuszTesting/gate level 1.unity
   isLoaded: 1
   isActive: 1

@@ -12,6 +12,9 @@ TagManager:
   - switch
   - plug
   - placebo
+  - source
+  - circuit
+  - Battery 2
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class goal : MonoBehaviour {
 
     public moveInput script;
     public Transform battery;
+    public string batteryTag;
 
     public Transform end;
 
@@ -19,6 +20,7 @@ public class goal : MonoBehaviour {
         b = battery.position;
         e = end.position;
         c = GetComponent<Collider2D>();
+        batteryTag = battery.tag;
     }
 	
 	// Update is called once per frame
@@ -28,7 +30,7 @@ public class goal : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Battery" && battery.rotation == end.rotation)
+        if (collision.gameObject.tag == batteryTag && battery.rotation == end.rotation)
         {
             collision.gameObject.GetComponent<moveInput>().enabled = false;
             collision.gameObject.GetComponent<Collider2D>().isTrigger = true;

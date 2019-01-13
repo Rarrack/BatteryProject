@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/LoganTesting/LoganLevel3.unity
-=======
-- path: Assets/Scenes/MateuszTesting/swapRooms level 1.unity
->>>>>>> 6565ab2fb7890eadeb5fdd1518231208a3f05258
   isLoaded: 1
   isActive: 1

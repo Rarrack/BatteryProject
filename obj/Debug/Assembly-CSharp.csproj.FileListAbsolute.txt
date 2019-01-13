@@ -332,3 +332,5 @@ C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.dll
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.pdb
 C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+C:\Users\Owner\Desktop\clear circuits git repo\BatteryProject\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.xml

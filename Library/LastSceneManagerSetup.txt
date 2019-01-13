@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/MateuszTesting/gate level 1.unity
-=======
-- path: Assets/Scenes/BrandonTesting/MainMenu.unity
->>>>>>> 50e2c0be044c0f4c586b4c5d240a4267531b5e18
+- path: Assets/Scenes/MateuszTesting/gate level 2.unity
   isLoaded: 1
   isActive: 1

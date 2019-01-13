@@ -163,7 +163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0a54570f276f0e489b1aad1daed3f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  corresponding: {fileID: 1017900806183650}
+  battCorrespond: {fileID: 0}
+  dummCorrespond: {fileID: 0}
+  trig: 0
 --- !u!212 &212176311833497164
 SpriteRenderer:
   m_ObjectHideFlags: 1

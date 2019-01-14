@@ -1,16 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/MateuszTesting/gate level 2.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/LoganTesting/LoganLevel3.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/MateuszTesting/gate level 1.unity
-=======
-- path: Assets/Scenes/BrandonTesting/MainMenu.unity
->>>>>>> 50e2c0be044c0f4c586b4c5d240a4267531b5e18
->>>>>>> 14e7efc1ae3c9365abfe084c5d26ecddf9f3cba6
->>>>>>> a6eadfb71afa4cdaeee39ef2331437f2a46dd706
+- path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
   isLoaded: 1
   isActive: 1

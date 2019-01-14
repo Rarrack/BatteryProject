@@ -16,6 +16,7 @@ public class wallToggle : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        trig = false; //set just so it has a value to work off of
         off = Color.gray;
 
         s = gameObject.GetComponent<SpriteRenderer>();
@@ -34,6 +35,10 @@ public class wallToggle : MonoBehaviour {
             {
                 dummCorrespond.GetComponent<SpriteRenderer>().color = off;
             }
+            else
+            {
+                dummCorrespond.GetComponent<SpriteRenderer>().color = on;
+            }
         }
         else if (dummCorrespond == null)
         {
@@ -47,6 +52,10 @@ public class wallToggle : MonoBehaviour {
             {
                 battCorrespond.GetComponent<SpriteRenderer>().color = off;
             }
+            else
+            {
+                battCorrespond.GetComponent<SpriteRenderer>().color = on;
+            }
         }
         else
         {
@@ -57,11 +66,19 @@ public class wallToggle : MonoBehaviour {
             {
                 dummCorrespond.GetComponent<SpriteRenderer>().color = off;
             }
+            else
+            {
+                dummCorrespond.GetComponent<SpriteRenderer>().color = on;
+            }
 
             trig = battCorrespond.GetComponent<BoxCollider2D>().isTrigger;
             if (trig == true)
             {
                 battCorrespond.GetComponent<SpriteRenderer>().color = off;
+            }
+            else
+            {
+                battCorrespond.GetComponent<SpriteRenderer>().color = on;
             }
         }
     }

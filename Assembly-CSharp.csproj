@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\MateuszScripts\rotation.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\subGoal.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\swapRoom.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\unlocker.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\wallToggle.cs" />
     <None Include="Assets\Art\MasterArt\PlaceHolder.txt" />
     <None Include="Assets\Art\SamArt\PlaceHolder.txt" />
@@ -92,23 +93,7 @@
     <None Include="Assets\Scripts\LoganScripts\PlaceHolder.txt" />
     <None Include="Assets\Prefabs\MasterPrefabs\PlaceHolder.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-<<<<<<< HEAD
       <HintPath>C:/Users/Owner/Desktop/clear circuits git repo/BatteryProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-=======
-<<<<<<< HEAD
-      <HintPath>C:/Users/logan/Documents/GitHub/BatteryProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/logan/Documents/GitHub/BatteryProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/logan/Documents/GitHub/BatteryProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/logan/Documents/GitHub/BatteryProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-=======
-      <HintPath>D:/F-Drive/Unity Projects/Sliding Puzzle Test Level/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
->>>>>>> a6eadfb71afa4cdaeee39ef2331437f2a46dd706
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Owner/Desktop/clear circuits git repo/BatteryProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -117,12 +102,7 @@
       <HintPath>C:/Users/Owner/Desktop/clear circuits git repo/BatteryProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-<<<<<<< HEAD
       <HintPath>C:/Users/Owner/Desktop/clear circuits git repo/BatteryProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-=======
-      <HintPath>D:/F-Drive/Unity Projects/Sliding Puzzle Test Level/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
->>>>>>> 14e7efc1ae3c9365abfe084c5d26ecddf9f3cba6
->>>>>>> a6eadfb71afa4cdaeee39ef2331437f2a46dd706
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -320,24 +300,10 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-<<<<<<< HEAD
       <HintPath>C:/Users/Owner/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Owner/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-=======
-<<<<<<< HEAD
-      <HintPath>C:/Users/logan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/logan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-=======
-      <HintPath>C:/Users/btv96/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/btv96/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
->>>>>>> 14e7efc1ae3c9365abfe084c5d26ecddf9f3cba6
->>>>>>> a6eadfb71afa4cdaeee39ef2331437f2a46dd706
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

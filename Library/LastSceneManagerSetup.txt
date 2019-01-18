@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/MateuszTesting/water level 1.unity
-=======
-- path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
->>>>>>> 79c8400a86e0ae57fc9f51e0bc551b24135dd552
+- path: Assets/Scenes/MateuszTesting/light level 1 (in progress).unity
   isLoaded: 1
   isActive: 1

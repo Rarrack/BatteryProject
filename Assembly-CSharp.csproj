@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\MateuszScripts\conduit.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\container.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\goal.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\invisToggle.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\moveInput.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\multiOutlets.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\open.cs" />

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MateuszTesting/light level 1 (in progress).unity
+- path: Assets/Scenes/MateuszTesting/multi level.unity
   isLoaded: 1
   isActive: 1

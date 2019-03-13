@@ -815,6 +815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   script: {fileID: 1803693734}
   battery: {fileID: 1803693730}
+  batteryTag: 
   end: {fileID: 423684608}
 --- !u!50 &423684610
 Rigidbody2D:
@@ -6354,7 +6355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   battCorrespond: {fileID: 0}
   dummCorrespond: {fileID: 1035664810}
-  trig: 0
+  trig: 1
 --- !u!61 &1825802467
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -9,10 +9,11 @@ public class wallToggle : MonoBehaviour {
 
     SpriteRenderer s; //color of switch
 
-    public GameObject battCorrespond;//object for switches activated by batteries
-    public GameObject dummCorrespond;//object for switches activated by dummies 
+    public GameObject battCorrespond; //object for switches activated by batteries
+    public GameObject dummCorrespond; //object for switches activated by dummies 
 
-    public bool trig; //all purpose bool, used for checking if objects are active at first and set colors accordingly
+    public bool trig; //used for checking if objects are active at first and set colors accordingly
+    //use to toggle if trigger is on or off for corresponding wall
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +29,7 @@ public class wallToggle : MonoBehaviour {
             battCorrespond.tag = "placebo";
             s.color = new Color(0.5f, 0f, 0f);
 
-            trig = dummCorrespond.GetComponent<BoxCollider2D>().isTrigger;
+            dummCorrespond.GetComponent<BoxCollider2D>().isTrigger = trig;
             on = dummCorrespond.GetComponent<SpriteRenderer>().color;
             if(trig == true)
             {
@@ -41,7 +42,7 @@ public class wallToggle : MonoBehaviour {
             dummCorrespond.tag = "placebo";
             s.color = Color.yellow;
 
-            trig = battCorrespond.GetComponent<BoxCollider2D>().isTrigger;
+            battCorrespond.GetComponent<BoxCollider2D>().isTrigger = trig;
             on = battCorrespond.GetComponent<SpriteRenderer>().color;
             if (trig == true)
             {
@@ -52,13 +53,13 @@ public class wallToggle : MonoBehaviour {
         {
             on = battCorrespond.GetComponent<SpriteRenderer>().color;
 
-            trig = dummCorrespond.GetComponent<BoxCollider2D>().isTrigger;
+            dummCorrespond.GetComponent<BoxCollider2D>().isTrigger = trig;
             if (trig == true)
             {
                 dummCorrespond.GetComponent<SpriteRenderer>().color = off;
             }
 
-            trig = battCorrespond.GetComponent<BoxCollider2D>().isTrigger;
+            battCorrespond.GetComponent<BoxCollider2D>().isTrigger = trig;
             if (trig == true)
             {
                 battCorrespond.GetComponent<SpriteRenderer>().color = off;
@@ -75,8 +76,6 @@ public class wallToggle : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Battery" && battCorrespond.tag != "placebo")
         {
-            trig = battCorrespond.GetComponent<BoxCollider2D>().isTrigger;
-
             if (trig == false)
             {
                 battCorrespond.GetComponent<BoxCollider2D>().isTrigger = true;
@@ -87,6 +86,7 @@ public class wallToggle : MonoBehaviour {
                 battCorrespond.GetComponent<BoxCollider2D>().isTrigger = false;
                 battCorrespond.GetComponent<SpriteRenderer>().color = on;
             }
+            trig = !trig;
         }
 
         if(collision.gameObject.tag == "dummy" && dummCorrespond.tag != "placebo")
@@ -103,6 +103,7 @@ public class wallToggle : MonoBehaviour {
                 dummCorrespond.GetComponent<BoxCollider2D>().isTrigger = false;
                 dummCorrespond.GetComponent<SpriteRenderer>().color = on;
             }
+            trig = !trig;
         }
     }
 }

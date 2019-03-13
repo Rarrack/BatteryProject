@@ -70,6 +70,9 @@
     <Compile Include="Assets\Scripts\BrandonScripts\Movement.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\MoveWalls.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\Rotation.cs" />
+    <Compile Include="Assets\Scripts\BrandonScripts\SwipeDrawer.cs" />
+    <Compile Include="Assets\Scripts\BrandonScripts\SwipeLogger.cs" />
+    <Compile Include="Assets\Scripts\BrandonScripts\TouchMovementTest.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\conduit.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\container.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\goal.cs" />

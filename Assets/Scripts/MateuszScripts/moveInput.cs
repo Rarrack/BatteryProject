@@ -12,7 +12,9 @@ public class moveInput : MonoBehaviour {
 
     public bool over;
     public bool select;
-    public bool moving;
+    //public bool moving;
+
+    public moveBoolHolder check;
 
     public float x;
     public float y;
@@ -24,7 +26,7 @@ public class moveInput : MonoBehaviour {
 
         over = false;
         select = false;
-        moving = false;
+        //moving = false;
 
         x = 0f;
         y = 0f;
@@ -36,7 +38,7 @@ public class moveInput : MonoBehaviour {
 
     void OnMouseOver()
     {
-        if (moving == false)
+        if (check.moving == false)
         {
             r.color = Color.cyan;
             over = true;
@@ -49,38 +51,38 @@ public class moveInput : MonoBehaviour {
 
             if (Input.GetKey("right") && select == true)
             {
-                x = 2.5f;
+                x = 5f;
                 select = false;
-                moving = true;
+                check.moving = true;
             }
             if (Input.GetKey("left") && select == true)
             {
-                x = -2.5f;
+                x = -5f;
                 select = false;
-                moving = true;
+                check.moving = true;
             }
             if (Input.GetKey("up") && select == true)
             {
-                y = 2.5f;
+                y = 5f;
                 select = false;
-                moving = true;
+                check.moving = true;
             }
             if (Input.GetKey("down") && select == true)
             {
-                y = -2.5f;
+                y = -5f;
                 select = false;
-                moving = true;
+                check.moving = true;
             }
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "dummy" || collision.gameObject.tag == "Battery" || collision.gameObject.tag == "wall" || collision.gameObject.tag == "switch")
+        if(collision.gameObject.tag == "dummy" || collision.gameObject.tag == "Battery" || collision.gameObject.tag == "wall" || collision.gameObject.tag == "switch") //maybe add the plug tag here
         {
             x = 0f;
             y = 0f;
-            moving = false;
+            check.moving = false;
         }
     }
 

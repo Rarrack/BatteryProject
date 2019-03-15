@@ -74,7 +74,7 @@ public class wallToggle : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Battery" && battCorrespond.tag != "placebo")
+        if ((collision.gameObject.tag == "Battery" || collision.gameObject.tag == "Battery 2") && battCorrespond.tag != "placebo")
         {
             if (trig == false)
             {

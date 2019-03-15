@@ -70,8 +70,8 @@
     <Compile Include="Assets\Scripts\BrandonScripts\Movement.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\MoveWalls.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\Rotation.cs" />
-    <Compile Include="Assets\Scripts\MateuszScripts\conduit.cs" />
-    <Compile Include="Assets\Scripts\MateuszScripts\container.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\(defunct for now) conduit.cs" />
+    <Compile Include="Assets\Scripts\MateuszScripts\(defunct for now) container.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\goal.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\invisToggle.cs" />
     <Compile Include="Assets\Scripts\MateuszScripts\moveInput.cs" />

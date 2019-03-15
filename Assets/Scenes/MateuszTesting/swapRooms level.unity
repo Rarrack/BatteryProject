@@ -1303,7 +1303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   over: 0
   select: 0
-  moving: 0
+  check: {fileID: 1254668932}
   x: 0
   y: 0
 --- !u!50 &490657484
@@ -2090,6 +2090,11 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: -0.9188313
       objectReference: {fileID: 0}
+    - target: {fileID: 114072005102931018, guid: 51599d421705b7441ac077c6527eec98,
+        type: 2}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 1254668932}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51599d421705b7441ac077c6527eec98, type: 2}
   m_IsPrefabAsset: 0
@@ -2615,7 +2620,7 @@ Transform:
   - {fileID: 194585233}
   - {fileID: 1370962567}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &788501568 stripped
 Transform:
@@ -2984,7 +2989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   over: 0
   select: 0
-  moving: 0
+  check: {fileID: 1254668932}
   x: 0
   y: 0
 --- !u!50 &804355970
@@ -4609,6 +4614,54 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1017900806183650, guid: ec8d0cf3355d28b49b292909010374d5,
     type: 2}
   m_PrefabInternal: {fileID: 1733195445}
+--- !u!1001 &1254668931
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.06969964
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 11.2441225
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.1315953
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397413073007308, guid: c34e94a25d2304640989731711f73e80, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c34e94a25d2304640989731711f73e80, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &1254668932 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114454157585993884, guid: c34e94a25d2304640989731711f73e80,
+    type: 2}
+  m_PrefabInternal: {fileID: 1254668931}
+  m_Script: {fileID: 11500000, guid: 97f134b69d2c84442a1ebd7390eb079a, type: 3}
 --- !u!1 &1369735300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6269,7 +6322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   over: 0
   select: 0
-  moving: 0
+  check: {fileID: 1254668932}
   x: 0
   y: 0
 --- !u!1 &1804049724
@@ -6557,6 +6610,11 @@ Prefab:
       propertyPath: m_Name
       value: dummy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 114072005102931018, guid: 51599d421705b7441ac077c6527eec98,
+        type: 2}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 1254668932}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51599d421705b7441ac077c6527eec98, type: 2}
   m_IsPrefabAsset: 0
@@ -6612,7 +6670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   over: 0
   select: 0
-  moving: 0
+  check: {fileID: 1254668932}
   x: 0
   y: 0
 --- !u!50 &1932291224

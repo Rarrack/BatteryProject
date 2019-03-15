@@ -7,7 +7,7 @@ public class BatteryBehavior : MonoBehaviour
 {
 
     public bool selected = false;
-    float speed = 100.0f;
+    float speed = 100.0f;//100.0f;
     bool hasMoved = false;
 
     public bool charged = true;

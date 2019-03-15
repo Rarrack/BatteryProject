@@ -45,7 +45,7 @@ public class subGoal : MonoBehaviour {
 
             script.x = 0f;
             script.y = 0f;
-            script.moving = false;
+            script.check.moving = false;
             activate = true;
             //Debug.Log(activate);
         }

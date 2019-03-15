@@ -57,6 +57,7 @@ public class TouchMovementTest : MonoBehaviour
         }
     }
 
+
     private bool IsVerticalSwipe()
     {
         return VerticalMovementDistance() > HorizontalMovementDistance();
@@ -100,6 +101,6 @@ public class TouchMovementTest : MonoBehaviour
         Up,
         Down,
         Left,
-        Right
+        Right,
     }
 }

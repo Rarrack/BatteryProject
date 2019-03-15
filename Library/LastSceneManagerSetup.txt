@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MateuszTesting/multi level.unity
+- path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
   isLoaded: 1
   isActive: 1

@@ -2157,6 +2157,7 @@ GameObject:
   - component: {fileID: 1356320581}
   - component: {fileID: 1356320580}
   - component: {fileID: 1356320579}
+  - component: {fileID: 1356320583}
   - component: {fileID: 1356320582}
   m_Layer: 0
   m_Name: AA Battery
@@ -2184,7 +2185,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1356320577}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79ca5e65cec512f48a3829d2489ed739, type: 3}
   m_Name: 
@@ -2282,6 +2283,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1356320583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1356320577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b1a93ea1b683b4c8d25e75b5d62945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  charged: 1
+  detectSwipeAfterRelease: 1
+  minSwipeDistance: 20
 --- !u!1 &1701776171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,6 +2309,7 @@ GameObject:
   - component: {fileID: 1701776176}
   - component: {fileID: 1701776175}
   - component: {fileID: 1701776174}
+  - component: {fileID: 1701776177}
   - component: {fileID: 1701776173}
   m_Layer: 0
   m_Name: D-Cell Battery
@@ -2340,7 +2357,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1701776171}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79ca5e65cec512f48a3829d2489ed739, type: 3}
   m_Name: 
@@ -2418,6 +2435,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1701776177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1701776171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b1a93ea1b683b4c8d25e75b5d62945, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  charged: 1
+  detectSwipeAfterRelease: 1
+  minSwipeDistance: 20
 --- !u!1 &1720513151
 GameObject:
   m_ObjectHideFlags: 0

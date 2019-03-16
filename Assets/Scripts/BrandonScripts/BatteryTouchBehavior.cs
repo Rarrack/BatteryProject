@@ -10,7 +10,7 @@ public class BatteryTouchBehavior : MonoBehaviour
     #region Battery Behavior Variables
     // Battery Behavior Variables
     public bool selected = false;
-    float speed = 100.0f;//100.0f;
+    float speed = 10.0f;//100.0f;
     bool hasMoved = false;
 
     public bool charged = true;
@@ -205,9 +205,10 @@ public class BatteryTouchBehavior : MonoBehaviour
             if (touch.phase == TouchPhase.Ended && this.selected == true && currentDirection.Equals(Vector3.zero))
             {
                 pressPosition = touch.position;
-                if (SwipeDetector() != SwipeDirection.None)
+                SwipeDirection swipe = SwipeDetector();
+                if (swipe != SwipeDirection.None)
                 {
-                    switch (SwipeDetector())
+                    switch (swipe)
                     {
                         case SwipeDirection.Up:
                             Vector3 inputDirectionUp = new Vector3(0, 1, 0);
@@ -261,6 +262,17 @@ public class BatteryTouchBehavior : MonoBehaviour
         if(this.selected == true)
         {
             GetComponent<SpriteRenderer>().color = Color.yellow;
+        }
+        else
+        {
+            if(gameObject.name == "AA Battery")
+            {
+                GetComponent<SpriteRenderer>().color = Color.blue;
+            }
+            if(gameObject.name == "D-Cell Battery")
+            {
+                GetComponent<SpriteRenderer>().color = Color.red;
+            }
         }
 
         #region Old Behavior Code

@@ -8,4 +8,55 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BrandonTesting/BrandonTestScene.unity
     guid: ccea5fa39910cb24a974fb1da8178de4
+  - enabled: 1
+    path: Assets/Scenes/MasterScenes/level select.unity
+    guid: 4ea7031ab0f32834b88196601a5a1a0d
+  - enabled: 1
+    path: Assets/Scenes/MateuszTesting/gate level 1.unity
+    guid: 013edc983065b7b4d851c1c6b42730d3
+  - enabled: 1
+    path: Assets/Scenes/MateuszTesting/gate level 2.unity
+    guid: 4d32c4746f67fa8468d425efb3d817de
+  - enabled: 1
+    path: Assets/Scenes/MateuszTesting/rotation level 1.unity
+    guid: 996415412c28c984087ca79fae376008
+  - enabled: 1
+    path: Assets/Scenes/MateuszTesting/rotation level 2.unity
+    guid: 70de65f8e4299bb4dbe56535983cc633
+  - enabled: 1
+    path: Assets/Scenes/MateuszTesting/water level 1.unity
+    guid: eba798c062efdd44eaee3ca949bcc669
+  - enabled: 1
+    path: Assets/Scenes/MateuszTesting/water level 2.unity
+    guid: 344e78ab95161d34c9826cd0350def00
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel1.unity
+    guid: 820c4f07b2e89084d84a2b12f68bbf93
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel2.unity
+    guid: 5ed05359c18b7594582109f7fde39174
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel3.unity
+    guid: 27f65356bc2be9144ad0be6193015030
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel4.unity
+    guid: 33d08c978b9434d4ba6f5a10f356aee1
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel5.unity
+    guid: a01d22616cf6c384d8bec46fb3164be6
+  - enabled: 1
+    path: Assets/Scenes/BrandonTesting/ChargePanelsTest.unity
+    guid: d37499a419d19c249bc8eb80299ab780
+  - enabled: 1
+    path: Assets/Scenes/BrandonTesting/RotationPanelTest.unity
+    guid: b3b587da086eab041939955953f7b946
+  - enabled: 1
+    path: Assets/Scenes/BrandonTesting/SlidingPuzzle.unity
+    guid: 4e4f829238074d146abe385a04ac0b8a
+  - enabled: 1
+    path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
+    guid: ff39428b1c26e4a429a329e20c96a29f
+  - enabled: 1
+    path: Assets/Scenes/MasterScenes/BaseScene.unity
+    guid: 23c3b7eee87c9f947b059d4c0559da26
   m_configObjects: {}

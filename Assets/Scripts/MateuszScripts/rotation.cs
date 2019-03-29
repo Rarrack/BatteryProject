@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ *As of now only works for one battery, make it that it can take in any number of batteries 
+ */
+
 public class rotation : MonoBehaviour {
 
     public moveInput script;

@@ -32,3 +32,6 @@ ExportedObj/
 Icon?
 ehthumbs.db
 Thumbs.db
+*.dwlt
+*.dwlt
+Library/LastSceneManagerSetup.txt

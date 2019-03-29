@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     public float y;
     public float z;
 
-    float secs = 2.0f;
+    float secs = 1.5f;
     float t;
     bool active = false;
 

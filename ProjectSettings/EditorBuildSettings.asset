@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/BrandonTesting/BrandonTestScene.unity
     guid: ccea5fa39910cb24a974fb1da8178de4
   - enabled: 1
@@ -59,4 +60,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MasterScenes/BaseScene.unity
     guid: 23c3b7eee87c9f947b059d4c0559da26
+=======
+    path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
+    guid: ff39428b1c26e4a429a329e20c96a29f
+  - enabled: 1
+    path: Assets/Scenes/BrandonTesting/MainMenu.unity
+    guid: 1d2efdb8fb02ba64696ce5c0979db8a0
+>>>>>>> 2be98bf16327f813abd16b64a54e2cb1698abae4
   m_configObjects: {}

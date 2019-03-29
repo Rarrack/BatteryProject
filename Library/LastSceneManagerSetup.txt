@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/MasterScenes/BaseScene.unity
+=======
+- path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
+>>>>>>> 2be98bf16327f813abd16b64a54e2cb1698abae4
   isLoaded: 1
   isActive: 1

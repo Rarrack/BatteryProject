@@ -53,7 +53,7 @@ public class MainMenuScript : MonoBehaviour
     public void StartLevel1()
     {
         //SceneManager.LoadScene("SlidingPuzzle");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void StartLevel2()

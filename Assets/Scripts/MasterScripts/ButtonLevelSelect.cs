@@ -7,8 +7,8 @@ using UnityEngine.UI;
 //attach to button
 //once clicked sends player to the designated level
 
-public class ButtonLevelSelect : MonoBehaviour {
-
+public class ButtonLevelSelect : MonoBehaviour
+{
     //public
     public Button butt;
 

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonScript : MonoBehaviour {
+public class ButtonScript : MonoBehaviour
+{
 
     // Use this for initialization
     void Start() {

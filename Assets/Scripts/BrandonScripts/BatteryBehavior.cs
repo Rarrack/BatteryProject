@@ -8,7 +8,7 @@ public class BatteryBehavior : MonoBehaviour
     public bool selected = false;
     float speed = 100.0f;//100.0f;
     bool hasMoved = false;
-
+ 
     public bool charged = true;
 
     private Vector3 currentDirection = Vector3.zero;

@@ -16,6 +16,7 @@ public class BatteryTouchBehavior : MonoBehaviour
     public bool charged = true;
 
     private Vector3 currentDirection = Vector3.zero;
+    GameObject moves;
     #endregion
 
     #region Touch Input Variables
@@ -165,6 +166,7 @@ public class BatteryTouchBehavior : MonoBehaviour
     {
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;
+        moves = GameObject.Find("Counter");
     }
 
     void Update()
@@ -217,6 +219,8 @@ public class BatteryTouchBehavior : MonoBehaviour
                                 currentDirection = inputDirectionUp;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
+                                moves.GetComponent<MoveCounter>().Counter++;
+                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         case SwipeDirection.Down:
@@ -226,6 +230,8 @@ public class BatteryTouchBehavior : MonoBehaviour
                                 currentDirection = inputDirectionDown;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
+                                moves.GetComponent<MoveCounter>().Counter++;
+                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         case SwipeDirection.Left:
@@ -235,6 +241,8 @@ public class BatteryTouchBehavior : MonoBehaviour
                                 currentDirection = inputDirectionLeft;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
+                                moves.GetComponent<MoveCounter>().Counter++;
+                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         case SwipeDirection.Right:
@@ -244,6 +252,8 @@ public class BatteryTouchBehavior : MonoBehaviour
                                 currentDirection = inputDirectionRight;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
+                                moves.GetComponent<MoveCounter>().Counter++;
+                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         default:

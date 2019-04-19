@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/LoganTesting/LoganLevel5.unity
-=======
 - path: Assets/Scenes/MateuszTesting/multi level.unity
->>>>>>> a901605842a06e9d3ce85b8ba884307a362b64e5
   isLoaded: 1
   isActive: 1

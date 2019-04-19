@@ -49,25 +49,25 @@ public class moveInput : MonoBehaviour {
 
             if (Input.GetKey("right") && select == true)
             {
-                x = 2.5f;
+                x = 5f;
                 select = false;
                 moving = true;
             }
             if (Input.GetKey("left") && select == true)
             {
-                x = -2.5f;
+                x = -5f;
                 select = false;
                 moving = true;
             }
             if (Input.GetKey("up") && select == true)
             {
-                y = 2.5f;
+                y = 5f;
                 select = false;
                 moving = true;
             }
             if (Input.GetKey("down") && select == true)
             {
-                y = -2.5f;
+                y = -5f;
                 select = false;
                 moving = true;
             }

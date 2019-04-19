@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BrandonScripts\BatteryBehavior.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\BatteryShifter.cs" />
+    <Compile Include="Assets\Scripts\BrandonScripts\BatteryTouchBehavior.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\BatteryWin.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\ChargePanels.cs" />

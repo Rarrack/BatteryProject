@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 //adds the levels that were put into the list to the scrollable menu
 
-public class AddLevels : MonoBehaviour {
-
+public class AddLevels : MonoBehaviour
+{
     //public
     public List<string> scenes; //list of scenes, have to choose the size and then type in the name
 

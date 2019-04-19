@@ -32,7 +32,8 @@ public class goal : MonoBehaviour {
     {
         if (collision.gameObject.tag == batteryTag && battery.rotation == end.rotation)
         {
-            collision.gameObject.GetComponent<moveInput>().enabled = false;
+            //collision.gameObject.GetComponent<moveInput>().enabled = false;
+            script.enable = false;
             collision.gameObject.GetComponent<Collider2D>().isTrigger = true;
 
             b.x = e.x;
@@ -42,7 +43,7 @@ public class goal : MonoBehaviour {
 
             script.x = 0f;
             script.y = 0f;
-            script.moving = false;
+            script.check.moving = false;
         }
         else
         {

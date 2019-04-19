@@ -1,0 +1,3 @@
+Scripts that look for the activate bool from GoalSub should begin with Activate in their name.
+
+https://www.youtube.com/watch?v=lUun2xW6FJ4 - this is the tutorial for setting up the level select

@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/MasterScenes/level select 640 960.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/MateuszTesting/multi level.unity
+=======
 - path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
+>>>>>>> a8b0ae0fdda51dacfa227890e3bfb9f178626892
+>>>>>>> 356540941c09e485221efa1ce5008f9f0ab894aa
   isLoaded: 1
   isActive: 1

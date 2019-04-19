@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\BrandonScripts\BatteryWin.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\ChargePanels.cs" />
+    <Compile Include="Assets\Scripts\BrandonScripts\Fader.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\InGameMenu.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\BrandonScripts\MoveCounter.cs" />

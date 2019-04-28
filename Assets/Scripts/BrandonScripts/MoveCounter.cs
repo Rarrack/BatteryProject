@@ -5,6 +5,7 @@ using UnityEngine;
 public class MoveCounter : MonoBehaviour
 {
     int counter = 0;
+    public int masterCount;
     bool write = false;
 	// Use this for initialization
 	void Start ()
@@ -21,6 +22,13 @@ public class MoveCounter : MonoBehaviour
             write = false;
         }
 	}
+
+    public void Count()
+    {
+        counter += 1;
+        GetComponentInChildren<UnityEngine.UI.Text>().text = "Moves: " + counter;
+        GameObject.Find("Main Camera").GetComponent<InGameMenu>().CountUpdate();
+    }
 
     void SetCounter()
     {

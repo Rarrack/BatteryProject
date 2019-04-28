@@ -216,44 +216,48 @@ public class BatteryTouchBehavior : MonoBehaviour
                             Vector3 inputDirectionUp = new Vector3(0, 1, 0);
                             if (!inputDirectionUp.Equals(Vector3.zero))
                             {
+                                //moves.GetComponent<MoveCounter>().Counter++;
+                                //moves.GetComponent<MoveCounter>().Write = true;
+                                moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionUp;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
-                                moves.GetComponent<MoveCounter>().Counter++;
-                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         case SwipeDirection.Down:
                             Vector3 inputDirectionDown = new Vector3(0, -1, 0);
                             if (!inputDirectionDown.Equals(Vector3.zero))
                             {
+                                //moves.GetComponent<MoveCounter>().Counter++;
+                                //moves.GetComponent<MoveCounter>().Write = true;
+                                moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionDown;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
-                                moves.GetComponent<MoveCounter>().Counter++;
-                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         case SwipeDirection.Left:
                             Vector3 inputDirectionLeft = new Vector3(-1, 0, 0);
                             if (!inputDirectionLeft.Equals(Vector3.zero))
                             {
+                                //moves.GetComponent<MoveCounter>().Counter++;
+                                //moves.GetComponent<MoveCounter>().Write = true;
+                                moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionLeft;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
-                                moves.GetComponent<MoveCounter>().Counter++;
-                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         case SwipeDirection.Right:
                             Vector3 inputDirectionRight = new Vector3(1, 0, 0);
                             if (!inputDirectionRight.Equals(Vector3.zero))
                             {
+                                //moves.GetComponent<MoveCounter>().Counter++;
+                                //moves.GetComponent<MoveCounter>().Write = true;
+                                moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionRight;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 hasMoved = true;
-                                moves.GetComponent<MoveCounter>().Counter++;
-                                moves.GetComponent<MoveCounter>().Write = true;
                             }
                             break;
                         default:
@@ -337,7 +341,8 @@ public class BatteryTouchBehavior : MonoBehaviour
             //Debug.Log("WIN!!!");
             if (col.gameObject.GetComponent<BatteryWin>() == null)
             {
-                SceneManager.LoadScene("MainMenu");
+                //SceneManager.LoadScene("MainMenu");
+                GameObject.Find("Main Camera").GetComponent<InGameMenu>().WinScreen();
             }
             if (col.gameObject.GetComponent<BatteryWin>() != null)
             {
@@ -345,12 +350,14 @@ public class BatteryTouchBehavior : MonoBehaviour
                 {
                     if (gameObject.transform.rotation.z == 180)
                     {
-                        SceneManager.LoadScene("MainMenu");
+                        //SceneManager.LoadScene("MainMenu");
+                        GameObject.Find("Main Camera").GetComponent<InGameMenu>().WinScreen();
                     }
                 }
                 else
                 {
-                    SceneManager.LoadScene("MainMenu");
+                    //SceneManager.LoadScene("MainMenu");
+                    GameObject.Find("Main Camera").GetComponent<InGameMenu>().WinScreen();
                 }
             }
         }

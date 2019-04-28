@@ -1,5 +1,6 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/MasterScenes/level select.unity
 =======
 <<<<<<< HEAD
@@ -12,5 +13,8 @@ sceneSetups:
 >>>>>>> a8b0ae0fdda51dacfa227890e3bfb9f178626892
 >>>>>>> 356540941c09e485221efa1ce5008f9f0ab894aa
 >>>>>>> 301966136ed7a1ee60c041cc7744e79d26b9809c
+=======
+- path: Assets/Scenes/MasterScenes/BaseScene.unity
+>>>>>>> 2e0cae5cd603bc98872e220d299f3f21391c26bd
   isLoaded: 1
   isActive: 1

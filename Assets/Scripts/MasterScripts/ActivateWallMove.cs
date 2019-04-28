@@ -25,7 +25,7 @@ public class ActivateWallMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         /*
-         * maybe just make this if statement run once in Start()?
+         * put into Start() and get rid of setup1 logic. make setup2 the only setup bool
          * no need for the setup1 bool then
          */
         //adds all objects with the tag Moveable Walls to the walls list

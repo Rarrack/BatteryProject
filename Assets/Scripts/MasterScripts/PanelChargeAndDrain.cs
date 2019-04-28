@@ -55,7 +55,7 @@ public class PanelChargeAndDrain : MonoBehaviour {
             {
                 collision.gameObject.GetComponent<ObjectMovement>().charged = false;
                 /*
-                 * selection logic may overwrite the grey color, find workaround
+                 * selection logic may overwrite the grey color, find workaround. replace with textures
                  */
                 collision.gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
             }

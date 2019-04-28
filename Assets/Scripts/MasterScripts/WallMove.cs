@@ -37,7 +37,7 @@ public class WallMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(active == true)
+		if(active == true && transform.localPosition == newSpot)
         {
             t += Time.deltaTime / secs; //rate formula
             transform.localPosition = Vector3.Lerp(firstSpot, newSpot, t); //move to new position at the specified rate of t

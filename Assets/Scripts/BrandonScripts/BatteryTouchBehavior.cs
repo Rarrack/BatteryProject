@@ -324,7 +324,7 @@ public class BatteryTouchBehavior : MonoBehaviour
         #endregion
     }
 
-        void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
         ResetMovement();
         hasMoved = false;

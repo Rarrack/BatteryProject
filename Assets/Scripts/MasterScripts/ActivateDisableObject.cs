@@ -24,6 +24,10 @@ public class ActivateDisableObject : MonoBehaviour {
         {
             gameObject.SetActive(false); //disables object and makes it disappear
             done = true;
+
+            /*
+             * have a fade to dark effect like wall sliding into the bg
+             */
         }
 	}
 }

@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    #region Positioning Variables
 
+    Vector3 firstSpot;
+    Vector3 newSpot;
     public float x;
     public float y;
     public float z;
+
+    #endregion
 
     float secs = 1.5f;
     float t;
     bool active = false;
 
-    Vector3 firstSpot;
-    Vector3 newSpot;
+    
 
     // Use this for initialization
     void Start()
@@ -35,7 +39,6 @@ public class Movement : MonoBehaviour
 
     public void Move()
     {
-        //transform.localPosition = newSpot;
         active = true;
     }
 }

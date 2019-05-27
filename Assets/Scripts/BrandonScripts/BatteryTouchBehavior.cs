@@ -31,6 +31,8 @@ public class BatteryTouchBehavior : MonoBehaviour
     private float minSwipeDistance = 20.0f;
 
     public static event System.Action<SwipeData> OnSwipe = delegate { };
+
+    public ObjectMoveBoolHolder check; //checks if anything is moving, allows only one object to move at a time
     #endregion
 
     // Functions for all Behavior
@@ -281,11 +283,11 @@ public class BatteryTouchBehavior : MonoBehaviour
         {
             if(gameObject.name == "AA Battery")
             {
-                GetComponent<SpriteRenderer>().color = Color.blue;
+                GetComponent<SpriteRenderer>().color = Color.white;
             }
             if(gameObject.name == "D-Cell Battery")
             {
-                GetComponent<SpriteRenderer>().color = Color.red;
+                GetComponent<SpriteRenderer>().color = Color.white;
             }
         }
 
@@ -334,6 +336,7 @@ public class BatteryTouchBehavior : MonoBehaviour
         hasMoved = false;
     }
 
+    /*
     void OnTriggerEnter2D(Collider2D col)
     {
         if (gameObject.name == "AA Battery" && col.gameObject.name == "Battery Win 2")
@@ -367,5 +370,6 @@ public class BatteryTouchBehavior : MonoBehaviour
             col.gameObject.GetComponent<MoveWalls>().Activate = true;
         }
     }
-    
+    */
+
 }

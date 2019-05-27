@@ -6,7 +6,8 @@ using UnityEngine;
 //This is a movement script for any movable object
 //The charge boolean is mainly reserved for batteries for the charge mechanic
 
-public class ObjectMovement : MonoBehaviour {
+public class ObjectMovement : MonoBehaviour
+{
 
     //privates
     private Color original; //original color of object

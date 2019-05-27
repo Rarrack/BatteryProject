@@ -9,8 +9,11 @@ public class InGameMenu : MonoBehaviour
     GameObject GamePlay;
     GameObject Win;
 
+    List<GameObject> goals = new List<GameObject>();
+
     int winCounter = 0;
     int masterCount;
+    int allFilled = 0;
 
     // Use this for initialization
     void Start ()
@@ -18,6 +21,11 @@ public class InGameMenu : MonoBehaviour
         Menu = GameObject.Find("Menu Canvas");
         GamePlay = GameObject.Find("Game Canvas");
         Win = GameObject.Find("Win Canvas");
+
+        foreach (Transform goal in GameObject.FindGameObjectWithTag("Goals").transform)
+        {
+            goals.Add(goal.gameObject);
+        }
         
         Menu.SetActive(false);
         GamePlay.SetActive(true);
@@ -27,11 +35,19 @@ public class InGameMenu : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-		//if(GamePlay.activeInHierarchy == true)
-        //{
-        //    winCounter = GamePlay.GetComponentInChildren<MoveCounter>().Counter;
-        //    masterCount = GamePlay.GetComponentInChildren<MoveCounter>().masterCount;
-        //}
+        for(int i = 0; i < goals.Count; i++)
+        {
+            if (goals[i].GetComponent<GoalSettings>().Filled == true)
+            {
+                allFilled += 1;
+            }
+            if(allFilled == goals.Count)
+            {
+                WinScreen();
+            }
+        }
+
+        allFilled = 0;
 	}
 
     public void CountUpdate()

@@ -49,7 +49,7 @@ public class ActivateWallMove : MonoBehaviour {
         {
             for(int i = 0; i < walls.Count; i++)
             {
-                walls[i].GetComponent<WallMove>().active = true;
+                walls[i].GetComponent<WallMove>().Move();
             }
 
             setup2 = true;

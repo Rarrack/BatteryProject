@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class MoveWalls : MonoBehaviour
 {
-    private bool activate = false;
-    
-    private bool setup = false;
+    //Brandon's MoveWall
+    //Activates designated walls Move functions
+    //shifts walls to new positions when activated
 
+    #region Wall Movement Variables/Containers
+
+    bool activate = false;
+    public GameObject battery;
     public List<GameObject> walls;
 
-	void Start ()
+    #endregion
+
+    void Start ()
     {
-        
     }
 
     public bool Activate
@@ -29,27 +34,23 @@ public class MoveWalls : MonoBehaviour
 
     void Update ()
     {
-        if (GameObject.Find("Moveable Walls") != null && setup != true)
-        {
-            for(int i = 0; i < GameObject.Find("Moveable Walls").transform.childCount; i++)
-            {
-                walls.Add(GameObject.Find("Moveable Walls").transform.GetChild(i).gameObject);
-            }
-
-            if(walls != null)
-            {
-                setup = true;
-            }
-        }
-
-        if (activate == true)
+        // Tells all walls to move if the List is not empty
+        if (activate == true && walls != null)
         {
             for (int i = 0; i < walls.Count; i++)
             {
-                walls[i].GetComponent<Movement>().Move();
+                walls[i].GetComponent<WallMove>().Move();
             }
 
             activate = false;
         }
 	}
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject == battery)
+        {
+            activate = true;
+        }
+    }
 }

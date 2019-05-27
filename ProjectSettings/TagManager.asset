@@ -16,6 +16,7 @@ TagManager:
   - circuit
   - Battery 2
   - charger
+  - Goals
   layers:
   - Default
   - TransparentFX

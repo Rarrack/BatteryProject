@@ -45,17 +45,17 @@ public class GoalSettings : MonoBehaviour
     {
         //if the object has the same stored tag and the same rotation as the goal, then it enters the first if statement
         //for rotation levels, the battery should have the same rotation as the goal to activate a win
-        if (collision.gameObject == battery && battery.transform.rotation == transform.rotation && battery.GetComponent<BatteryTouchBehavior>().charged == true)
+        if (collision.gameObject == battery && battery.transform.rotation == transform.rotation && battery.GetComponent<ObjectTouchMovement>().charged == true)
         {
             c.isTrigger = true;
 
             //sets battery to center of goal panel
             battery.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
 
-            battery.GetComponent<BatteryTouchBehavior>().check.moving = false;
+            battery.GetComponent<ObjectTouchMovement>().check.moving = false;
 
             //disable input ability of the battery
-            battery.GetComponent<BatteryTouchBehavior>().enabled = false;
+            battery.GetComponent<ObjectTouchMovement>().enabled = false;
 
             //make the battery intangible
             battery.GetComponent<Collider2D>().isTrigger = true;

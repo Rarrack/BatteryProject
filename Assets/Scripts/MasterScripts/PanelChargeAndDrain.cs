@@ -29,7 +29,7 @@ public class PanelChargeAndDrain : MonoBehaviour {
 	void Start () {
         cd = gameObject.transform.position;
         c = GetComponent<Collider2D>();
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -45,7 +45,7 @@ public class GoalSettings : MonoBehaviour
     {
         //if the object has the same stored tag and the same rotation as the goal, then it enters the first if statement
         //for rotation levels, the battery should have the same rotation as the goal to activate a win
-        if (collision.gameObject == battery && battery.transform.rotation == transform.rotation && battery.GetComponent<ObjectTouchMovement>().charged == true)
+        if (collision.gameObject == battery && battery.transform.localEulerAngles == transform.localEulerAngles && battery.GetComponent<ObjectTouchMovement>().charged == true)
         {
             c.isTrigger = true;
 

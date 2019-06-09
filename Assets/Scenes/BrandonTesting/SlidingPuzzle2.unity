@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e615e389371566e4f83231e0bf4fa75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battery: {fileID: 0}
+  battery: {fileID: 4733201326791433788}
 --- !u!1001 &617073533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2347,6 +2347,7 @@ GameObject:
   - component: {fileID: 1934869705}
   - component: {fileID: 1934869708}
   - component: {fileID: 1934869707}
+  - component: {fileID: 1934869709}
   m_Layer: 0
   m_Name: Battery Win 1
   m_TagString: Untagged
@@ -2454,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a75ca889e9721f24496324780179cbec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battery: {fileID: 0}
+  battery: {fileID: 3053560883949898399}
   walls:
   - {fileID: 297707687}
   - {fileID: 1193192562}
@@ -2472,7 +2473,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e615e389371566e4f83231e0bf4fa75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battery: {fileID: 0}
+  battery: {fileID: 3053560883949898399}
+--- !u!114 &1934869709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934869703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5219eced329ddab459ae6f10fc0e0d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battery: {fileID: 3053560883949898399}
+  walls:
+  - {fileID: 0}
 --- !u!1001 &2034034511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2648,6 +2664,12 @@ PrefabInstance:
       objectReference: {fileID: 2055853886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c56ba19e61c1c034ba174d708ca5417b, type: 3}
+--- !u!1 &3053560883949898399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2493254329712313960, guid: c56ba19e61c1c034ba174d708ca5417b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3053560883949898398}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4733201326791433787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2722,3 +2744,9 @@ PrefabInstance:
       objectReference: {fileID: 2055853886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71b1822a892af98458ba9df2d73d1224, type: 3}
+--- !u!1 &4733201326791433788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5701701834100246108, guid: 71b1822a892af98458ba9df2d73d1224,
+    type: 3}
+  m_PrefabInstance: {fileID: 4733201326791433787}
+  m_PrefabAsset: {fileID: 0}

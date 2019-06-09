@@ -5,7 +5,8 @@ using UnityEngine;
 //Based off of Mateusz's open script
 //attach to objects that should disappear once the subgoal is activated
 
-public class ActivateDisableObject : MonoBehaviour {
+public class ActivateDisableObject : MonoBehaviour
+{
 
     //public
     public GoalSub script; //Goalsub script from corresponding subgoal

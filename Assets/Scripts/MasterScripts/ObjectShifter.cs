@@ -24,7 +24,7 @@ public class ObjectShifter : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         //check if its a dummy or battery that hit the non movable object
-        if (collision.gameObject.tag == "Battery" || collision.gameObject.tag == "Battery 2" || collision.gameObject.tag == "dummy")
+        if (collision.gameObject.tag == "Battery" || collision.gameObject.tag == "dummy")
         {
             foreach (ContactPoint2D hitPos in collision.contacts)
             {

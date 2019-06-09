@@ -103,6 +103,7 @@ public class WallAndGateToggler : MonoBehaviour {
         //if a battery hits the switch with a battCorrespond, toggle the wall
         if ((collision.gameObject.tag == "Battery" || collision.gameObject.tag == "Battery 2") && battCorrespond.tag != "placebo")
         {
+            trig = battCorrespond.GetComponent<BoxCollider2D>().isTrigger; //for if more than one switch corresponds to a single wall
             if (trig == false) //disable wall
             {
                 battCorrespond.GetComponent<BoxCollider2D>().isTrigger = true;
@@ -119,8 +120,7 @@ public class WallAndGateToggler : MonoBehaviour {
         //if a dummy hits the switch with a dummCorrespond, toggle the wall
         if (collision.gameObject.tag == "dummy" && dummCorrespond.tag != "placebo")
         {
-            trig = dummCorrespond.GetComponent<BoxCollider2D>().isTrigger;
-
+            trig = dummCorrespond.GetComponent<BoxCollider2D>().isTrigger; //for if more than one switch corresponds to a single wall
             if (trig == false) //disable wall
             {
                 dummCorrespond.GetComponent<BoxCollider2D>().isTrigger = true;

@@ -35,7 +35,7 @@ public class WallDisable : MonoBehaviour
     public void Enable()
     {
         Color curCol = GetComponent<SpriteRenderer>().color;
-        GetComponent<SpriteRenderer>().color = new Color(curCol.r, curCol.g, curCol.b, 255);
+        GetComponent<SpriteRenderer>().color = new Color(curCol.r, curCol.g, curCol.b, 1);
         GetComponent<BoxCollider2D>().enabled = true;
     }
 }

@@ -140,7 +140,7 @@ public class ObjectTouchMovement : MonoBehaviour
                     if (hits[i].transform.tag != "Untagged")
                     {
 
-                        if (hits[i].transform.tag == "Battery" && hits[i].transform == transform)
+                        if ((hits[i].transform.tag == "Battery" || hits[i].transform.tag == "dummy") && hits[i].transform == transform)
                         {
                             this.selected = true;
                         }
@@ -228,6 +228,10 @@ public class ObjectTouchMovement : MonoBehaviour
             if (gameObject.name == "D-Cell Battery")
             {
                 GetComponent<SpriteRenderer>().color = Color.white;
+            }
+            if (gameObject.name == "Dummy")
+            {
+                GetComponent<SpriteRenderer>().color = Color.black;
             }
         }
     }

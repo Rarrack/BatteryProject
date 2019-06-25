@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 //Based off of Brandon's MainMenuScript
 //Sets up the main menu
 
-public class MainMenu : MonoBehaviour {
-
+public class MainMenu : MonoBehaviour
+{
     //other
     GameObject Main; //main menu object
 
@@ -16,17 +16,33 @@ public class MainMenu : MonoBehaviour {
     GameObject Settings; //settings object
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         Main = GameObject.Find("Main Menu");
         StageSelect = GameObject.Find("Stage Select");
         Settings = GameObject.Find("Settings");
 
-        StageSelect.SetActive(false);
-        Settings.SetActive(false);
+        int x = PlayerPrefs.GetInt("Level Select");
+        //Debug.Log("Level Select " + x);
+
+        if (x == 0)
+        {
+            StageSelect.SetActive(false);
+            Settings.SetActive(false);
+        }
+        else
+        {
+            Main.SetActive(false);
+            Settings.SetActive(false);
+            PlayerPrefs.SetInt("Level Select", 0);
+            PlayerPrefs.Save();
+        }
+        
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
 
@@ -52,20 +68,11 @@ public class MainMenu : MonoBehaviour {
         Settings.SetActive(false);
     }
 
-    /*
-     public void ExitGame()
-     {
-        Application.Quit();
-     }
-    */
 
-    public void StartLevel1() //loads the stored level
+    public void DataPurge()
     {
-        SceneManager.LoadScene(1);
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(0);
     }
 
-    public void StartLevel2()
-    {
-
-    }
 }

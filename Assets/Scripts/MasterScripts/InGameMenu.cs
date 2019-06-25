@@ -78,7 +78,16 @@ public class InGameMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(0);
+        PlayerPrefs.SetInt("Level Select", 0);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene(1);
+    }
+
+    public void LevelSelect()
+    {
+        PlayerPrefs.SetInt("Level Select", 1);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene(1);
     }
 
     public void WinScreen()
@@ -87,8 +96,11 @@ public class InGameMenu : MonoBehaviour
         GamePlay.SetActive(false);
         Win.SetActive(true);
 
+        PlayerPrefs.SetInt("Level " + SceneManager.GetActiveScene().buildIndex, 1);
         GameObject count = GameObject.Find("Count Comparison");
         count.GetComponent<UnityEngine.UI.Text>().text = winCounter.ToString() + '/' + masterCount.ToString();
+        PlayerPrefs.SetInt("Count " + SceneManager.GetActiveScene().buildIndex, winCounter);
+        PlayerPrefs.Save();
     }
 
     public void NextLevel()

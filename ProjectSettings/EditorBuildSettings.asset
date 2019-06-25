@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/BrandonTesting/_preload.unity
+    guid: 74ba54e262075cf43a243b4c9e510124
+  - enabled: 1
     path: Assets/Scenes/BrandonTesting/MainMenu.unity
     guid: 1d2efdb8fb02ba64696ce5c0979db8a0
   - enabled: 1

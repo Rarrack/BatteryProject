@@ -24,16 +24,17 @@ public class LevelManager : MonoBehaviour
             PlayerPrefs.SetInt("Level " + 1, 1);
 
             PlayerPrefs.SetInt("Level Select", 0);
+            PlayerPrefs.SetFloat("BGM Volume", 0.7f);
+            PlayerPrefs.SetFloat("SFX Volume", 0.7f);
             PlayerPrefs.Save();
         }
 
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
     // Update is called once per frame

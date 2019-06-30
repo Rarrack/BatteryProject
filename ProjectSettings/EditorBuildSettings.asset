@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
     guid: ff39428b1c26e4a429a329e20c96a29f
+  - enabled: 1
+    path: Assets/Scenes/BrandonTesting/DisableTest.unity
+    guid: 88efb0b611331384cbdba7c78cd6e778
   m_configObjects: {}

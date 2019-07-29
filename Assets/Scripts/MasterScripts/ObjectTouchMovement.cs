@@ -241,5 +241,6 @@ public class ObjectTouchMovement : MonoBehaviour
     {
         ResetMovement();
         check.moving = false;
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Sound");
     }
 }

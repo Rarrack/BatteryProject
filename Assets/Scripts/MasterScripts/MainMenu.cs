@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 //Based off of Brandon's MainMenuScript
 //Sets up the main menu
@@ -15,15 +16,27 @@ public class MainMenu : MonoBehaviour
 
     GameObject Settings; //settings object
 
-	// Use this for initialization
-	void Start ()
+    public Slider bgmSlider;
+    public Slider sfxSlider;
+
+    void Awake()
+    {
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Temp Title");
+    }
+
+    // Use this for initialization
+    void Start ()
     {
         Main = GameObject.Find("Main Menu");
         StageSelect = GameObject.Find("Stage Select");
         Settings = GameObject.Find("Settings");
 
         int x = PlayerPrefs.GetInt("Level Select");
-        //Debug.Log("Level Select " + x);
+
+        bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
+        sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
         if (x == 0)
         {
@@ -59,6 +72,8 @@ public class MainMenu : MonoBehaviour
         Main.SetActive(false);
         StageSelect.SetActive(false);
         Settings.SetActive(true);
+        bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume");
+        sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume");
     }
 
     public void BackOut() //brings up main menu
@@ -68,11 +83,9 @@ public class MainMenu : MonoBehaviour
         Settings.SetActive(false);
     }
 
-
     public void DataPurge()
     {
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene(0);
     }
-
 }

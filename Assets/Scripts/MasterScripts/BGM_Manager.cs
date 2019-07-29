@@ -6,11 +6,8 @@ using UnityEngine.Audio;
 
 public class BGM_Manager : MonoBehaviour
 {
-
     public static BGM_Manager instance;
-
-    public AudioFile[] audioFiles;
-
+    public AudioFile[] musicFiles;
 
     void Awake()
     {
@@ -25,25 +22,30 @@ public class BGM_Manager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        foreach(AudioFile file in audioFiles)
+        if (!PlayerPrefs.HasKey("BGM Volume"))
+        {
+            PlayerPrefs.SetFloat("BGM Volume", 0.7f);
+        }
+
+        foreach (AudioFile file in musicFiles)
         {
             file.source = gameObject.AddComponent<AudioSource>();
             file.source.clip = file.audioClip;
-            file.source.volume = file.volume;
+            file.source.volume = PlayerPrefs.GetFloat("BGM Volume");
             file.source.loop = file.isLooping;
 
-            if(file.playOnAwake)
-            {
-                if (PlayerPrefs.HasKey("BGM Volume"))
-                {
-                    file.source.volume = PlayerPrefs.GetFloat("BGM Volume");
-                    file.source.Play();
-                }
-                else
-                {
-                    file.source.Play();
-                }
-            }
+            //if(file.playOnAwake)
+            //{
+            //    if (PlayerPrefs.HasKey("BGM Volume"))
+            //    {
+            //        file.source.volume = PlayerPrefs.GetFloat("BGM Volume");
+            //        file.source.Play();
+            //    }
+            //    else
+            //    {
+            //        file.source.Play();
+            //    }
+            //}
         }
     }
 
@@ -52,27 +54,27 @@ public class BGM_Manager : MonoBehaviour
         
     }
 
-    public static void PlayMusic(string name)
+    public void PlayMusic(string name)
     {
-        AudioFile file = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
+        AudioFile file = Array.Find(instance.musicFiles, AudioFile => AudioFile.audioName == name);
         file.source.Play();
     }
 
-    public static void StopMusic(string name)
+    public void StopMusic(string name)
     {
-        AudioFile file = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
+        AudioFile file = Array.Find(instance.musicFiles, AudioFile => AudioFile.audioName == name);
         file.source.Stop();
     }
 
-    public static void PauseMusic(string name)
+    public void PauseMusic(string name)
     {
-        AudioFile file = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
+        AudioFile file = Array.Find(instance.musicFiles, AudioFile => AudioFile.audioName == name);
         file.source.Pause();
     }
 
-    public static void UnPauseMusic(string name)
+    public void UnPauseMusic(string name)
     {
-        AudioFile file = Array.Find(instance.audioFiles, AudioFile => AudioFile.audioName == name);
+        AudioFile file = Array.Find(instance.musicFiles, AudioFile => AudioFile.audioName == name);
         file.source.UnPause();
     }
 }

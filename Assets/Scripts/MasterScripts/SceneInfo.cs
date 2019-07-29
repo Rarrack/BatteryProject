@@ -35,6 +35,7 @@ public class SceneInfo : MonoBehaviour
 
     public void Load()
     {
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Temp Title");
         SceneManager.LoadScene(levelNumber + 1);
     }
 }

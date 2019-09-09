@@ -21,9 +21,9 @@ public class MainMenu : MonoBehaviour
 
     void Awake()
     {
-        GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
-        GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
-        GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Temp Title");
+        //GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
+        //GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
+        //GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Temp Title");
     }
 
     // Use this for initialization

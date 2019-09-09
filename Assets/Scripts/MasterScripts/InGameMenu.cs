@@ -21,8 +21,8 @@ public class InGameMenu : MonoBehaviour
 
     void Awake()
     {
-        GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
-        GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
+        //GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
+        //GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
     }
 
     // Use this for initialization
@@ -32,8 +32,8 @@ public class InGameMenu : MonoBehaviour
         GamePlay = GameObject.Find("Game Canvas");
         Win = GameObject.Find("Win Canvas");
 
-        bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
-        sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
+        //bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
+        //sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
         foreach (Transform goal in GameObject.FindGameObjectWithTag("Goals").transform)
         {

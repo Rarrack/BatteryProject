@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class InGameMenu : MonoBehaviour
 {
@@ -9,11 +10,20 @@ public class InGameMenu : MonoBehaviour
     GameObject GamePlay;
     GameObject Win;
 
+    public Slider bgmSlider;
+    public Slider sfxSlider;
+
     List<GameObject> goals = new List<GameObject>();
 
     int winCounter = 0;
     int masterCount;
     int allFilled = 0;
+
+    void Awake()
+    {
+        //GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
+        //GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
+    }
 
     // Use this for initialization
     void Start ()
@@ -21,6 +31,9 @@ public class InGameMenu : MonoBehaviour
         Menu = GameObject.Find("Menu Canvas");
         GamePlay = GameObject.Find("Game Canvas");
         Win = GameObject.Find("Win Canvas");
+
+        //bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
+        //sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
         foreach (Transform goal in GameObject.FindGameObjectWithTag("Goals").transform)
         {
@@ -67,6 +80,8 @@ public class InGameMenu : MonoBehaviour
         Menu.SetActive(true);
         GamePlay.SetActive(false);
         Win.SetActive(false);
+        bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume");
+        sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume");
     }
 
     public void Back()

@@ -14,6 +14,8 @@ public class GoalSettings : MonoBehaviour
 
     Collider2D c; //collider for the goal panel
 
+    public Sprite victorySprite;
+
     bool filled = false; //status if it's filled by correct battery
 
     //Property function for filled state
@@ -62,6 +64,9 @@ public class GoalSettings : MonoBehaviour
             battery.GetComponent<Collider2D>().isTrigger = true;
 
             filled = true;
+
+            GetComponent<SpriteRenderer>().sprite = victorySprite;
+            battery.GetComponent<SpriteRenderer>().sprite = battery.GetComponent<ObjectTouchMovement>().victorySprite;
         }
     }
 }

@@ -123,6 +123,7 @@ MonoBehaviour:
   selected: 0
   check: {fileID: 0}
   charged: 1
+  victorySprite: {fileID: 21300000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
 --- !u!50 &5701701834100246107
 Rigidbody2D:
   serializedVersion: 4

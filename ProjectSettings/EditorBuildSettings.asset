@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BrandonTesting/MainMenu.unity
     guid: 1d2efdb8fb02ba64696ce5c0979db8a0
-  - enabled: 0
-    path: Assets/Scenes/BrandonTesting/SlidingPuzzle2.unity
-    guid: ff39428b1c26e4a429a329e20c96a29f
   - enabled: 1
     path: Assets/Scenes/BrandonTesting/DisableTest.unity
     guid: 88efb0b611331384cbdba7c78cd6e778
+  - enabled: 1
+    path: Assets/Scenes/BrandonTesting/ChargeGroundTest.unity
+    guid: 5dcc07825ceb7764aa5d77eaa874c10f
   m_configObjects: {}

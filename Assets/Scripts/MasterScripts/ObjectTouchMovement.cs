@@ -115,6 +115,8 @@ public class ObjectTouchMovement : MonoBehaviour
 
     #endregion
 
+    public Sprite victorySprite;
+
     // Use this for initialization
     void Start()
     {
@@ -123,6 +125,11 @@ public class ObjectTouchMovement : MonoBehaviour
 
         //Sets object to the counter in the world
         moves = GameObject.Find("Counter");
+
+        if(charged == false)
+        {
+            GetComponent<SpriteRenderer>().color = Color.gray;
+        }
     }
 
     // Update is called once per frame
@@ -231,7 +238,7 @@ public class ObjectTouchMovement : MonoBehaviour
             }
             if (gameObject.name == "Dummy")
             {
-                GetComponent<SpriteRenderer>().color = Color.black;
+                GetComponent<SpriteRenderer>().color = Color.white;
             }
         }
     }

@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battery: {fileID: 0}
-  victorySprite: {fileID: 21300000, guid: 18a07d8bbe37fcf4a970133633bebba3, type: 3}
+  victorySprite: {fileID: 21300000, guid: 875e3d056dc62154b9d6de0a719ca5d3, type: 3}
 --- !u!114 &8794507484539460289
 MonoBehaviour:
   m_ObjectHideFlags: 0

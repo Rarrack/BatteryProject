@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1738524729764138380}
   - component: {fileID: 7426278774762001099}
   - component: {fileID: 1141076576690760130}
+  - component: {fileID: 3710665495232418491}
   m_Layer: 0
   m_Name: Battery Goal
   m_TagString: Untagged
@@ -121,6 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battery: {fileID: 0}
+  victorySprite: {fileID: 0}
 --- !u!114 &1141076576690760130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,6 +133,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a75ca889e9721f24496324780179cbec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battery: {fileID: 0}
+  walls: []
+--- !u!114 &3710665495232418491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6176903334560136143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5219eced329ddab459ae6f10fc0e0d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   battery: {fileID: 0}

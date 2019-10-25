@@ -2246,6 +2246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 9-Volt Goal Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 8514445341193963982, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Goals
+      objectReference: {fileID: 0}
     - target: {fileID: 1880019964054946986, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2753,6 +2758,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AA Goal Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663943091327223548, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Goals
       objectReference: {fileID: 0}
     - target: {fileID: 6838362039580461976, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
         type: 3}

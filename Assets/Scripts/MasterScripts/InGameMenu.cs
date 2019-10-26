@@ -35,11 +35,18 @@ public class InGameMenu : MonoBehaviour
         //bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
         //sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
-        foreach (Transform goal in GameObject.FindGameObjectWithTag("Goals").transform)
+        //foreach (Transform goal in GameObject.FindGameObjectWithTag("Goals").transform)
+        //{
+        //    goals.Add(goal.gameObject);
+        //}
+        GameObject[] goal;
+        goal = GameObject.FindGameObjectsWithTag("Goals");
+
+        foreach(GameObject gl in goal)
         {
-            goals.Add(goal.gameObject);
+            goals.Add(gl);
         }
-        
+
         Menu.SetActive(false);
         GamePlay.SetActive(true);
         Win.SetActive(false);

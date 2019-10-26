@@ -128,7 +128,7 @@ public class ObjectTouchMovement : MonoBehaviour
 
         if(charged == false)
         {
-            GetComponent<SpriteRenderer>().color = Color.gray;
+            GetComponent<SpriteRenderer>().color = Color.black;
         }
     }
 
@@ -236,7 +236,7 @@ public class ObjectTouchMovement : MonoBehaviour
             {
                 GetComponent<SpriteRenderer>().color = Color.white;
             }
-            if (gameObject.name == "Dummy")
+            if (gameObject.name == "Dummy" || gameObject.tag == "dummy")
             {
                 GetComponent<SpriteRenderer>().color = Color.white;
             }

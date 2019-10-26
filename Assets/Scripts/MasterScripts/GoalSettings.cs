@@ -10,7 +10,8 @@ using UnityEngine.SceneManagement;
 
 public class GoalSettings : MonoBehaviour
 {
-    public GameObject battery; //the correct battery for this goal
+    public List<GameObject> battery;
+    //public  battery; //the correct battery for this goal
 
     Collider2D c; //collider for the goal panel
 
@@ -47,26 +48,29 @@ public class GoalSettings : MonoBehaviour
     {
         //if the object has the same stored tag and the same rotation as the goal, then it enters the first if statement
         //for rotation levels, the battery should have the same rotation as the goal to activate a win
-        if (collision.gameObject == battery && battery.transform.localEulerAngles == transform.localEulerAngles && battery.GetComponent<ObjectTouchMovement>().charged == true)
+        foreach (GameObject bat in battery)
         {
-            c.isTrigger = true;
+            if (collision.gameObject == bat && bat.transform.localEulerAngles == transform.localEulerAngles && bat.GetComponent<ObjectTouchMovement>().charged == true)
+            {
+                c.isTrigger = true;
 
-            //sets battery to center of goal panel
-            battery.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
+                //sets battery to center of goal panel
+                bat.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
 
-            //stops movement of the battery
-            battery.GetComponent<ObjectTouchMovement>().check.moving = false;
+                //stops movement of the battery
+                bat.GetComponent<ObjectTouchMovement>().check.moving = false;
 
-            //disable input ability of the battery
-            battery.GetComponent<ObjectTouchMovement>().enabled = false;
+                //disable input ability of the battery
+                bat.GetComponent<ObjectTouchMovement>().enabled = false;
 
-            //make the battery intangible
-            battery.GetComponent<Collider2D>().isTrigger = true;
+                //make the battery intangible
+                bat.GetComponent<Collider2D>().isTrigger = true;
 
-            filled = true;
+                filled = true;
 
-            GetComponent<SpriteRenderer>().sprite = victorySprite;
-            battery.GetComponent<SpriteRenderer>().sprite = battery.GetComponent<ObjectTouchMovement>().victorySprite;
+                GetComponent<SpriteRenderer>().sprite = victorySprite;
+                bat.GetComponent<SpriteRenderer>().sprite = bat.GetComponent<ObjectTouchMovement>().victorySprite;
+            }
         }
     }
 }

@@ -31,22 +31,22 @@ public class ObjectShifter : MonoBehaviour
                 if (hitPos.normal.y > 0)
                 {
                     //Debug.Log("Hit the top: " + hitPos.normal.y);
-                    collision.transform.localPosition -= new Vector3(0, 0.03f, 0);
+                    collision.transform.localPosition -= new Vector3(0, 0.05f, 0);
                 }
                 if (hitPos.normal.y < 0)
                 {
                     //Debug.Log("Hit the top: " + hitPos.normal.y);
-                    collision.transform.localPosition += new Vector3(0, 0.03f, 0);
+                    collision.transform.localPosition += new Vector3(0, 0.05f, 0);
                 }
                 if (hitPos.normal.x > 0)
                 {
                     //Debug.Log("Hit the top: " + hitPos.normal.y);
-                    collision.transform.localPosition -= new Vector3(0.03f, 0, 0);
+                    collision.transform.localPosition -= new Vector3(0.05f, 0, 0);
                 }
                 if (hitPos.normal.x < 0)
                 {
                     //Debug.Log("Hit the top: " + hitPos.normal.y);
-                    collision.transform.localPosition += new Vector3(0.03f, 0, 0);
+                    collision.transform.localPosition += new Vector3(0.05f, 0, 0);
                 }
             }
         }

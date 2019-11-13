@@ -41,4 +41,40 @@ public class SoundSlider : MonoBehaviour
             sfx.source.volume = PlayerPrefs.GetFloat("SFX Volume");
         }
     }
+
+    public void SlideBGM(int set)
+    {
+        if(set == 0)
+        {
+            GetComponent<Slider>().value += 0.1f;
+            float newVolume = GetComponent<Slider>().value;
+            PlayerPrefs.SetFloat("BGM Volume", newVolume);
+        }
+        else
+        {
+            GetComponent<Slider>().value -= 0.1f;
+            float newVolume = GetComponent<Slider>().value;
+            PlayerPrefs.SetFloat("BGM Volume", newVolume);
+        }
+
+        UpdateBGMVolumes();
+    }
+
+    public void SlideSFX(int set)
+    {
+        if (set == 0)
+        {
+            GetComponent<Slider>().value += 0.1f;
+            float newVolume = GetComponent<Slider>().value;
+            PlayerPrefs.SetFloat("SFX Volume", newVolume);
+        }
+        else
+        {
+            GetComponent<Slider>().value -= 0.1f;
+            float newVolume = GetComponent<Slider>().value;
+            PlayerPrefs.SetFloat("SFX Volume", newVolume);
+        }
+
+        UpdateSFXVolumes();
+    }
 }

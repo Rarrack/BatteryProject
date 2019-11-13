@@ -774,6 +774,7 @@ GameObject:
   - component: {fileID: 792359295}
   - component: {fileID: 792359294}
   - component: {fileID: 792359298}
+  - component: {fileID: 792359299}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -869,6 +870,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 617073535}
   sfxSlider: {fileID: 617073534}
+--- !u!114 &792359299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792359293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e188ee899633d0b49870a5ae38b7359d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: {x: 9, y: 16}
+  forceRatioOnAwake: 1
+  listenForWindowChanges: 1
+  createCameraForLetterBoxRendering: 1
+  findCamerasAutomatically: 1
+  letterBoxCameraColor: {r: 0, g: 0, b: 0, a: 1}
+  cameras: []
+  letterBoxCamera: {fileID: 0}
 --- !u!1001 &819387232
 PrefabInstance:
   m_ObjectHideFlags: 0

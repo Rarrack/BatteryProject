@@ -11,13 +11,48 @@ public class MainMenu : MonoBehaviour
 {
     //other
     GameObject Main; //main menu object
-
     GameObject StageSelect; //stage select object
-
     GameObject Settings; //settings object
 
     public Slider bgmSlider;
     public Slider sfxSlider;
+
+    GameObject fadeScreen;
+    int waitTime = 0;
+    bool fadeStart = false;
+    int sceneToLoad = 0;
+
+    public GameObject FadeScreen
+    {
+        get
+        {
+            return fadeScreen;
+        }
+    }
+    public bool FadeStart
+    {
+        get
+        {
+            return fadeStart;
+        }
+        set
+        {
+            fadeStart = value;
+        }
+    }
+    public int SceneToLoad
+    {
+        get
+        {
+            return sceneToLoad;
+        }
+        set
+        {
+            sceneToLoad = value;
+        }
+    }
+
+
 
     void Awake()
     {
@@ -32,11 +67,14 @@ public class MainMenu : MonoBehaviour
         Main = GameObject.Find("Main Menu");
         StageSelect = GameObject.Find("Stage Select");
         Settings = GameObject.Find("Settings");
+        fadeScreen = GameObject.Find("Fade Screen");
 
         int x = PlayerPrefs.GetInt("Level Select");
 
         bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
+
+        fadeScreen.SetActive(false);
 
         if (x == 0)
         {
@@ -56,7 +94,16 @@ public class MainMenu : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-		
+		if(fadeStart == true)
+        {
+            waitTime += 1;
+            if(waitTime >= 53)
+            {
+                fadeStart = false;
+                waitTime = 0;
+                SceneManager.LoadScene(sceneToLoad);
+            }
+        }
 	}
 
     //these functions enable and disable the objects depending on what is selected

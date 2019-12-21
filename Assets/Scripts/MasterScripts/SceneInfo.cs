@@ -7,12 +7,15 @@ public class SceneInfo : MonoBehaviour
 {
     UnityEngine.UI.Button button;
     MainMenu menu;
+    StageSwitch switcher;
     public int levelNumber;
+    public int sceneCount;
 
     // Start is called before the first frame update
     void Start()
     {
         menu = GameObject.Find("Main Menu Canvas").GetComponent<MainMenu>();
+        switcher = GameObject.Find("Stage Select").GetComponent<StageSwitch>();
         int x = PlayerPrefs.GetInt("Level " + levelNumber);
         button = GetComponent<UnityEngine.UI.Button>();
         if(x == 0)
@@ -43,5 +46,13 @@ public class SceneInfo : MonoBehaviour
         menu.SceneToLoad = levelNumber + 1;
         menu.FadeStart = true;
         //SceneManager.LoadScene(levelNumber + 1);
+    }
+
+    public void Choice()
+    {
+        menu.currentStage = switcher.currentStage;
+        menu.SceneToLoad = levelNumber + 1;
+        menu.currentCount = sceneCount;
+        menu.PreviewSelect();
     }
 }

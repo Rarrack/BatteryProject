@@ -17,10 +17,19 @@ public class LevelPopUp : MonoBehaviour
         }
     }
 
-    public GameObject stageBackground;
-    public Sprite[] backgrounds;
+    int currentLevel;
+    public int CurrentLevel
+    {
+        get
+        {
+            return currentLevel;
+        }
+        set
+        {
+            currentLevel = value;
+        }
+    }
 
-    public GameObject counterText;
     int currentCount;
     public int CurrentCount
     {
@@ -34,17 +43,24 @@ public class LevelPopUp : MonoBehaviour
         }
     }
 
+    public GameObject stageBackground;
+    public Sprite[] backgrounds;
+
+    public GameObject counterText;
+    
+
     // Start is called before the first frame update
     void Start()
     {
         stageBackground.GetComponent<SpriteRenderer>().sprite = backgrounds[currentStage];
-        counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: 0/" + currentCount;
+        counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: " + PlayerPrefs.GetInt("Count " + currentLevel) + "/" + currentCount;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        stageBackground.GetComponent<SpriteRenderer>().sprite = backgrounds[currentStage];
+        counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: " + PlayerPrefs.GetInt("Count " + currentLevel) + "/" + currentCount;
     }
     
 

@@ -121,7 +121,7 @@ public class InGameMenu : MonoBehaviour
         PlayerPrefs.SetInt("Level " + SceneManager.GetActiveScene().buildIndex, 1);
         GameObject count = GameObject.Find("Count Comparison");
         count.GetComponent<UnityEngine.UI.Text>().text = winCounter.ToString() + '/' + masterCount.ToString();
-        PlayerPrefs.SetInt("Count " + SceneManager.GetActiveScene().buildIndex, winCounter);
+        PlayerPrefs.SetInt("Count " + (SceneManager.GetActiveScene().buildIndex - 1), winCounter);
         PlayerPrefs.Save();
     }
 

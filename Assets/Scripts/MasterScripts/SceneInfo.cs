@@ -53,6 +53,7 @@ public class SceneInfo : MonoBehaviour
         menu.currentStage = switcher.currentStage;
         menu.SceneToLoad = levelNumber + 1;
         menu.currentCount = sceneCount;
+        menu.levelNumber = levelNumber;
         menu.PreviewSelect();
     }
 }

@@ -24,6 +24,7 @@ public class MainMenu : MonoBehaviour
     int sceneToLoad = 0;
     public int currentStage;
     public int currentCount;
+    public int levelNumber;
 
     public GameObject FadeScreen
     {
@@ -136,6 +137,7 @@ public class MainMenu : MonoBehaviour
         Main.SetActive(false);
         StageSelect.SetActive(false);
         LevelPreview.GetComponent<LevelPopUp>().CurrentStage = currentStage;
+        LevelPreview.GetComponent<LevelPopUp>().CurrentLevel = levelNumber;
         LevelPreview.GetComponent<LevelPopUp>().CurrentCount = currentCount;
     }
 

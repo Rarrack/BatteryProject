@@ -27,13 +27,13 @@ public class MoveCounter : MonoBehaviour
     public void Count()
     {
         counter += 1;
-        GetComponentInChildren<UnityEngine.UI.Text>().text = "Moves: " + counter;
+        GetComponentInChildren<UnityEngine.UI.Text>().text = counter.ToString();
         GameObject.Find("Main Camera").GetComponent<InGameMenu>().CountUpdate();
     }
 
     void SetCounter()
     {
-        GetComponentInChildren<UnityEngine.UI.Text>().text = "Moves: " + counter;
+        GetComponentInChildren<UnityEngine.UI.Text>().text = counter.ToString();
     }
 
     public int Counter

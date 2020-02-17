@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BrandonTesting/_preload.unity
+    path: Assets/Scenes/MasterScenes/_preload.unity
     guid: 74ba54e262075cf43a243b4c9e510124
   - enabled: 1
-    path: Assets/Scenes/BrandonTesting/MainMenu.unity
+    path: Assets/Scenes/MasterScenes/MainMenu.unity
     guid: 1d2efdb8fb02ba64696ce5c0979db8a0
   - enabled: 0
     path: Assets/Scenes/MateuszTesting/(REMAKE) rotation level 1.unity

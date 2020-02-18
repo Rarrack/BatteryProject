@@ -15,8 +15,10 @@ public class MainMenu : MonoBehaviour
     GameObject Settings; //settings object
     GameObject LevelPreview; // level preview object
 
+    // Volume sliders
     public Slider bgmSlider;
     public Slider sfxSlider;
+
 
     GameObject fadeScreen;
     int waitTime = 0;

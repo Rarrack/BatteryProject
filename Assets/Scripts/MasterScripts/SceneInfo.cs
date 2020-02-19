@@ -11,13 +11,8 @@ public class SceneInfo : MonoBehaviour
     public int levelNumber;
     public int sceneCount;
 
-    //NEW CODE======================
-
     public Sprite levelImg; //the image of the level itself.
-    //each level needs its image stored in this public varibale.
-    //name format is "stage_1_level_1" and store them in the level select folder.
-
-    //==============================
+                            //each level needs its image stored in this public varibale.
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +34,6 @@ public class SceneInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Level " + levelNumber + " " + PlayerPrefs.GetInt("Level " + levelNumber));
         if(PlayerPrefs.GetInt("Level " + levelNumber) == 1)
         {
             button.interactable = true;
@@ -58,10 +52,11 @@ public class SceneInfo : MonoBehaviour
 
     public void Choice()
     {
-        menu.currentStage = switcher.currentStage;
+        menu.PreviewImg = levelImg;
+        menu.CurrentStage = switcher.currentStage;
         menu.SceneToLoad = levelNumber + 1;
-        menu.currentCount = sceneCount;
-        menu.levelNumber = levelNumber;
+        menu.CurrentCount = sceneCount;
+        menu.LevelNumber = levelNumber;
         menu.PreviewSelect();
     }
 }

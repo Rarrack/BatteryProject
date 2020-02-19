@@ -19,9 +19,55 @@ public class MainMenu : MonoBehaviour
     public Slider bgmSlider;
     public Slider sfxSlider;
 
-    public int currentStage; // Current stage to be displayed in pop up
-    public int currentCount; // Current # of moves to be displayed in pop up
-    public int levelNumber; // Current level to be displayed in pop up
+    int currentStage; // Current stage to be displayed in pop up
+    public int CurrentStage
+    {
+        get
+        {
+            return currentStage;
+        }
+        set
+        {
+            currentStage = value;
+        }
+    }
+    int currentCount; // Current # of moves to be displayed in pop up
+    public int CurrentCount
+    {
+        get
+        {
+            return currentCount;
+        }
+        set
+        {
+            currentCount = value;
+        }
+    }
+    int levelNumber; // Current level to be displayed in pop up
+    public int LevelNumber
+    {
+        get
+        {
+            return levelNumber;
+        }
+        set
+        {
+            levelNumber = value;
+        }
+    }
+    Sprite previewImg; // Image to be used in level preview
+    public Sprite PreviewImg
+    {
+        get
+        {
+            return previewImg;
+        }
+        set
+        {
+            previewImg = value;
+        }
+    }
+
 
 
     GameObject fadeScreen; // screen to be faded
@@ -139,35 +185,19 @@ public class MainMenu : MonoBehaviour
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume");
     }
 
-<<<<<<< HEAD
     public void PreviewSelect() //brings up level preview for currently selected level
-=======
-    public void PreviewSelect() //brings up level pop up
->>>>>>> ec527141ca64afbda59325af94bbc1c1c1d695bf
     {
         LevelPreview.SetActive(true);
 
-        //NEW CODE=======================
-        //still gotta check if it works for other levels and change dimension of the preview base img itself
-
-        //gotta do the img change here before stageSelect gets deactivated
-        GameObject tempImg = LevelPreview.transform.Find("Level Image").gameObject; //gets the Level Image child obj of LevelPreview
-                                                                                    //will use this to change the LevelPreview img once starts
-
-        GameObject selectDerive = StageSelect.transform.Find("Stage " + (currentStage + 1)).gameObject; //gets the current Stage N child obj from StageSelect (gets N from currentStage + 1)
-        GameObject selectDerivePrime = selectDerive.transform.Find("Level " + levelNumber).gameObject; //gets the selected Level M child obj from Stage N (gets M from levelNumber)
-        Sprite Img = selectDerivePrime.GetComponent<SceneInfo>().levelImg; //gets levelImg property from the selected Level obj and stores it into an img obj
-
-        tempImg.GetComponent<SpriteRenderer>().sprite = Img; //sets stored level img to the preview img
-
-        //===============================
+        LevelPreview.GetComponent<LevelPopUp>().preview.GetComponent<SpriteRenderer>().sprite = previewImg;
+        LevelPreview.GetComponent<LevelPopUp>().CurrentStage = currentStage; // sets current stage in the LevelPopUp script
+        LevelPreview.GetComponent<LevelPopUp>().CurrentLevel = levelNumber; // sets current level in the LevelPopUp script
+        LevelPreview.GetComponent<LevelPopUp>().CurrentCount = currentCount; // sets # of moves in the LevelPopUp script
 
         Main.SetActive(false);
         StageSelect.SetActive(false);
 
-        LevelPreview.GetComponent<LevelPopUp>().CurrentStage = currentStage; // sets current stage in the LevelPopUp script
-        LevelPreview.GetComponent<LevelPopUp>().CurrentLevel = levelNumber; // sets current level in the LevelPopUp script
-        LevelPreview.GetComponent<LevelPopUp>().CurrentCount = currentCount; // sets # of moves in the LevelPopUp script
+        
     }
 
     public void LoadLevel() //activates fade screen to load in new scene

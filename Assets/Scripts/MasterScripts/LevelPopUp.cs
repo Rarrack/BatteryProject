@@ -49,6 +49,8 @@ public class LevelPopUp : MonoBehaviour
     public GameObject stageBackground; // Background that will be switched out depending on stage
     public Sprite[] backgrounds; // Array holding all backgrounds for stages
 
+    public GameObject preview;
+
     public GameObject counterText; // Object holding text that will display # of moves on level
     
     // Start is called before the first frame update

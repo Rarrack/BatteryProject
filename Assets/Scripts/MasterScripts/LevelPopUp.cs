@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LevelPopUp : MonoBehaviour
 {
+    // Current stage that will be displayed
     int currentStage;
     public int CurrentStage
     {
@@ -17,6 +18,7 @@ public class LevelPopUp : MonoBehaviour
         }
     }
 
+    // Currentl level that will be displayed
     int currentLevel;
     public int CurrentLevel
     {
@@ -30,6 +32,7 @@ public class LevelPopUp : MonoBehaviour
         }
     }
 
+    // Count of the current level being displayed
     int currentCount;
     public int CurrentCount
     {
@@ -43,23 +46,21 @@ public class LevelPopUp : MonoBehaviour
         }
     }
 
-    public GameObject stageBackground;
-    public Sprite[] backgrounds;
+    public GameObject stageBackground; // Background that will be switched out depending on stage
+    public Sprite[] backgrounds; // Array holding all backgrounds for stages
 
-    public GameObject counterText;
+    public GameObject counterText; // Object holding text that will display # of moves on level
     
-
     // Start is called before the first frame update
     void Start()
     {
-        stageBackground.GetComponent<SpriteRenderer>().sprite = backgrounds[currentStage];
-        counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: " + PlayerPrefs.GetInt("Count " + currentLevel) + "/" + currentCount;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        stageBackground.GetComponent<SpriteRenderer>().sprite = backgrounds[currentStage];
-        counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: " + PlayerPrefs.GetInt("Count " + currentLevel) + "/" + currentCount;
+        stageBackground.GetComponent<SpriteRenderer>().sprite = backgrounds[currentStage]; // Changes background depending on selected stage
+        counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: " + PlayerPrefs.GetInt("Count " + currentLevel) + "/" + currentCount; // Changes text to display # of moves used in level
     }
 }

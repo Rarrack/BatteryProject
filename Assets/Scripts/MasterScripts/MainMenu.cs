@@ -131,9 +131,25 @@ public class MainMenu : MonoBehaviour
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume");
     }
 
-    public void PreviewSelect()
+    public void PreviewSelect() //brings up level preview for currently selected level
     {
         LevelPreview.SetActive(true);
+
+        //NEW CODE=======================
+        //still gotta check if it works for other levels and change dimension of the preview base img itself
+
+        //gotta do the img change here before stageSelect gets deactivated
+        GameObject tempImg = LevelPreview.transform.Find("Level Image").gameObject; //gets the Level Image child obj of LevelPreview
+                                                                                    //will use this to change the LevelPreview img once starts
+
+        GameObject selectDerive = StageSelect.transform.Find("Stage " + (currentStage + 1)).gameObject; //gets the current Stage N child obj from StageSelect (gets N from currentStage + 1)
+        GameObject selectDerivePrime = selectDerive.transform.Find("Level " + levelNumber).gameObject; //gets the selected Level M child obj from Stage N (gets M from levelNumber)
+        Sprite Img = selectDerivePrime.GetComponent<SceneInfo>().levelImg; //gets levelImg property from the selected Level obj and stores it into an img obj
+
+        tempImg.GetComponent<SpriteRenderer>().sprite = Img; //sets stored level img to the preview img
+
+        //===============================
+
         Main.SetActive(false);
         StageSelect.SetActive(false);
         LevelPreview.GetComponent<LevelPopUp>().CurrentStage = currentStage;

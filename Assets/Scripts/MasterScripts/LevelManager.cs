@@ -22,6 +22,7 @@ public class LevelManager : MonoBehaviour
                 PlayerPrefs.SetInt("Count " + (i + 1), 0);
             }
             PlayerPrefs.SetInt("Level " + 1, 1);
+            PlayerPrefs.SetInt("Level " + 2, 1);
 
             PlayerPrefs.SetInt("Level Select", 0);
             PlayerPrefs.SetFloat("BGM Volume", 0.7f);

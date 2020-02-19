@@ -290,6 +290,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2062842248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 669370374, guid: 0dcd8850749e6f741a12331d9d675b14,
+    type: 3}
+  m_PrefabInstance: {fileID: 839509249058098900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &839509249058098900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -428,5 +434,53 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 839509248797561562, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1988306829, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImage
+      value: 
+      objectReference: {fileID: 2062842248}
+    - target: {fileID: 839509248428549462, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 46438001, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelID
+      value: stage_1_level_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 46438001, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 76a9c67d3329be945ae229da7393faf4,
+        type: 3}
+    - target: {fileID: 455791484, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733,
+        type: 3}
+    - target: {fileID: 400288082, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733,
+        type: 3}
+    - target: {fileID: 853408504, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c48f3a820265dd42a6cc9b2db793dbf,
+        type: 3}
+    - target: {fileID: 601652690, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c48f3a820265dd42a6cc9b2db793dbf,
+        type: 3}
+    - target: {fileID: 1364197088, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}

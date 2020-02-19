@@ -62,6 +62,4 @@ public class LevelPopUp : MonoBehaviour
         stageBackground.GetComponent<SpriteRenderer>().sprite = backgrounds[currentStage];
         counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: " + PlayerPrefs.GetInt("Count " + currentLevel) + "/" + currentCount;
     }
-    
-
 }

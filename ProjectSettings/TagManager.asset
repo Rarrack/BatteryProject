@@ -17,6 +17,7 @@ TagManager:
   - Battery 2
   - charger
   - Goals
+  - level
   layers:
   - Default
   - TransparentFX

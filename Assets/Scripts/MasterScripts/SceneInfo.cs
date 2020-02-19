@@ -11,6 +11,14 @@ public class SceneInfo : MonoBehaviour
     public int levelNumber;
     public int sceneCount;
 
+    //NEW CODE======================
+
+    public Sprite levelImg; //the image of the level itself.
+    //each level needs its image stored in this public varibale.
+    //name format is "stage_1_level_1" and store them in the level select folder.
+
+    //==============================
+
     // Start is called before the first frame update
     void Start()
     {

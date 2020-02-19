@@ -1362,3 +1362,6 @@ D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.csproj.CoreCom
 D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.dll
 D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.UI.xml

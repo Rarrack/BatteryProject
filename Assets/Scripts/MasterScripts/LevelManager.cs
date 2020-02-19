@@ -22,15 +22,12 @@ public class LevelManager : MonoBehaviour
             {
                 PlayerPrefs.SetInt("Level " + (i + 1), 0);
                 PlayerPrefs.SetInt("Count " + (i + 1), 0);
-            }
-<<<<<<< HEAD
-            PlayerPrefs.SetInt("Level " + 1, 1);
-            PlayerPrefs.SetInt("Level " + 2, 1);
-=======
+            }            
             PlayerPrefs.SetInt("Level " + 1, 1); // Sets first level to be active by default 
+            PlayerPrefs.SetInt("Level " + 2, 1);
+            PlayerPrefs.SetInt("Level " + 3, 1);
 
             PlayerPrefs.SetInt("Level Select", 0); // Check to see if level select is active
->>>>>>> 3c9e4fb8edd1a79e1c5960ecb862a95f54eb8f4b
 
             // Volume Checks
             PlayerPrefs.SetFloat("BGM Volume", 0.7f);

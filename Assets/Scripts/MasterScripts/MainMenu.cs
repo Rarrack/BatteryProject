@@ -20,13 +20,6 @@ public class MainMenu : MonoBehaviour
     public Slider sfxSlider;
 
 
-    GameObject fadeScreen;
-    int waitTime = 0;
-    bool fadeStart = false;
-    int sceneToLoad = 0;
-    public int currentStage;
-    public int currentCount;
-    public int levelNumber;
 
     public GameObject FadeScreen
     {
@@ -75,12 +68,10 @@ public class MainMenu : MonoBehaviour
         LevelPreview = GameObject.Find("Level Preview");
         fadeScreen = GameObject.Find("Fade Screen");
 
-        int x = PlayerPrefs.GetInt("Level Select");
 
         bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
-        fadeScreen.SetActive(false);
 
         if (x == 0)
         {
@@ -114,7 +105,6 @@ public class MainMenu : MonoBehaviour
         }
 	}
 
-    //these functions enable and disable the objects depending on what is selected
     public void StartGame() //brings up stage select
     {
         Main.SetActive(false);
@@ -154,12 +144,8 @@ public class MainMenu : MonoBehaviour
 
         Main.SetActive(false);
         StageSelect.SetActive(false);
-        LevelPreview.GetComponent<LevelPopUp>().CurrentStage = currentStage;
-        LevelPreview.GetComponent<LevelPopUp>().CurrentLevel = levelNumber;
-        LevelPreview.GetComponent<LevelPopUp>().CurrentCount = currentCount;
     }
 
-    public void LoadLevel()
     {
         FadeScreen.SetActive(true);
         FadeScreen.GetComponent<Animator>().Play("Anim_Fade");
@@ -174,7 +160,6 @@ public class MainMenu : MonoBehaviour
         LevelPreview.SetActive(false);
     }
 
-    public void PreviewBackOut()
     {
         Main.SetActive(false);
         StageSelect.SetActive(true);
@@ -182,7 +167,6 @@ public class MainMenu : MonoBehaviour
         LevelPreview.SetActive(false);
     }
 
-    public void DataPurge()
     {
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene(0);

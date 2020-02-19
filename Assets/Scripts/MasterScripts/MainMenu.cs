@@ -19,8 +19,15 @@ public class MainMenu : MonoBehaviour
     public Slider bgmSlider;
     public Slider sfxSlider;
 
+    public int currentStage; // Current stage to be displayed in pop up
+    public int currentCount; // Current # of moves to be displayed in pop up
+    public int levelNumber; // Current level to be displayed in pop up
 
 
+    GameObject fadeScreen; // screen to be faded
+    int waitTime = 0; // how long fade lasts
+    bool fadeStart = false; // determines when fade will start
+    int sceneToLoad = 0; // determines which scene will load
     public GameObject FadeScreen
     {
         get
@@ -54,6 +61,7 @@ public class MainMenu : MonoBehaviour
 
     void Awake()
     {
+        // Sets volume of music and sounds then plays main theme
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
         //GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Temp Title");
@@ -62,17 +70,22 @@ public class MainMenu : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        // Setting objects to their respective gameobjects within the inspector
         Main = GameObject.Find("Main Menu");
         StageSelect = GameObject.Find("Stage Select");
         Settings = GameObject.Find("Settings");
         LevelPreview = GameObject.Find("Level Preview");
         fadeScreen = GameObject.Find("Fade Screen");
 
+        int x = PlayerPrefs.GetInt("Level Select"); // Sets variable that determines whether scene starts on level select screen
 
+        // Sets volumes of bgm and sfx and has default value in case either doesn't have one
         bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
+        fadeScreen.SetActive(false); // Sets fade screen to false when scene loads
 
+        // Checks to see if stage select should be active when scene is loaded in
         if (x == 0)
         {
             StageSelect.SetActive(false);
@@ -93,6 +106,7 @@ public class MainMenu : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        // determins if fade should start and loads level when fade completes
 		if(fadeStart == true)
         {
             waitTime += 1;
@@ -119,11 +133,17 @@ public class MainMenu : MonoBehaviour
         StageSelect.SetActive(false);
         Settings.SetActive(true);
         LevelPreview.SetActive(false);
+
+        //sets sliders in settings to correct values when loaded in
         bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume");
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume");
     }
 
+<<<<<<< HEAD
     public void PreviewSelect() //brings up level preview for currently selected level
+=======
+    public void PreviewSelect() //brings up level pop up
+>>>>>>> ec527141ca64afbda59325af94bbc1c1c1d695bf
     {
         LevelPreview.SetActive(true);
 
@@ -144,8 +164,13 @@ public class MainMenu : MonoBehaviour
 
         Main.SetActive(false);
         StageSelect.SetActive(false);
+
+        LevelPreview.GetComponent<LevelPopUp>().CurrentStage = currentStage; // sets current stage in the LevelPopUp script
+        LevelPreview.GetComponent<LevelPopUp>().CurrentLevel = levelNumber; // sets current level in the LevelPopUp script
+        LevelPreview.GetComponent<LevelPopUp>().CurrentCount = currentCount; // sets # of moves in the LevelPopUp script
     }
 
+    public void LoadLevel() //activates fade screen to load in new scene
     {
         FadeScreen.SetActive(true);
         FadeScreen.GetComponent<Animator>().Play("Anim_Fade");
@@ -160,6 +185,7 @@ public class MainMenu : MonoBehaviour
         LevelPreview.SetActive(false);
     }
 
+    public void PreviewBackOut() //brings up level select
     {
         Main.SetActive(false);
         StageSelect.SetActive(true);
@@ -167,6 +193,7 @@ public class MainMenu : MonoBehaviour
         LevelPreview.SetActive(false);
     }
 
+    public void DataPurge() // deletes all save data
     {
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene(0);

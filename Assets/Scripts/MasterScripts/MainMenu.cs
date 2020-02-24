@@ -108,9 +108,9 @@ public class MainMenu : MonoBehaviour
     void Awake()
     {
         // Sets volume of music and sounds then plays main theme
-        //GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
         //GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
-        //GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Temp Title");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Main Theme");
     }
 
     // Use this for initialization
@@ -160,6 +160,7 @@ public class MainMenu : MonoBehaviour
             {
                 fadeStart = false;
                 waitTime = 0;
+                GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Main Theme");
                 SceneManager.LoadScene(sceneToLoad);
             }
         }
@@ -193,6 +194,7 @@ public class MainMenu : MonoBehaviour
         LevelPreview.GetComponent<LevelPopUp>().CurrentStage = currentStage; // sets current stage in the LevelPopUp script
         LevelPreview.GetComponent<LevelPopUp>().CurrentLevel = levelNumber; // sets current level in the LevelPopUp script
         LevelPreview.GetComponent<LevelPopUp>().CurrentCount = currentCount; // sets # of moves in the LevelPopUp script
+        LevelPreview.GetComponent<LevelPopUp>().CounterSet();
 
         Main.SetActive(false);
         StageSelect.SetActive(false);

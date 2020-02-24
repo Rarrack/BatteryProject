@@ -150,11 +150,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicFiles:
-  - audioName: Temp Title
-    audioClip: {fileID: 8300000, guid: ee9936b031279d547b93bfe740c45085, type: 3}
+  - audioName: Main Theme
+    audioClip: {fileID: 8300000, guid: eb4697b40af85434089f23b1bafc3130, type: 3}
     volume: 1
     source: {fileID: 0}
-    isLooping: 0
+    isLooping: 1
     playOnAwake: 0
 --- !u!4 &764044228
 Transform:
@@ -312,8 +312,8 @@ Camera:
   m_GameObject: {fileID: 2123137236}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

@@ -52,15 +52,21 @@ public class LevelPopUp : MonoBehaviour
     public GameObject preview;
 
     public GameObject counterText; // Object holding text that will display # of moves on level
+
+    int moves;
     
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    public void CounterSet()
     {
         stageBackground.GetComponent<SpriteRenderer>().sprite = backgrounds[currentStage]; // Changes background depending on selected stage
         counterText.GetComponent<UnityEngine.UI.Text>().text = "Least Moves: " + PlayerPrefs.GetInt("Count " + currentLevel) + "/" + currentCount; // Changes text to display # of moves used in level

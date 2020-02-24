@@ -63,7 +63,7 @@ RectTransform:
   m_GameObject: {fileID: 375573332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.201339, y: 4.345032, z: 1}
+  m_LocalScale: {x: 0.6304949, y: 0.59757227, z: 1}
   m_Children: []
   m_Father: {fileID: 224710132835796112}
   m_RootOrder: 3
@@ -103,16 +103,16 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5c14a8b1802e02642ad82e844c5ef75e, type: 3}
-    m_FontSize: 14
+    m_FontSize: 150
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 150
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: BGM Volume
 --- !u!1 &486379378
@@ -216,7 +216,7 @@ RectTransform:
   m_GameObject: {fileID: 574699047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.201339, y: 4.345032, z: 1}
+  m_LocalScale: {x: 0.7354864, y: 0.6274508, z: 1}
   m_Children: []
   m_Father: {fileID: 224710132835796112}
   m_RootOrder: 7
@@ -256,16 +256,16 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5c14a8b1802e02642ad82e844c5ef75e, type: 3}
-    m_FontSize: 14
+    m_FontSize: 150
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 150
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: SFX Volume
 --- !u!1 &625513045

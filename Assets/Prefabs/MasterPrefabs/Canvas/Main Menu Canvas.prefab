@@ -1204,7 +1204,7 @@ Transform:
   m_GameObject: {fileID: 669370374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 18.028233, z: 0}
-  m_LocalScale: {x: 1.7043682, y: 0.5689841, z: 1}
+  m_LocalScale: {x: 1.1576389, y: 0.5689841, z: 1}
   m_Children: []
   m_Father: {fileID: 1988306827}
   m_RootOrder: 3
@@ -3173,6 +3173,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1254147759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254147760}
+  - component: {fileID: 1254147762}
+  - component: {fileID: 1254147761}
+  m_Layer: 5
+  m_Name: Counter Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1254147760
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254147759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.12011719, y: 0.17751732, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1703930697}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1254147762
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254147759}
+  m_CullTransparentMesh: 0
+--- !u!114 &1254147761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254147759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 26a3440e72f7ef94d84e93bdbc5681c9, type: 3}
+    m_FontSize: 150
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 150
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 'Least Moves: 0/10'
 --- !u!1 &1298971416
 GameObject:
   m_ObjectHideFlags: 0
@@ -3732,7 +3811,7 @@ RectTransform:
   m_GameObject: {fileID: 1483358233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.05, z: 1}
+  m_LocalScale: {x: 0.2078125, y: 0.14257032, z: 1}
   m_Children: []
   m_Father: {fileID: 342512228}
   m_RootOrder: 0
@@ -3763,7 +3842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3772,16 +3851,16 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5c14a8b1802e02642ad82e844c5ef75e, type: 3}
-    m_FontSize: 14
+    m_FontSize: 150
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 150
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Maybe Not...
 --- !u!1 &1497638377
@@ -4211,7 +4290,7 @@ RectTransform:
   m_GameObject: {fileID: 1603575578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.14125, y: 1.1125, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.1625, z: 1}
   m_Children: []
   m_Father: {fileID: 1395329104}
   m_RootOrder: 0
@@ -4242,7 +4321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4251,16 +4330,16 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5c14a8b1802e02642ad82e844c5ef75e, type: 3}
-    m_FontSize: 14
+    m_FontSize: 150
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 100
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 150
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Fixin Time!
 --- !u!1 &1615066475
@@ -4788,6 +4867,7 @@ RectTransform:
   m_LocalScale: {x: 0.475, y: 0.22265625, z: 1}
   m_Children:
   - {fileID: 1577559976}
+  - {fileID: 1254147760}
   m_Father: {fileID: 1988306827}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4811,7 +4891,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703930696}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -4826,16 +4906,16 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 26a3440e72f7ef94d84e93bdbc5681c9, type: 3}
-    m_FontSize: 14
+    m_FontSize: 150
     m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 150
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Least Moves: 0/10'
 --- !u!1 &1721568739
@@ -5819,7 +5899,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f8cbbeb2c13932946a048ced45026611, type: 3}
   - {fileID: 21300000, guid: 612c55519c394d847a7d1cf978eee7d6, type: 3}
   - {fileID: 21300000, guid: 49e231e334c29984f890e292fa8b81a3, type: 3}
-  counterText: {fileID: 1703930696}
+  preview: {fileID: 669370374}
+  counterText: {fileID: 1254147759}
 --- !u!1 &2036855129
 GameObject:
   m_ObjectHideFlags: 0
@@ -6566,6 +6647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 2
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &658909588491520436
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,6 +6874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 5
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &736210038931725935
 GameObject:
   m_ObjectHideFlags: 0
@@ -6939,6 +7022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 3
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &839509247960138933
 GameObject:
   m_ObjectHideFlags: 0
@@ -7347,6 +7431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 1
   sceneCount: 10
+  levelImg: {fileID: 21300000, guid: 76a9c67d3329be945ae229da7393faf4, type: 3}
 --- !u!1 &839509248453716504
 GameObject:
   m_ObjectHideFlags: 0
@@ -7493,6 +7578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 4
   sceneCount: 10
+  levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
 --- !u!1 &839509248709065573
 GameObject:
   m_ObjectHideFlags: 0
@@ -7561,7 +7647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7639,7 +7725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7801,6 +7887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 6
   sceneCount: 10
+  levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
 --- !u!1 &839509248807513101
 GameObject:
   m_ObjectHideFlags: 0
@@ -7869,7 +7956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8051,6 +8138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 3
   sceneCount: 10
+  levelImg: {fileID: 21300000, guid: 7c48f3a820265dd42a6cc9b2db793dbf, type: 3}
 --- !u!1 &839509249062821300
 GameObject:
   m_ObjectHideFlags: 0
@@ -8299,9 +8387,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 948594955}
   sfxSlider: {fileID: 480965094}
-  currentStage: 0
-  currentCount: 0
-  levelNumber: 0
 --- !u!1 &839509249532055927
 GameObject:
   m_ObjectHideFlags: 0
@@ -8448,6 +8533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 5
   sceneCount: 10
+  levelImg: {fileID: 21300000, guid: 7c48f3a820265dd42a6cc9b2db793dbf, type: 3}
 --- !u!1 &839509249780701659
 GameObject:
   m_ObjectHideFlags: 0
@@ -8725,6 +8811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 2
   sceneCount: 9
+  levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
 --- !u!1 &1004306062929342972
 GameObject:
   m_ObjectHideFlags: 0
@@ -9782,6 +9869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 2
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &2474394230261607709
 GameObject:
   m_ObjectHideFlags: 0
@@ -10008,6 +10096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 5
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &2481672496014697183
 GameObject:
   m_ObjectHideFlags: 0
@@ -10286,6 +10375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 0
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &2813590237235409642
 GameObject:
   m_ObjectHideFlags: 0
@@ -10433,6 +10523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 0
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &3629756943292087578
 GameObject:
   m_ObjectHideFlags: 0
@@ -10538,7 +10629,7 @@ Transform:
   m_GameObject: {fileID: 3812243673933408738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 28.323769, y: 28.323769, z: 28.323769}
+  m_LocalScale: {x: 28.5, y: 28.5, z: 28.323769}
   m_Children: []
   m_Father: {fileID: 839509248797561563}
   m_RootOrder: 0
@@ -10738,6 +10829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 2
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &4281875476720995985
 GameObject:
   m_ObjectHideFlags: 0
@@ -10874,6 +10966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 6
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &4341199233070794805
 GameObject:
   m_ObjectHideFlags: 0
@@ -11059,6 +11152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 6
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &4562087666045778670
 GameObject:
   m_ObjectHideFlags: 0
@@ -11285,6 +11379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 4
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &4740757555475525135
 GameObject:
   m_ObjectHideFlags: 0
@@ -11432,6 +11527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 5
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &4953135059883959632
 GameObject:
   m_ObjectHideFlags: 0
@@ -12233,6 +12329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 5
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &6080487032102271753
 GameObject:
   m_ObjectHideFlags: 0
@@ -12448,6 +12545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 6
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &6648328962700585461
 GameObject:
   m_ObjectHideFlags: 0
@@ -12595,6 +12693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 4
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &6651596152025558889
 GameObject:
   m_ObjectHideFlags: 0
@@ -12900,6 +12999,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 3
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &6932280249080116503
 GameObject:
   m_ObjectHideFlags: 0
@@ -13126,6 +13226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 3
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &7143300561593790113
 GameObject:
   m_ObjectHideFlags: 0
@@ -13273,6 +13374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 4
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &7195675599914913559
 GameObject:
   m_ObjectHideFlags: 0
@@ -13630,6 +13732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 3
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &7519279795608766949
 GameObject:
   m_ObjectHideFlags: 0
@@ -14221,6 +14324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 4
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &8333931773587750449
 GameObject:
   m_ObjectHideFlags: 0
@@ -14368,6 +14472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 0
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &8775949427024670545
 GameObject:
   m_ObjectHideFlags: 0
@@ -14515,6 +14620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 2
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &9054200886874718362
 GameObject:
   m_ObjectHideFlags: 0
@@ -14651,6 +14757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 6
   sceneCount: 0
+  levelImg: {fileID: 0}
 --- !u!1 &9099751116473976042
 GameObject:
   m_ObjectHideFlags: 0
@@ -14798,3 +14905,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 0
   sceneCount: 0
+  levelImg: {fileID: 0}

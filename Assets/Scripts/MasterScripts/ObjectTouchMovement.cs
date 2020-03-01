@@ -224,7 +224,7 @@ public class ObjectTouchMovement : MonoBehaviour
 
         if (this.selected == true)
         {
-            GetComponent<SpriteRenderer>().color = Color.yellow;
+            GetComponent<SpriteRenderer>().color = new Color(0.2f,0.2f,0.2f,1); //Color.yellow;
         }
         else
         {

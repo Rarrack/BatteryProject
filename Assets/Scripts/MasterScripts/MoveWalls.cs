@@ -9,11 +9,9 @@ public class MoveWalls : MonoBehaviour
     //shifts walls to new positions when activated
 
     #region Wall Movement Variables/Containers
-
     bool activate = false;
     public GameObject battery;
     public List<GameObject> walls;
-
     #endregion
 
     void Start ()

@@ -150,6 +150,7 @@ public class ObjectTouchMovement : MonoBehaviour
                         if ((hits[i].transform.tag == "Battery" || hits[i].transform.tag == "dummy") && hits[i].transform == transform)
                         {
                             this.selected = true;
+                            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Battery Select");
                         }
                         else
                         {
@@ -174,6 +175,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionUp = new Vector3(0, 1, 0);
                             if (!inputDirectionUp.Equals(Vector3.zero))
                             {
+                                GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionUp;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
@@ -184,6 +186,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionDown = new Vector3(0, -1, 0);
                             if (!inputDirectionDown.Equals(Vector3.zero))
                             {
+                                GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionDown;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
@@ -194,6 +197,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionLeft = new Vector3(-1, 0, 0);
                             if (!inputDirectionLeft.Equals(Vector3.zero))
                             {
+                                GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionLeft;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
@@ -204,6 +208,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionRight = new Vector3(1, 0, 0);
                             if (!inputDirectionRight.Equals(Vector3.zero))
                             {
+                                GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionRight;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
@@ -249,5 +254,6 @@ public class ObjectTouchMovement : MonoBehaviour
         ResetMovement();
         check.moving = false;
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Sound");
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().StopSound("Rolling");
     }
 }

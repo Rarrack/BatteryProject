@@ -151,10 +151,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicFiles:
   - audioName: Main Theme
-    audioClip: {fileID: 8300000, guid: eb4697b40af85434089f23b1bafc3130, type: 3}
+    audioClip: {fileID: 8300000, guid: d6562fc9874166f4aad1761f68dfb83c, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 1
+    playOnAwake: 0
+  - audioName: Level Theme
+    audioClip: {fileID: 8300000, guid: 38b6f1da1d02a8a4bbe321f90b9cb114, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Victory Theme
+    audioClip: {fileID: 8300000, guid: 57c433c6de20df447a466b331c30639c, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
     playOnAwake: 0
 --- !u!4 &764044228
 Transform:
@@ -256,8 +268,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundFiles:
-  - audioName: Select
-    audioClip: {fileID: 8300000, guid: d341ecc2c4fee31448dfd9252e2be34c, type: 3}
+  - audioName: Accept
+    audioClip: {fileID: 8300000, guid: b535baea82cd93243b386fa0601a2ad8, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Back
+    audioClip: {fileID: 8300000, guid: 452a2c310e15d09448c8516f42575363, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Battery Select
+    audioClip: {fileID: 8300000, guid: e2dd80a42a6379f4dbfa782ff180462a, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Rolling
+    audioClip: {fileID: 8300000, guid: eddd4a4f4090cf6489a9f2139c7ae651, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Charge
+    audioClip: {fileID: 8300000, guid: 3571d830bf4579c449cd1d6b212deb92, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Ground
+    audioClip: {fileID: 8300000, guid: c1de2aa1e5cb8764b9d55fdc570cc84e, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Rotate
+    audioClip: {fileID: 8300000, guid: 8462b3ae4b042ad43895a22f41ca2b7e, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Toggle Button
+    audioClip: {fileID: 8300000, guid: 99fbbe4d14e80e94a91c38c7a7df35de, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Couple
+    audioClip: {fileID: 8300000, guid: 58b47f0e15ff88043bcc0bc9024edf66, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Uncouple
+    audioClip: {fileID: 8300000, guid: 32f1dc820b6332d4183b72edf47552d1, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 0
+    playOnAwake: 0
+  - audioName: Victory
+    audioClip: {fileID: 8300000, guid: 4f4cc61e34777bb42b31f6b965c5abd9, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 0

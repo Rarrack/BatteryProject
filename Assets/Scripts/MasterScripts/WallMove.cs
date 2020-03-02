@@ -21,6 +21,7 @@ public class WallMove : MonoBehaviour
 
     public float z; //the designated z spot to end up at
 
+    public bool coupled; //check to see if wall starts coupled
     #endregion
 
     float secs = 0.25f; //set variable for time formula
@@ -50,6 +51,16 @@ public class WallMove : MonoBehaviour
     // Function for activating wall movement
     public void Move()
     {
+        coupled = !coupled;
+        if(coupled == true)
+        {
+            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Uncouple");
+        }
+        else
+        {
+            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Couple");
+        }
+
         active = true; // Allows active to be set from outside of script
     }
 }

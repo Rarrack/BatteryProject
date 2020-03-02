@@ -35,10 +35,12 @@ public class ChargeAndGround : MonoBehaviour
             switch (charger)
             {
                 case false:
+                    GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Ground");
                     collision.gameObject.GetComponent<ObjectTouchMovement>().charged = false;
                     collision.gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
                     break;
                 case true:
+                    GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Charge");
                     collision.gameObject.GetComponent<ObjectTouchMovement>().charged = true;
                     collision.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
                     break;

@@ -67,11 +67,13 @@ public class ToggleWall : MonoBehaviour
         if(battery == true && collision.gameObject.tag == "Battery")
         {
             Toggle();
+            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Toggle Button");
         }
 
         if(dummy == true && collision.gameObject.tag == "dummy")
         {
             Toggle();
+            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Toggle Button");
         }
     }
 

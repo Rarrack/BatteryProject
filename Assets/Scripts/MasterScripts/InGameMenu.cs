@@ -18,27 +18,25 @@ public class InGameMenu : MonoBehaviour
     int winCounter = 0;
     int masterCount;
     int allFilled = 0;
+    bool win = false;
 
     void Awake()
     {
-        //GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
-        //GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
     }
 
     // Use this for initialization
     void Start ()
     {
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Level Theme");
         Menu = GameObject.Find("Menu Canvas");
         GamePlay = GameObject.Find("Game Canvas");
         Win = GameObject.Find("Win Canvas");
 
-        //bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
-        //sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
+        bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
+        sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
-        //foreach (Transform goal in GameObject.FindGameObjectWithTag("Goals").transform)
-        //{
-        //    goals.Add(goal.gameObject);
-        //}
         GameObject[] goal;
         goal = GameObject.FindGameObjectsWithTag("Goals");
 
@@ -61,8 +59,11 @@ public class InGameMenu : MonoBehaviour
             {
                 allFilled += 1;
             }
-            if(allFilled == goals.Count)
+            if(allFilled == goals.Count && win == false)
             {
+                win = !win;
+                GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Level Theme");
+                GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Victory Theme");
                 WinScreen();
             }
         }
@@ -78,12 +79,14 @@ public class InGameMenu : MonoBehaviour
 
     public void Reset()
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
 
     public void MenuActivate()
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         Menu.SetActive(true);
         GamePlay.SetActive(false);
         Win.SetActive(false);
@@ -93,6 +96,7 @@ public class InGameMenu : MonoBehaviour
 
     public void Back()
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Back");
         Menu.SetActive(false);
         GamePlay.SetActive(true);
         Win.SetActive(false);
@@ -100,6 +104,8 @@ public class InGameMenu : MonoBehaviour
 
     public void MainMenu()
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
         PlayerPrefs.SetInt("Level Select", 0);
         PlayerPrefs.Save();
         SceneManager.LoadScene(1);
@@ -107,9 +113,19 @@ public class InGameMenu : MonoBehaviour
 
     public void LevelSelect()
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
         PlayerPrefs.SetInt("Level Select", 1);
         PlayerPrefs.Save();
         SceneManager.LoadScene(1);
+    }
+
+    public void NextLevel()
+    {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
+        int next = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(next);
     }
 
     public void WinScreen()
@@ -125,9 +141,5 @@ public class InGameMenu : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    public void NextLevel()
-    {
-        int next = SceneManager.GetActiveScene().buildIndex + 1;
-        SceneManager.LoadScene(next);
-    }
+    
 }

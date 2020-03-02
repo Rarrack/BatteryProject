@@ -69,7 +69,6 @@ public class MainMenu : MonoBehaviour
     }
 
 
-
     GameObject fadeScreen; // screen to be faded
     int waitTime = 0; // how long fade lasts
     bool fadeStart = false; // determines when fade will start
@@ -109,7 +108,7 @@ public class MainMenu : MonoBehaviour
     {
         // Sets volume of music and sounds then plays main theme
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().musicFiles[0].source.volume = PlayerPrefs.GetFloat("BGM Volume");
-        //GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().soundFiles[0].source.volume = PlayerPrefs.GetFloat("SFX Volume");
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Main Theme");
     }
 
@@ -168,6 +167,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame() //brings up stage select
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         Main.SetActive(false);
         StageSelect.SetActive(true);
         Settings.SetActive(false);
@@ -176,6 +176,7 @@ public class MainMenu : MonoBehaviour
 
     public void SettingsSelect() //brings up settings
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         Main.SetActive(false);
         StageSelect.SetActive(false);
         Settings.SetActive(true);
@@ -188,6 +189,7 @@ public class MainMenu : MonoBehaviour
 
     public void PreviewSelect() //brings up level preview for currently selected level
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         LevelPreview.SetActive(true);
 
         LevelPreview.GetComponent<LevelPopUp>().preview.GetComponent<SpriteRenderer>().sprite = previewImg;
@@ -197,13 +199,12 @@ public class MainMenu : MonoBehaviour
         LevelPreview.GetComponent<LevelPopUp>().CounterSet();
 
         Main.SetActive(false);
-        StageSelect.SetActive(false);
-
-        
+        StageSelect.SetActive(false);  
     }
 
     public void LoadLevel() //activates fade screen to load in new scene
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         FadeScreen.SetActive(true);
         FadeScreen.GetComponent<Animator>().Play("Anim_Fade");
         FadeStart = true;
@@ -211,6 +212,7 @@ public class MainMenu : MonoBehaviour
 
     public void BackOut() //brings up main menu
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Back");
         Main.SetActive(true);
         StageSelect.SetActive(false);
         Settings.SetActive(false);
@@ -219,6 +221,7 @@ public class MainMenu : MonoBehaviour
 
     public void PreviewBackOut() //brings up level select
     {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Back");
         Main.SetActive(false);
         StageSelect.SetActive(true);
         Settings.SetActive(false);

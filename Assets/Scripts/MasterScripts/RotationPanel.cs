@@ -28,6 +28,8 @@ public class RotationPanel : MonoBehaviour
 
         if (collision.gameObject.tag == "Battery")
         {
+            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rotate");
+
             collision.gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
 
             collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;

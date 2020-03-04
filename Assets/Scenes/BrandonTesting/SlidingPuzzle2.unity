@@ -628,6 +628,7 @@ MonoBehaviour:
   x: -2.389
   y: -5.027
   z: 0.03125
+  coupled: 0
 --- !u!114 &297707692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,6 +785,7 @@ MonoBehaviour:
   x: -5.0063
   y: -0.4824
   z: 0.03125
+  coupled: 0
 --- !u!61 &430278995
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -989,7 +991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e615e389371566e4f83231e0bf4fa75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battery: {fileID: 4733201326791433788}
+  battery:
+  - {fileID: 0}
   victorySprite: {fileID: 0}
 --- !u!1001 &617073533
 PrefabInstance:
@@ -1004,7 +1007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1411155639227868, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224710132835796112, guid: 6c7e11d479ef4d8469af23d3532011cc,
         type: 3}
@@ -1118,19 +1121,27 @@ PrefabInstance:
       objectReference: {fileID: 792359296}
     - target: {fileID: 2036441244, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 486379379, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
+    - target: {fileID: 2036441244, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1546318307, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546318307, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2023340843, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 486379379, guid: 6c7e11d479ef4d8469af23d3532011cc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114161330499326342, guid: 6c7e11d479ef4d8469af23d3532011cc,
         type: 3}
@@ -1768,6 +1779,7 @@ MonoBehaviour:
   x: 2
   y: -1.58
   z: 0.03125
+  coupled: 0
 --- !u!114 &1193192567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1793,7 +1805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1928004949104294, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224223596426196298, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
@@ -2266,6 +2278,7 @@ MonoBehaviour:
   x: 6.597
   y: -0.4816
   z: 0.03125
+  coupled: 0
 --- !u!61 &1907784593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2491,7 +2504,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e615e389371566e4f83231e0bf4fa75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  battery: {fileID: 3053560883949898399}
+  battery:
+  - {fileID: 0}
   victorySprite: {fileID: 0}
 --- !u!114 &1934869709
 MonoBehaviour:
@@ -2771,9 +2785,3 @@ PrefabInstance:
       objectReference: {fileID: 2055853886}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71b1822a892af98458ba9df2d73d1224, type: 3}
---- !u!1 &4733201326791433788 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5701701834100246108, guid: 71b1822a892af98458ba9df2d73d1224,
-    type: 3}
-  m_PrefabInstance: {fileID: 4733201326791433787}
-  m_PrefabAsset: {fileID: 0}

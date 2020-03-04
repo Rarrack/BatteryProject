@@ -262,6 +262,26 @@ PrefabInstance:
       propertyPath: battery.Array.data[0]
       value: 
       objectReference: {fileID: 654543599}
+    - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: walls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: battery
+      value: 
+      objectReference: {fileID: 654543599}
+    - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: walls.Array.data[0]
+      value: 
+      objectReference: {fileID: 1631349529}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
 --- !u!1001 &196955413
@@ -3032,6 +3052,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 336e801e6060f43409e67a781c945ce3, type: 3}
+--- !u!1 &1631349529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1604750737037369755, guid: 336e801e6060f43409e67a781c945ce3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1631349528}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1639069870
 PrefabInstance:
   m_ObjectHideFlags: 0

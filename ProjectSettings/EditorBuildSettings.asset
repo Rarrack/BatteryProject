@@ -11,10 +11,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MasterScenes/MainMenu.unity
     guid: 1d2efdb8fb02ba64696ce5c0979db8a0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BrandonTesting/DisableTest.unity
     guid: 88efb0b611331384cbdba7c78cd6e778
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BrandonTesting/ChargeGroundTest.unity
     guid: 5dcc07825ceb7764aa5d77eaa874c10f
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/Logan Level 1-1.unity
+    guid: 502d035e6c3c02a4aadf89fa1dc0d5aa
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel1-2.unity
+    guid: 7d03416ae0ad7444fa07965f62b95f44
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel1-3.unity
+    guid: b49325966b0e7a7459682d14e23e865f
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel1-4.unity
+    guid: df2aea625fbaff44a9f01b01cb3be16d
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel1-5.unity
+    guid: f349210f1132b4d4587031f23651b4b9
+  - enabled: 1
+    path: Assets/Scenes/LoganTesting/LoganLevel1-6.unity
+    guid: 7df951c6203e2844f8b5347d255f7054
   m_configObjects: {}

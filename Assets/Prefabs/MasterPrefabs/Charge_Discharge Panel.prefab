@@ -120,3 +120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charger: 0
+  types:
+  - {fileID: 21300000, guid: bc08e3247a23c7d4e8955579134cc75a, type: 3}
+  - {fileID: 21300000, guid: 99ddba71bf48a2e4ebb1afdf6126dbc1, type: 3}

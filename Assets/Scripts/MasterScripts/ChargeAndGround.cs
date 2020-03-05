@@ -12,10 +12,20 @@ public class ChargeAndGround : MonoBehaviour
     public bool charger; //if set to true, panel is a charger. if false, panel is a drainer
     Collider2D c; //collider for this object
 
+    public List<Sprite> types;
+
     // Use this for initialization
     void Start()
     {
         c = GetComponent<Collider2D>();
+        if(charger == true)
+        {
+            GetComponent<SpriteRenderer>().sprite = types[0];
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().sprite = types[1];
+        }
     }
 
     // Update is called once per frame

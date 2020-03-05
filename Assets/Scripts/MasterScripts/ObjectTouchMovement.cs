@@ -237,7 +237,7 @@ public class ObjectTouchMovement : MonoBehaviour
             {
                 GetComponent<SpriteRenderer>().color = Color.white;
             }
-            if (gameObject.name == "D-Cell Battery")
+            if (gameObject.name == "9-Volt Battery")
             {
                 GetComponent<SpriteRenderer>().color = Color.white;
             }

@@ -11,24 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MasterScenes/MainMenu.unity
     guid: 1d2efdb8fb02ba64696ce5c0979db8a0
-  - enabled: 0
-    path: Assets/Scenes/BrandonTesting/DisableTest.unity
-    guid: 88efb0b611331384cbdba7c78cd6e778
-  - enabled: 0
-    path: Assets/Scenes/BrandonTesting/ChargeGroundTest.unity
-    guid: 5dcc07825ceb7764aa5d77eaa874c10f
   - enabled: 1
     path: Assets/Scenes/LoganTesting/LoganLevel1-1.unity
     guid: 502d035e6c3c02a4aadf89fa1dc0d5aa
   - enabled: 1
     path: Assets/Scenes/LoganTesting/LoganLevel1-2.unity
     guid: 7d03416ae0ad7444fa07965f62b95f44
-  - enabled: 1
-    path: Assets/Scenes/LoganTesting/LoganLevel1-3.unity
-    guid: b49325966b0e7a7459682d14e23e865f
-  - enabled: 1
-    path: Assets/Scenes/LoganTesting/LoganLevel1-4.unity
-    guid: df2aea625fbaff44a9f01b01cb3be16d
   - enabled: 1
     path: Assets/Scenes/LoganTesting/LoganLevel1-5.unity
     guid: f349210f1132b4d4587031f23651b4b9
@@ -39,63 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MateuszTesting/charge level 1.unity
     guid: e40ec4760ced1864f9f8be86fa6e3c0d
   - enabled: 1
-    path: Assets/Scenes/MateuszTesting/charge level 2.unity
-    guid: a113eae61730c9c40b7315b2dd90720b
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/charge level 3.unity
-    guid: 89c6ca2835155954ab587093867e9368
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/disable wall level 1.unity
-    guid: 4321d7a61552a6943907880a98da74d1
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/multi 1-chargeGate.unity
-    guid: db07dbfb3a007224d9ed643ee5b26a2d
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/multi 2-chargeToggle.unity
-    guid: fe0b06e9a1732f241890a010b1c0c497
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/multi 3-gateRotate.unity
-    guid: df0342a318d741f45a400d2d503674f9
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/multi 4-rotateCharge.unity
-    guid: 1da21921614ab1b4084afd3a0e43d565
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/multi 5-rotateToggle.unity
-    guid: aab101e2654bdf645bb4345a5ee92239
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/multi 6-toggleGate.unity
-    guid: c1d679eeadd86254cab51e81f477b6a8
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/multi 7-allMechanics.unity
-    guid: 731781da2c316b948a33f7dee61045e4
+    path: Assets/Scenes/BrandonTesting/ChargeGroundTest.unity
+    guid: 5dcc07825ceb7764aa5d77eaa874c10f
   - enabled: 1
     path: Assets/Scenes/MateuszTesting/rotation level 1.unity
     guid: cd5dd5986c943854482decfa7ad0bfe4
   - enabled: 1
-    path: Assets/Scenes/MateuszTesting/rotation level 2.unity
-    guid: 7625de6cc5dd1f143aeac278870472fe
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/rotation level 3.unity
-    guid: 6b0cf00b08e6e42468ebfdea552a46de
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/rotation level 4.unity
-    guid: 644faea6c30890e4ebb5d5a64980e14f
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/toggle wall level 1.unity
-    guid: 10becd4fcbc473645b20cda7efe5025d
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/toggle wall level 2.unity
-    guid: dcacea258f6ddd74ba951d92a7092200
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/toggle wall level 3.unity
-    guid: 461a8ed3aaf3cc944ba974adab17728d
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/toggle wall level 4.unity
-    guid: e09cbf54a9cc40f4085ea311a0c55652
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/toggle wall level 5.unity
-    guid: 7ce2a91c6eef2514486a4997e10755c8
-  - enabled: 1
-    path: Assets/Scenes/MateuszTesting/toggle wall level 6.unity
-    guid: 3d65736ca91fe104aa8c822c936ef25b
+    path: Assets/Scenes/MateuszTesting/multi 1-chargeGate.unity
+    guid: db07dbfb3a007224d9ed643ee5b26a2d
   m_configObjects: {}

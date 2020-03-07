@@ -509,9 +509,6 @@ D:\F-Drive\Unity Projects\Sliding Puzzle Test Level\obj\Debug\Assembly-CSharp.dl
 D:\F-Drive\Unity Projects\Sliding Puzzle Test Level\obj\Debug\Assembly-CSharp.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Assembly-CSharp.pdb
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.dll
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.dll
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.dll
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\mscorlib.dll
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\netstandard.dll
@@ -714,19 +711,16 @@ C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Deb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEngine.xml
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.xml
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Unity.Timeline.Editor.pdb
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Unity.Timeline.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.SpatialTracking.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEngine.SpatialTracking.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Unity.TextMeshPro.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.pdb
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.pdb
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEngine.AIModule.xml
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEngine.ARModule.xml
 C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml
@@ -1362,9 +1356,6 @@ D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.csproj.CoreCom
 D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.dll
 D:\F-Drive\Unity Projects\ClearCircuits\obj\Debug\Assembly-CSharp.pdb
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Boo.Lang.dll
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.UI.dll
-C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.UI.xml
 C:\Users\logan\Documents\GitHub\BatteryProject\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\logan\Documents\GitHub\BatteryProject\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\logan\Documents\GitHub\BatteryProject\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.dll
@@ -1653,3 +1644,7 @@ C:\Users\logan\Documents\GitHub\BatteryProject\obj\Debug\Assembly-CSharp.pdb
 C:\Users\logan\Documents\GitHub\BatteryProject\Temp\bin\Debug\Boo.Lang.dll
 C:\Users\logan\Documents\GitHub\BatteryProject\Temp\bin\Debug\UnityEditor.UI.dll
 C:\Users\logan\Documents\GitHub\BatteryProject\Temp\bin\Debug\UnityEditor.UI.xml
+C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEngine.WebGLModule.dll
+C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\Boo.Lang.dll
+C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.UI.dll
+C:\Users\Owner\Desktop\clear circuits git repo clone\BatteryProject\Temp\bin\Debug\UnityEditor.UI.xml

@@ -986,7 +986,7 @@ PrefabInstance:
     - target: {fileID: 6838362039580461976, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 6838362039580461976, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
         type: 3}
@@ -1337,7 +1337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.8
+      value: -6.89
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1377,7 +1377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.9949715
+      value: 0.9452229
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalScale.y
@@ -1485,6 +1485,7 @@ GameObject:
   - component: {fileID: 1902184407}
   - component: {fileID: 1902184406}
   - component: {fileID: 1902184409}
+  - component: {fileID: 1902184410}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1571,6 +1572,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 1338156627}
   sfxSlider: {fileID: 1338156626}
+  victoryTypes:
+  - {fileID: 21300000, guid: e465751ed19a036488bf05965d75479e, type: 3}
+  - {fileID: 21300000, guid: 5202dc1b516fc9642b74ca44f948faa5, type: 3}
+--- !u!114 &1902184410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902184405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e188ee899633d0b49870a5ae38b7359d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: {x: 9, y: 16}
+  forceRatioOnAwake: 1
+  listenForWindowChanges: 1
+  createCameraForLetterBoxRendering: 1
+  findCamerasAutomatically: 1
+  letterBoxCameraColor: {r: 0, g: 0, b: 0, a: 1}
+  cameras: []
+  letterBoxCamera: {fileID: 0}
 --- !u!1001 &1912141160
 PrefabInstance:
   m_ObjectHideFlags: 0

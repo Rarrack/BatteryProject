@@ -19,6 +19,7 @@ public class InGameMenu : MonoBehaviour
     int masterCount;
     int allFilled = 0;
     bool win = false;
+    public List<Sprite> victoryTypes;
 
     void Awake()
     {
@@ -135,10 +136,22 @@ public class InGameMenu : MonoBehaviour
         GamePlay.SetActive(false);
         Win.SetActive(true);
 
+        if(winCounter >= masterCount)
+        {
+            GameObject.Find("Win Stamp").GetComponent<SpriteRenderer>().sprite = victoryTypes[0];
+        }
+        else
+        {
+            GameObject.Find("Win Stamp").GetComponent<SpriteRenderer>().sprite = victoryTypes[1];
+        }
+        
         PlayerPrefs.SetInt("Level " + SceneManager.GetActiveScene().buildIndex, 1);
         GameObject count = GameObject.Find("Count Comparison");
         count.GetComponent<UnityEngine.UI.Text>().text = winCounter.ToString() + '/' + masterCount.ToString();
-        PlayerPrefs.SetInt("Count " + (SceneManager.GetActiveScene().buildIndex - 1), winCounter);
+        if(PlayerPrefs.GetInt("Count " + (SceneManager.GetActiveScene().buildIndex - 1).ToString()) == 0 || PlayerPrefs.GetInt("Count " + (SceneManager.GetActiveScene().buildIndex - 1).ToString()) >= winCounter)
+        {
+            PlayerPrefs.SetInt("Count " + (SceneManager.GetActiveScene().buildIndex - 1), winCounter);
+        }
         PlayerPrefs.Save();
     }
 

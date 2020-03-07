@@ -135,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.195
+      value: -3.30945
       objectReference: {fileID: 0}
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}
@@ -218,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.201
+      value: -3.31545
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.y
@@ -356,7 +356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.61
+      value: -1.72445
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1150,7 +1150,7 @@ PrefabInstance:
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4034
+      value: -2.51785
       objectReference: {fileID: 0}
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}
@@ -1524,7 +1524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.19555
+      value: -3.31
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2391,15 +2391,9 @@ PrefabInstance:
         type: 3}
       propertyPath: batteries.Array.data[1]
       value: 
-      objectReference: {fileID: 1598508937}
+      objectReference: {fileID: 404404739}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
---- !u!1 &1598508937 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8514445341193963982, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1598508936}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1707157580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2484,7 +2478,7 @@ PrefabInstance:
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.4034
+      value: -2.51785
       objectReference: {fileID: 0}
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}
@@ -2651,7 +2645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.61
+      value: -1.72445
       objectReference: {fileID: 0}
     - target: {fileID: 4944927790265664, guid: c1c07ab1f4f4e0742a32d1593721afba, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2719,6 +2713,7 @@ GameObject:
   - component: {fileID: 1902184407}
   - component: {fileID: 1902184406}
   - component: {fileID: 1902184409}
+  - component: {fileID: 1902184410}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2805,6 +2800,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 887936031}
   sfxSlider: {fileID: 887936030}
+  victoryTypes:
+  - {fileID: 21300000, guid: e465751ed19a036488bf05965d75479e, type: 3}
+  - {fileID: 21300000, guid: 5202dc1b516fc9642b74ca44f948faa5, type: 3}
+--- !u!114 &1902184410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902184405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e188ee899633d0b49870a5ae38b7359d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: {x: 9, y: 16}
+  forceRatioOnAwake: 1
+  listenForWindowChanges: 1
+  createCameraForLetterBoxRendering: 1
+  findCamerasAutomatically: 1
+  letterBoxCameraColor: {r: 0, g: 0, b: 0, a: 1}
+  cameras: []
+  letterBoxCamera: {fileID: 0}
 --- !u!1001 &1947802863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2887,7 +2905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4545467501706212, guid: 3b03bab1cef13ad40aa2263a298eee74, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3830261
+      value: -2.497476
       objectReference: {fileID: 0}
     - target: {fileID: 4545467501706212, guid: 3b03bab1cef13ad40aa2263a298eee74, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2951,7 +2969,7 @@ PrefabInstance:
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.607
+      value: -1.72145
       objectReference: {fileID: 0}
     - target: {fileID: 1609481700224303755, guid: 336e801e6060f43409e67a781c945ce3,
         type: 3}

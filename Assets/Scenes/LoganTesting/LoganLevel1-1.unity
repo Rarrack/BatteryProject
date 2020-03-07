@@ -1296,6 +1296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 9-Volt Goal Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 8514445341193963982, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1880019964054946986, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1526,6 +1531,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 9-Volt Battery
       objectReference: {fileID: 0}
+    - target: {fileID: 2493254329712313960, guid: c56ba19e61c1c034ba174d708ca5417b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2493254329712313967, guid: c56ba19e61c1c034ba174d708ca5417b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1610,6 +1620,7 @@ GameObject:
   - component: {fileID: 1902184407}
   - component: {fileID: 1902184406}
   - component: {fileID: 1902184409}
+  - component: {fileID: 1902184410}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1696,6 +1707,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 1338156627}
   sfxSlider: {fileID: 1338156626}
+  victoryTypes:
+  - {fileID: 21300000, guid: e465751ed19a036488bf05965d75479e, type: 3}
+  - {fileID: 21300000, guid: 5202dc1b516fc9642b74ca44f948faa5, type: 3}
+--- !u!114 &1902184410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902184405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e188ee899633d0b49870a5ae38b7359d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: {x: 9, y: 16}
+  forceRatioOnAwake: 1
+  listenForWindowChanges: 1
+  createCameraForLetterBoxRendering: 1
+  findCamerasAutomatically: 1
+  letterBoxCameraColor: {r: 0, g: 0, b: 0, a: 1}
+  cameras: []
+  letterBoxCamera: {fileID: 0}
 --- !u!1001 &1912141160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1706,10 +1740,6 @@ PrefabInstance:
     - target: {fileID: 1928004949104294, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
       propertyPath: m_Name
       value: Win Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 1928004949104294, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224223596426196298, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
@@ -1826,31 +1856,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1902184409}
-    - target: {fileID: 114560053366876446, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextLevel
-      objectReference: {fileID: 0}
     - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1902184409}
-    - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LevelSelect
-      objectReference: {fileID: 0}
-    - target: {fileID: 114018953832454450, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1902184409}
     - target: {fileID: 114018953832454450, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MainMenu
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1902184409}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
 --- !u!1001 &1957036305

@@ -24,8 +24,6 @@ public class LevelManager : MonoBehaviour
                 PlayerPrefs.SetInt("Count " + (i + 1), 0);
             }            
             PlayerPrefs.SetInt("Level " + 1, 1); // Sets first level to be active by default 
-            //PlayerPrefs.SetInt("Level " + 2, 1);
-            //PlayerPrefs.SetInt("Level " + 3, 1);
 
             PlayerPrefs.SetInt("Level Select", 0); // Check to see if level select is active
 

@@ -66,6 +66,8 @@ public class GoalSettings : MonoBehaviour
                 //make the battery intangible
                 bat.GetComponent<Collider2D>().isTrigger = true;
 
+                bat.tag = "Untagged";
+
                 filled = true;
 
                 GetComponent<SpriteRenderer>().sprite = victorySprite;

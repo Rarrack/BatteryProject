@@ -13,7 +13,8 @@ public class MainMenu : MonoBehaviour
     GameObject Main; //main menu object
     GameObject StageSelect; //stage select object
     GameObject Settings; //settings object
-    GameObject LevelPreview; // level preview object
+    GameObject LevelPreview; //level preview object
+    GameObject Credits; //credits object
 
     // Volume sliders
     public Slider bgmSlider;
@@ -120,6 +121,7 @@ public class MainMenu : MonoBehaviour
         StageSelect = GameObject.Find("Stage Select");
         Settings = GameObject.Find("Settings");
         LevelPreview = GameObject.Find("Level Preview");
+        Credits = GameObject.Find("Credits");
         fadeScreen = GameObject.Find("Fade Screen");
 
         int x = PlayerPrefs.GetInt("Level Select"); // Sets variable that determines whether scene starts on level select screen
@@ -136,12 +138,14 @@ public class MainMenu : MonoBehaviour
             StageSelect.SetActive(false);
             Settings.SetActive(false);
             LevelPreview.SetActive(false);
+            Credits.SetActive(false);
         }
         else
         {
             Main.SetActive(false);
             Settings.SetActive(false);
             LevelPreview.SetActive(false);
+            Credits.SetActive(false);
             PlayerPrefs.SetInt("Level Select", 0);
             PlayerPrefs.Save();
         }
@@ -202,6 +206,15 @@ public class MainMenu : MonoBehaviour
         StageSelect.SetActive(false);  
     }
 
+    public void CreditsSelect() //brings up credits
+    {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
+        Settings.SetActive(false);
+        Credits.SetActive(true);
+        Main.SetActive(false);
+        StageSelect.SetActive(false);
+    }
+
     public void LoadLevel() //activates fade screen to load in new scene
     {
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
@@ -216,6 +229,16 @@ public class MainMenu : MonoBehaviour
         Main.SetActive(true);
         StageSelect.SetActive(false);
         Settings.SetActive(false);
+        LevelPreview.SetActive(false);
+    }
+
+    public void CreditsBackOut() //brings up main menu
+    {
+        GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Back");
+        Credits.SetActive(false);
+        Main.SetActive(false);
+        StageSelect.SetActive(false);
+        Settings.SetActive(true);
         LevelPreview.SetActive(false);
     }
 

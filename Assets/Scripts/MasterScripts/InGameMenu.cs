@@ -106,6 +106,7 @@ public class InGameMenu : MonoBehaviour
     {
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Level Theme");
         PlayerPrefs.SetInt("Level Select", 0);
         PlayerPrefs.Save();
         SceneManager.LoadScene(1);

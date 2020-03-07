@@ -484,6 +484,11 @@ PrefabInstance:
       propertyPath: battery.Array.data[0]
       value: 
       objectReference: {fileID: 892535432}
+    - target: {fileID: 455541040056616487, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: battery
+      value: 
+      objectReference: {fileID: 404404739}
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: walls.Array.size
@@ -509,11 +514,6 @@ PrefabInstance:
       propertyPath: walls.Array.data[1]
       value: 
       objectReference: {fileID: 2132884756}
-    - target: {fileID: 455541040056616487, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: battery
-      value: 
-      objectReference: {fileID: 404404739}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
 --- !u!1001 &376209687
@@ -1416,7 +1416,7 @@ PrefabInstance:
     - target: {fileID: 2493254329712313960, guid: c56ba19e61c1c034ba174d708ca5417b,
         type: 3}
       propertyPath: m_Name
-      value: 9-Volt Battery (3)
+      value: 9-Volt Battery
       objectReference: {fileID: 0}
     - target: {fileID: 2493254329712313967, guid: c56ba19e61c1c034ba174d708ca5417b,
         type: 3}

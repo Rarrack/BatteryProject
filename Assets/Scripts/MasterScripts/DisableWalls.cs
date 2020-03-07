@@ -11,7 +11,7 @@ public class DisableWalls : MonoBehaviour
     #region Wall Disable Variables/Containers
 
     bool activate = false;
-    public GameObject battery;
+    public List<GameObject> batteries;
     public List<GameObject> walls;
 
     #endregion
@@ -55,9 +55,12 @@ public class DisableWalls : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject == battery)
+        foreach(GameObject bat in batteries)
         {
-            activate = true;
-        }
+            if (collision.gameObject == bat)
+            {
+                activate = true;
+            }
+        } 
     }
 }

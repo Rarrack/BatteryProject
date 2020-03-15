@@ -10,10 +10,11 @@ public class ToggleWall : MonoBehaviour
     //can be configured to be activated with either batteries, dummies, or both
     //can potentially have two different walls to govern if put a different wall in each slot
 
+    public List<Sprite> types;
     public bool battery;
     public bool dummy;
     public bool pressed;
-
+    
     int buttonType = 3;
 
     // Start is called before the first frame update
@@ -22,33 +23,36 @@ public class ToggleWall : MonoBehaviour
         switch(ActiveCollidables())
         {
             case 0:
+                GetComponent<SpriteRenderer>().sprite = types[0];
                 if(pressed == false)
                 {
-                    GetComponent<SpriteRenderer>().color = new Color(1, 0, 0, 0.5f);
+                    GetComponent<SpriteRenderer>().color = Color.gray;
                 }
                 else
                 {
-                    GetComponent<SpriteRenderer>().color = Color.red;
+                    GetComponent<SpriteRenderer>().color = Color.white;
                 }
                 break;
             case 1:
+                GetComponent<SpriteRenderer>().sprite = types[1];
                 if (pressed == false)
                 {
-                    GetComponent<SpriteRenderer>().color = new Color(1, 0.92f, 0.016f, 0.5f);
+                    GetComponent<SpriteRenderer>().color = Color.gray;
                 }
                 else
                 {
-                    GetComponent<SpriteRenderer>().color = Color.yellow;
+                    GetComponent<SpriteRenderer>().color = Color.white;
                 }
                 break;
             case 2:
+                GetComponent<SpriteRenderer>().sprite = types[2];
                 if (pressed == false)
                 {
-                    GetComponent<SpriteRenderer>().color = new Color(0, 1, 1, 0.5f);
+                    GetComponent<SpriteRenderer>().color = Color.gray;
                 }
                 else
                 {
-                    GetComponent<SpriteRenderer>().color = Color.cyan;
+                    GetComponent<SpriteRenderer>().color = Color.white;
                 }
                 break;
             default:

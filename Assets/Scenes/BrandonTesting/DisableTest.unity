@@ -460,6 +460,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 6.18303
       objectReference: {fileID: 0}
+    - target: {fileID: 896468194733564487, guid: da9bd3381d275df4e8c3ce57973ca3b6,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da9bd3381d275df4e8c3ce57973ca3b6, type: 3}
 --- !u!1001 &512121844
@@ -913,6 +918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 617073535}
   sfxSlider: {fileID: 617073534}
+  victoryTypes: []
 --- !u!114 &792359299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,6 +1364,18 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3335201786000880613, guid: 25902b69740196f4792e85061826b7fd,
+        type: 3}
+      propertyPath: types.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: ffc1e690e94fa894e830396028ca872d,
+        type: 3}
+    - target: {fileID: 3335201786000880613, guid: 25902b69740196f4792e85061826b7fd,
+        type: 3}
+      propertyPath: types.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 218467e977e3546488de53cca9ad2c24,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25902b69740196f4792e85061826b7fd, type: 3}
 --- !u!114 &931088983 stripped

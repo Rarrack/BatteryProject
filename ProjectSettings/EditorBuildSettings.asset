@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MasterScenes/MainMenu.unity
     guid: 1d2efdb8fb02ba64696ce5c0979db8a0
   - enabled: 1
+    path: Assets/Scenes/BrandonTesting/DisableTest.unity
+    guid: 88efb0b611331384cbdba7c78cd6e778
+  - enabled: 1
     path: Assets/Scenes/LoganTesting/LoganLevel1-1.unity
     guid: 502d035e6c3c02a4aadf89fa1dc0d5aa
   - enabled: 1

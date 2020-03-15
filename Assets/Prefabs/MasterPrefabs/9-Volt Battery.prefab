@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2493254329712313965}
   - component: {fileID: 2493254329712313966}
   m_Layer: 0
-  m_Name: D-Cell Battery
+  m_Name: 9-Volt Battery
   m_TagString: Battery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: ca83ff2f940f8894aadc851c7b266f92, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

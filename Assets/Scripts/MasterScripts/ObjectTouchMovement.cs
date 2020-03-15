@@ -30,6 +30,7 @@ public class ObjectTouchMovement : MonoBehaviour
 
     #endregion
 
+    Animator animator;
     // Functions for all Behavior
     #region Object Behavior Functions
 
@@ -50,6 +51,8 @@ public class ObjectTouchMovement : MonoBehaviour
     public void ResetMovement()
     {
         this.selected = false;
+        animator.SetBool("Moved Right", false);
+        animator.SetBool("Moved Left", false);
         GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         currentDirection = Vector3.zero;
     }
@@ -120,6 +123,8 @@ public class ObjectTouchMovement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        animator = GetComponent<Animator>();
+
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;
 
@@ -169,6 +174,7 @@ public class ObjectTouchMovement : MonoBehaviour
                 SwipeDirection swipe = SwipeDetector();
                 if (swipe != SwipeDirection.None)
                 {
+                    this.selected = false;
                     switch (swipe)
                     {
                         case SwipeDirection.Up:
@@ -197,6 +203,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionLeft = new Vector3(-1, 0, 0);
                             if (!inputDirectionLeft.Equals(Vector3.zero))
                             {
+                                animator.SetBool("Moved Left", true);
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionLeft;
@@ -208,6 +215,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionRight = new Vector3(1, 0, 0);
                             if (!inputDirectionRight.Equals(Vector3.zero))
                             {
+                                animator.SetBool("Moved Right", true);
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionRight;

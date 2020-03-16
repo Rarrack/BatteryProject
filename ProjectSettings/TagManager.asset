@@ -15,9 +15,9 @@ TagManager:
   - source
   - circuit
   - Battery 2
-  - charger
   - Goals
   - level
+  - ChargeGround
   layers:
   - Default
   - TransparentFX

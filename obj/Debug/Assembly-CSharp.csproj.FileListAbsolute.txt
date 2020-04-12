@@ -1073,9 +1073,6 @@ C:\Users\btv96\Desktop\BatteryProject\obj\Debug\Assembly-CSharp.dll
 C:\Users\btv96\Desktop\BatteryProject\obj\Debug\Assembly-CSharp.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Assembly-CSharp.dll
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Assembly-CSharp.pdb
-D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.dll
-D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.dll
-D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.dll
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\mscorlib.dll
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\netstandard.dll
@@ -1278,19 +1275,16 @@ D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.CecilTools.dll
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEngine.xml
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEditor.xml
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.Timeline.Editor.pdb
-D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\com.unity.multiplayer-hlapi.Editor.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.Timeline.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
-D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\com.unity.multiplayer-weaver.Editor.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEngine.XR.LegacyInputHelpers.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEditor.SpatialTracking.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEngine.SpatialTracking.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.TextMeshPro.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEditor.XR.LegacyInputHelpers.pdb
-D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\com.unity.multiplayer-hlapi.Runtime.pdb
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEngine.AIModule.xml
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEngine.ARModule.xml
 D:\F-Drive\Unity Projects\ClearCircuits\Temp\bin\Debug\UnityEngine.AccessibilityModule.xml

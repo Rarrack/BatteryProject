@@ -50,6 +50,7 @@ public class ChargeAndGround : MonoBehaviour
                     collision.gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
                     break;
                 case true:
+                    collision.gameObject.GetComponent<Animator>().SetBool("Charging", true);
                     GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Charge");
                     collision.gameObject.GetComponent<ObjectTouchMovement>().charged = true;
                     collision.gameObject.GetComponent<SpriteRenderer>().color = Color.white;

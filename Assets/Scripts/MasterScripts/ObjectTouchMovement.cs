@@ -190,11 +190,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionUp = new Vector3(0, 1, 0);
                             if (!inputDirectionUp.Equals(Vector3.zero))
                             {
-                                if (transform.localEulerAngles.z == -90 || transform.localEulerAngles.z == 270)
-                                {
-                                    animator.SetBool("Moved Left", true);
-                                }
-                                if (transform.localEulerAngles.z == -270 || transform.localEulerAngles.z == 90)
+                                if (transform.rotation.z != 0)
                                 {
                                     animator.SetBool("Moved Right", true);
                                 }
@@ -209,13 +205,9 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionDown = new Vector3(0, -1, 0);
                             if (!inputDirectionDown.Equals(Vector3.zero))
                             {
-                                if (transform.localEulerAngles.z == -270 || transform.localEulerAngles.z == 90)
+                                if (transform.rotation.z != 0)
                                 {
                                     animator.SetBool("Moved Left", true);
-                                }
-                                if (transform.localEulerAngles.z == -90 || transform.localEulerAngles.z == 270)
-                                {
-                                    animator.SetBool("Moved Right", true);
                                 }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
@@ -228,13 +220,9 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionLeft = new Vector3(-1, 0, 0);
                             if (!inputDirectionLeft.Equals(Vector3.zero))
                             {
-                                if (transform.localEulerAngles.z == 0 || transform.localEulerAngles.z == -360)
+                                if (transform.rotation.z == 0)
                                 {
                                     animator.SetBool("Moved Left", true);
-                                }
-                                if (transform.localEulerAngles.z == -180 || transform.localEulerAngles.z == 180)
-                                {
-                                    animator.SetBool("Moved Right", true);
                                 }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
@@ -247,11 +235,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionRight = new Vector3(1, 0, 0);
                             if (!inputDirectionRight.Equals(Vector3.zero))
                             {
-                                if (transform.localEulerAngles.z == -180 || transform.localEulerAngles.z == 180)
-                                {
-                                    animator.SetBool("Moved Left", true);
-                                }
-                                if (transform.localEulerAngles.z == 0 || transform.localEulerAngles.z == -360)
+                                if (transform.rotation.z == 0)
                                 {
                                     animator.SetBool("Moved Right", true);
                                 }

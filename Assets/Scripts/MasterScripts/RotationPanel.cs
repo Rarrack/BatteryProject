@@ -10,6 +10,8 @@ public class RotationPanel : MonoBehaviour
 {
 
     Collider2D c; //collider for this object
+    //bool rotate = false;
+    GameObject battery;
 
     // Use this for initialization
     void Start()
@@ -34,17 +36,18 @@ public class RotationPanel : MonoBehaviour
 
             collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;
 
-            
+            battery = collision.gameObject;
 
-            switch (collision.transform.localEulerAngles.z)
+            switch (collision.transform.rotation.z)
             {
                 case 0:
-                    collision.transform.localEulerAngles = new Vector3(0, 0, 90);
+                    collision.gameObject.GetComponent<Animator>().SetBool("Rotate 90", true);
                     break;
-                case 90:
-                    collision.transform.localEulerAngles = new Vector3(0, 0, 0);
+                default:
+                    collision.gameObject.GetComponent<Animator>().SetBool("Rotate 0", true);
                     break;
             }
+
         }
 
         c.isTrigger = true;

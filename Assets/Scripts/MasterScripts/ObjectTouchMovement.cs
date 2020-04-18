@@ -21,7 +21,7 @@ public class ObjectTouchMovement : MonoBehaviour
 
     #endregion
 
-    #region Touch Input Variables+
+    #region Touch Input Variables
 
     Vector2 pressPosition; //Position of finger when first pressed on screen
     Vector2 releasePosition; //Position of finger where released on screen
@@ -57,6 +57,14 @@ public class ObjectTouchMovement : MonoBehaviour
         currentDirection = Vector3.zero;
     }
 
+    #endregion
+
+    #region Animation Behavior function
+    public void EndRotation()
+    {
+        animator.SetBool("Rotate 90", false);
+        animator.SetBool("Rotate 0", false);
+    }
     #endregion
 
     #region Touch Input Functions
@@ -127,6 +135,7 @@ public class ObjectTouchMovement : MonoBehaviour
 
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;
+        
 
         //Sets object to the counter in the world
         moves = GameObject.Find("Counter");
@@ -181,6 +190,10 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionUp = new Vector3(0, 1, 0);
                             if (!inputDirectionUp.Equals(Vector3.zero))
                             {
+                                if (transform.rotation.z != 0)
+                                {
+                                    animator.SetBool("Moved Right", true);
+                                }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionUp;
@@ -192,6 +205,10 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionDown = new Vector3(0, -1, 0);
                             if (!inputDirectionDown.Equals(Vector3.zero))
                             {
+                                if (transform.rotation.z != 0)
+                                {
+                                    animator.SetBool("Moved Left", true);
+                                }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionDown;
@@ -203,7 +220,10 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionLeft = new Vector3(-1, 0, 0);
                             if (!inputDirectionLeft.Equals(Vector3.zero))
                             {
-                                animator.SetBool("Moved Left", true);
+                                if (transform.rotation.z == 0)
+                                {
+                                    animator.SetBool("Moved Left", true);
+                                }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionLeft;
@@ -215,7 +235,10 @@ public class ObjectTouchMovement : MonoBehaviour
                             Vector3 inputDirectionRight = new Vector3(1, 0, 0);
                             if (!inputDirectionRight.Equals(Vector3.zero))
                             {
-                                animator.SetBool("Moved Right", true);
+                                if (transform.rotation.z == 0)
+                                {
+                                    animator.SetBool("Moved Right", true);
+                                }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
                                 currentDirection = inputDirectionRight;

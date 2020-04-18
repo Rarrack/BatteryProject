@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 212263848529010936}
   - component: {fileID: 58281564807844892}
   - component: {fileID: 3529138678862505262}
+  - component: {fileID: 8290233186132866794}
   m_Layer: 0
   m_Name: Rotate Panel
   m_TagString: rotate
@@ -109,3 +110,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c99e58f9ef89464e9d1a8ed7be803a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &8290233186132866794
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016569189529334}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 16b3cd34d18578a44b01b59af8e8af80, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -77,7 +77,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 15.09, y: 21.506138}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -101,7 +101,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 15.09, y: 21.506138}
-    newSize: {x: 0.16, y: 0.16}
+    newSize: {x: 15.09, y: 21.506138}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -124,8 +124,6 @@ MonoBehaviour:
   selected: 0
   check: {fileID: 0}
   charged: 1
-  rotate: 0
-  newAngle: {x: 0, y: 0, z: 0}
   victorySprite: {fileID: 21300000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
 --- !u!50 &5701701834100246107
 Rigidbody2D:

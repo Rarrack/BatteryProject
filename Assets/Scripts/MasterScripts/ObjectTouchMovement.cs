@@ -65,6 +65,11 @@ public class ObjectTouchMovement : MonoBehaviour
         animator.SetBool("Rotate 90", false);
         animator.SetBool("Rotate 0", false);
     }
+    
+    public void EndCharge()
+    {
+        animator.SetBool("Charging", false);
+    }
     #endregion
 
     #region Touch Input Functions
@@ -132,6 +137,7 @@ public class ObjectTouchMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        animator.SetBool("Charged", charged);
 
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;

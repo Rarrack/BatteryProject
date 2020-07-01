@@ -133,16 +133,12 @@ public class ObjectTouchMovement : MonoBehaviour
 
     public Sprite victorySprite;
 
-    void Awake()
-    {
-        animator = GetComponent<Animator>();
-        animator.SetBool("Charged", charged);
-    }
 
     // Use this for initialization
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
+        animator.SetBool("Charged", charged);
 
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;

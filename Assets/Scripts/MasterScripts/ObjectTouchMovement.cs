@@ -291,6 +291,7 @@ public class ObjectTouchMovement : MonoBehaviour
     {
         ResetMovement();
         check.moving = false;
+        animator.Play("Impact");
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Sound");
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().StopSound("Rolling");
     }

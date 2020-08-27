@@ -125,6 +125,10 @@ MonoBehaviour:
   check: {fileID: 0}
   charged: 1
   victorySprite: {fileID: 21300000, guid: d9a8c30640d65c249a44422c1c69829c, type: 3}
+  idleClips:
+  - {fileID: 7400000, guid: 846cada5990befc429c36630ae571811, type: 2}
+  - {fileID: 7400000, guid: 896f08aa9a1301e4f8860003ce6545b2, type: 2}
+  - {fileID: 7400000, guid: bc3a6e3036d3923438167bb67f4a55af, type: 2}
 --- !u!50 &2493254329712313966
 Rigidbody2D:
   serializedVersion: 4

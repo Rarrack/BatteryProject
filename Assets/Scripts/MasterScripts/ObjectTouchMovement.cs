@@ -132,13 +132,18 @@ public class ObjectTouchMovement : MonoBehaviour
     #endregion
 
     public Sprite victorySprite;
-
+    AnimatorOverrideController overrideController;
+    public AnimationClip[] idleClips;
 
     // Use this for initialization
     void Start()
     {
         animator = GetComponent<Animator>();
         animator.SetBool("Charged", charged);
+        overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
+        animator.runtimeAnimatorController = overrideController;
+
+        overrideController["Idle"] = idleClips[Random.Range(0,idleClips.Length)];
 
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;

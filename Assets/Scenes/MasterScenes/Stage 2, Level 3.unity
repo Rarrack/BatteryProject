@@ -792,7 +792,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 1792870663}
   sfxSlider: {fileID: 1535178414}
-  victoryTypes: []
+  victoryTypes:
+  - {fileID: 21300000, guid: e465751ed19a036488bf05965d75479e, type: 3}
+  - {fileID: 21300000, guid: 5202dc1b516fc9642b74ca44f948faa5, type: 3}
 --- !u!1001 &873464106
 PrefabInstance:
   m_ObjectHideFlags: 0

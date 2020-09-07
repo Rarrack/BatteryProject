@@ -143,7 +143,10 @@ public class ObjectTouchMovement : MonoBehaviour
         overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
         animator.runtimeAnimatorController = overrideController;
 
-        overrideController["Idle"] = idleClips[Random.Range(0,idleClips.Length)];
+        if (gameObject.tag == "Battery")
+        {
+            overrideController["Idle"] = idleClips[Random.Range(0, idleClips.Length)];
+        }
 
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;

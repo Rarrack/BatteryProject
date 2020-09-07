@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     private void Awake()
     {
         // Check to see data is already present
-        if (!PlayerPrefs.HasKey("Level Select"))
+        if (/*!PlayerPrefs.HasKey("Level Select")*/ true)
         {
             List<string> scenes = new List<string>(); // Holds all scenes in the game
             for (int i = 2; i < UnityEngine.SceneManagement.SceneManager.sceneCountInBuildSettings; i++)
@@ -20,8 +20,8 @@ public class LevelManager : MonoBehaviour
             // Creates information to hold each level, if it's unlocked and the # of moves used in that level
             for (int i = 0; i < scenes.Count; i++)
             {
-                PlayerPrefs.SetInt("Level " + (i + 1), 0);
-                PlayerPrefs.SetInt("Count " + (i + 1), 0);
+                PlayerPrefs.SetInt("Level " + (i + 1), 1);
+                PlayerPrefs.SetInt("Count " + (i + 1), 1);
             }            
             PlayerPrefs.SetInt("Level " + 1, 1); // Sets first level to be active by default 
 

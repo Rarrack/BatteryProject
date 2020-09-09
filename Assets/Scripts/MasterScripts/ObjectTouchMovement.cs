@@ -143,7 +143,10 @@ public class ObjectTouchMovement : MonoBehaviour
         overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
         animator.runtimeAnimatorController = overrideController;
 
-        overrideController["Idle"] = idleClips[Random.Range(0,idleClips.Length)];
+        if (gameObject.tag == "Battery")
+        {
+            overrideController["Idle"] = idleClips[Random.Range(0, idleClips.Length)];
+        }
 
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;
@@ -296,7 +299,10 @@ public class ObjectTouchMovement : MonoBehaviour
     {
         ResetMovement();
         check.moving = false;
-        animator.Play("Impact");
+        if (gameObject.tag != "dummy")
+        {
+            animator.Play("Impact");
+        }
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Sound");
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().StopSound("Rolling");
     }

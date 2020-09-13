@@ -135,6 +135,12 @@ public class ObjectTouchMovement : MonoBehaviour
     AnimatorOverrideController overrideController;
     public AnimationClip[] idleClips;
 
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+        animator.SetBool("Charged", charged);
+    }
+
     // Use this for initialization
     void Start()
     {

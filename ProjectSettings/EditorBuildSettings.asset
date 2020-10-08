@@ -78,6 +78,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MasterScenes/Stage 4, Level 4.unity
     guid: 06166c70fe13cc340b4c41914a56e231
   - enabled: 1
+    path: Assets/Scenes/MasterScenes/Stage 4, Level 5.unity
+    guid: 77246204043866b4b8f92c66c2e7be57
+  - enabled: 1
+    path: Assets/Scenes/MasterScenes/Stage 4, Level 6.unity
+    guid: d8b53e436f7d2b941a75b1d66f7e7995
+  - enabled: 1
     path: Assets/Scenes/MasterScenes/Stage 5, Level 1.unity
     guid: 858b7cb84fb331a48aff04b2a03678da
   - enabled: 1

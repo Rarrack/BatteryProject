@@ -57,7 +57,7 @@ public class DisableWalls : MonoBehaviour
     {
         foreach(GameObject bat in batteries)
         {
-            if (collision.gameObject == bat)
+            if (collision.gameObject == bat && bat.transform.localRotation.z == transform.localRotation.z)
             {
                 activate = true;
             }

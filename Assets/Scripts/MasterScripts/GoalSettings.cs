@@ -50,7 +50,7 @@ public class GoalSettings : MonoBehaviour
         //for rotation levels, the battery should have the same rotation as the goal to activate a win
         foreach (GameObject bat in battery)
         {
-            if (collision.gameObject == bat && bat.transform.localRotation.z == transform.localRotation.z && bat.GetComponent<ObjectTouchMovement>().charged == true)
+            if (collision.gameObject == bat && (bat.transform.localEulerAngles.z >= transform.localEulerAngles.z - 5 && bat.transform.localEulerAngles.z <= transform.localEulerAngles.z + 5) && bat.GetComponent<ObjectTouchMovement>().charged == true)
             {
                 c.isTrigger = true;
 

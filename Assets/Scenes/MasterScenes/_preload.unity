@@ -151,13 +151,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicFiles:
   - audioName: Main Theme
-    audioClip: {fileID: 8300000, guid: d6562fc9874166f4aad1761f68dfb83c, type: 3}
+    audioClip: {fileID: 8300000, guid: 4f32d8ffc196fcc47b3f9051e299fb8d, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 1
     playOnAwake: 0
-  - audioName: Level Theme
-    audioClip: {fileID: 8300000, guid: 38b6f1da1d02a8a4bbe321f90b9cb114, type: 3}
+  - audioName: Stage 1 Theme
+    audioClip: {fileID: 8300000, guid: b447dae2f3bd58b45bdc82a0d4066820, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Stage 2 Theme
+    audioClip: {fileID: 8300000, guid: 49a4b45ba1c6bff47b73f5b79084eec4, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Stage 3 Theme
+    audioClip: {fileID: 8300000, guid: a57fa1f889986f241adf923116d0122b, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Stage 4 Theme
+    audioClip: {fileID: 8300000, guid: 57c433c6de20df447a466b331c30639c, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    isLooping: 1
+    playOnAwake: 0
+  - audioName: Stage 5 Theme
+    audioClip: {fileID: 8300000, guid: 57c433c6de20df447a466b331c30639c, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 1

@@ -30,7 +30,7 @@ public class InGameMenu : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Level Theme");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayStageMusic(SceneManager.GetActiveScene().buildIndex);
         Menu = GameObject.Find("Menu Canvas");
         GamePlay = GameObject.Find("Game Canvas");
         Win = GameObject.Find("Win Canvas");
@@ -63,7 +63,7 @@ public class InGameMenu : MonoBehaviour
             if(allFilled == goals.Count && win == false)
             {
                 win = !win;
-                GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Level Theme");
+                GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopStageMusic(SceneManager.GetActiveScene().buildIndex);
                 GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Victory Theme");
                 WinScreen();
             }
@@ -107,7 +107,7 @@ public class InGameMenu : MonoBehaviour
     {
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
-        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Level Theme");
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopStageMusic(SceneManager.GetActiveScene().buildIndex);
         PlayerPrefs.SetInt("Level Select", 0);
         PlayerPrefs.Save();
         SceneManager.LoadScene(1);

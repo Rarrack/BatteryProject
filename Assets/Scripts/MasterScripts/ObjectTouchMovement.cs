@@ -135,6 +135,8 @@ public class ObjectTouchMovement : MonoBehaviour
     AnimatorOverrideController overrideController;
     public AnimationClip[] idleClips;
 
+    int i = 0;
+
     void Awake()
     {
         animator = GetComponent<Animator>();
@@ -170,6 +172,12 @@ public class ObjectTouchMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(i >= 300)
+        {
+            animator.Play("Test Idle");
+            i = 0;
+        }
+
         foreach (Touch touch in Input.touches)
         {
             if (touch.phase == TouchPhase.Began && this.selected == false && check.moving == false)
@@ -220,6 +228,7 @@ public class ObjectTouchMovement : MonoBehaviour
                                 currentDirection = inputDirectionUp;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 check.moving = true;
+                                i = 0;
                             }
                             break;
                         case SwipeDirection.Down:
@@ -235,6 +244,7 @@ public class ObjectTouchMovement : MonoBehaviour
                                 currentDirection = inputDirectionDown;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 check.moving = true;
+                                i = 0;
                             }
                             break;
                         case SwipeDirection.Left:
@@ -250,6 +260,7 @@ public class ObjectTouchMovement : MonoBehaviour
                                 currentDirection = inputDirectionLeft;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 check.moving = true;
+                                i = 0;
                             }
                             break;
                         case SwipeDirection.Right:
@@ -265,6 +276,7 @@ public class ObjectTouchMovement : MonoBehaviour
                                 currentDirection = inputDirectionRight;
                                 GetComponent<Rigidbody2D>().velocity = currentDirection * speed;
                                 check.moving = true;
+                                i = 0;
                             }
                             break;
                         default:
@@ -294,6 +306,8 @@ public class ObjectTouchMovement : MonoBehaviour
                 GetComponent<SpriteRenderer>().color = Color.white;
             }
         }
+
+        i+= 1;
     }
 
     //When object collideds it halts all movement
@@ -307,5 +321,6 @@ public class ObjectTouchMovement : MonoBehaviour
         }
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Sound");
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().StopSound("Rolling");
+        i = 0;
     }
 }

@@ -637,11 +637,6 @@ PrefabInstance:
       propertyPath: battery.Array.data[1]
       value: 
       objectReference: {fileID: 404404739}
-    - target: {fileID: 455541040056616487, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: battery
-      value: 
-      objectReference: {fileID: 404404739}
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: walls.Array.size
@@ -680,6 +675,11 @@ PrefabInstance:
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: batteries.Array.data[1]
+      value: 
+      objectReference: {fileID: 404404739}
+    - target: {fileID: 455541040056616487, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: battery
       value: 
       objectReference: {fileID: 404404739}
     m_RemovedComponents: []

@@ -54,6 +54,8 @@ public class GoalSettings : MonoBehaviour
             {
                 c.isTrigger = true;
 
+                GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Victory");
+
                 //sets battery to center of goal panel
                 bat.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
 

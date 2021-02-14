@@ -193,7 +193,7 @@ public class ObjectTouchMovement : MonoBehaviour
                         if ((hits[i].transform.tag == "Battery" || hits[i].transform.tag == "dummy") && hits[i].transform == transform)
                         {
                             this.selected = true;
-                            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Battery Select");
+                            //GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Battery Select");
                         }
                         else
                         {

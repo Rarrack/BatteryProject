@@ -27,7 +27,6 @@ public class RotationPanel : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-
         if (collision.gameObject.tag == "Battery")
         {
             GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rotate");
@@ -41,13 +40,14 @@ public class RotationPanel : MonoBehaviour
             switch (collision.transform.rotation.z)
             {
                 case 0:
-                    collision.gameObject.GetComponent<Animator>().SetBool("Rotate 90", true);
+                    //collision.gameObject.GetComponent<Animator>().SetBool("Rotate 90", true);
+                    battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 90, 1);
                     break;
                 default:
-                    collision.gameObject.GetComponent<Animator>().SetBool("Rotate 0", true);
+                    //collision.gameObject.GetComponent<Animator>().SetBool("Rotate 0", true);
+                    battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 0, 1);
                     break;
             }
-
         }
 
         c.isTrigger = true;

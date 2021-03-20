@@ -14,19 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MasterScenes/Stage 1, Level 1.unity
     guid: 38548e565cac16841a8db81d64d7cfe2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MasterScenes/Stage 1, Level 2.unity
     guid: d14a6024c42507445858afa277137eb0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MasterScenes/Stage 1, Level 3.unity
     guid: b5c12d66552af4c438cb4509e688bccf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MasterScenes/Stage 1, Level 4.unity
     guid: 903c40a58b7e4494fbf651467c5e8ae4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MasterScenes/Stage 1, Level 5.unity
     guid: 75b836d86aead8a48beb838e9b7b7c3a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MasterScenes/Stage 1, Level 6.unity
     guid: d3fedf879532f8b4b96f4c5b5a0f8696
   - enabled: 0

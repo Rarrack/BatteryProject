@@ -15,11 +15,33 @@ public class InGameMenu : MonoBehaviour
 
     List<GameObject> goals = new List<GameObject>();
 
+    GameObject fadeScreen;
+    public GameObject FadeScreen
+    {
+        get
+        {
+            return fadeScreen;
+        }
+    }
+
     int winCounter = 0;
     int masterCount;
     int allFilled = 0;
     bool win = false;
     public List<Sprite> victoryTypes;
+
+    int whereTo = 0;
+    public int WhereTo
+    {
+        get
+        {
+            return whereTo;
+        }
+        set
+        {
+            whereTo = value;
+        }
+    }
 
     void Awake()
     {
@@ -34,6 +56,7 @@ public class InGameMenu : MonoBehaviour
         Menu = GameObject.Find("Menu Canvas");
         GamePlay = GameObject.Find("Game Canvas");
         Win = GameObject.Find("Win Canvas");
+        fadeScreen = GameObject.Find("Fader");
 
         bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
@@ -110,7 +133,9 @@ public class InGameMenu : MonoBehaviour
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopStageMusic(SceneManager.GetActiveScene().buildIndex);
         PlayerPrefs.SetInt("Level Select", 0);
         PlayerPrefs.Save();
-        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(1);
+        FadeScreen.GetComponent<Animator>().SetBool("Leave Scene", true);
+        whereTo = 1;
     }
 
     public void LevelSelect()
@@ -119,7 +144,9 @@ public class InGameMenu : MonoBehaviour
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
         PlayerPrefs.SetInt("Level Select", 1);
         PlayerPrefs.Save();
-        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(1);
+        FadeScreen.GetComponent<Animator>().SetBool("Leave Scene", true);
+        whereTo = 1;
     }
 
     public void NextLevel()
@@ -127,7 +154,9 @@ public class InGameMenu : MonoBehaviour
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
         int next = SceneManager.GetActiveScene().buildIndex + 1;
-        SceneManager.LoadScene(next);
+        //SceneManager.LoadScene(next);
+        FadeScreen.GetComponent<Animator>().SetBool("Leave Scene", true);
+        whereTo = next;
     }
 
     public void WinScreen()

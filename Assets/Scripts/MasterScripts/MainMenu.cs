@@ -122,7 +122,7 @@ public class MainMenu : MonoBehaviour
         Settings = GameObject.Find("Settings");
         LevelPreview = GameObject.Find("Level Preview");
         Credits = GameObject.Find("Credits");
-        fadeScreen = GameObject.Find("Fade Screen");
+        fadeScreen = GameObject.Find("Fader");
 
         int x = PlayerPrefs.GetInt("Level Select"); // Sets variable that determines whether scene starts on level select screen
 
@@ -130,7 +130,7 @@ public class MainMenu : MonoBehaviour
         bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
 
-        fadeScreen.SetActive(false); // Sets fade screen to false when scene loads
+        //fadeScreen.SetActive(false); // Sets fade screen to false when scene loads
 
         // Checks to see if stage select should be active when scene is loaded in
         if (x == 0)
@@ -155,6 +155,7 @@ public class MainMenu : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        /*
         // determins if fade should start and loads level when fade completes
 		if(fadeStart == true)
         {
@@ -167,6 +168,7 @@ public class MainMenu : MonoBehaviour
                 SceneManager.LoadScene(sceneToLoad);
             }
         }
+        */
 	}
 
     public void StartGame() //brings up stage select
@@ -218,9 +220,10 @@ public class MainMenu : MonoBehaviour
     public void LoadLevel() //activates fade screen to load in new scene
     {
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
-        FadeScreen.SetActive(true);
-        FadeScreen.GetComponent<Animator>().Play("Anim_Fade");
-        FadeStart = true;
+        FadeScreen.GetComponent<Animator>().SetBool("Leave Scene", true);
+        //FadeScreen.SetActive(true);
+        //FadeScreen.GetComponent<Animator>().Play("Anim_Fade");
+        //FadeStart = true;
     }
 
     public void BackOut() //brings up main menu
@@ -249,6 +252,12 @@ public class MainMenu : MonoBehaviour
         StageSelect.SetActive(true);
         Settings.SetActive(false);
         LevelPreview.SetActive(false);
+    }
+
+    public void StartLoad() // loads level when called
+    {
+        GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Main Theme");
+        SceneManager.LoadScene(sceneToLoad);
     }
 
     public void DataPurge() // deletes all save data

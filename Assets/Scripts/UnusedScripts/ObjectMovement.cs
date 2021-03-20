@@ -112,7 +112,7 @@ public class ObjectMovement : MonoBehaviour
         /*
          * Doesnt account for multiple batteries, might need to just make it that if it hits anything it stops
          */
-        if(collision.gameObject.tag == "dummy" || collision.gameObject.tag == "Battery" || collision.gameObject.tag  == "Battery 2" || collision.gameObject.tag == "wall" || collision.gameObject.tag == "switch")
+        if(collision.gameObject.tag == "dummy" || collision.gameObject.tag == "Battery" || collision.gameObject.tag == "wall")
         {
             x = 0f;
             y = 0f;

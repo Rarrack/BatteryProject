@@ -51,8 +51,8 @@ public class ObjectTouchMovement : MonoBehaviour
     public void ResetMovement()
     {
         this.selected = false;
-        animator.SetBool("Moved Right", false);
-        animator.SetBool("Moved Left", false);
+        //animator.SetBool("Moved Right", false);
+        //animator.SetBool("Moved Left", false);
         GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         currentDirection = Vector3.zero;
     }

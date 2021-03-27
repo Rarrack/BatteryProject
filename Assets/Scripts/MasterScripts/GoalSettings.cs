@@ -59,7 +59,7 @@ public class GoalSettings : MonoBehaviour
                 //sets battery to center of goal panel
                 bat.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
 
-                bat.GetComponent<Animator>().SetBool("Victory", true);
+                //bat.GetComponent<Animator>().SetBool("Victory", true);
 
                 //stops movement of the battery
                 bat.GetComponent<ObjectTouchMovement>().check.moving = false;

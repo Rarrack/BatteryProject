@@ -639,6 +639,11 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 839509249075135876, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1219030733
+      objectReference: {fileID: 0}
     - target: {fileID: 223840288, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

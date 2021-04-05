@@ -52,6 +52,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: bg
+    uniqueID: 1983524889
+    locked: 0
+  - name: stationary objs
+    uniqueID: 2095568267
+    locked: 0
+  - name: playable objs
+    uniqueID: 3962083005
+    locked: 0
+  - name: ui
+    uniqueID: 1219030733
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

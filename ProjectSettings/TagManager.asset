@@ -27,9 +27,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - ACTUAL Layer 6
+  - ACTUAL Layer 7
+  - ACTUAL Layer 8
   - 
   - 
   - 
@@ -52,18 +52,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: bg
-    uniqueID: 1983524889
-    locked: 0
-  - name: stationary objs
-    uniqueID: 2095568267
-    locked: 0
-  - name: playable objs
-    uniqueID: 3962083005
-    locked: 0
-  - name: ui
-    uniqueID: 1219030733
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: TransparentFX
+    uniqueID: 1483963543
+    locked: 0
+  - name: Ignore Raycast
+    uniqueID: 3250945649
+    locked: 0
+  - name: Water
+    uniqueID: 1675338783
+    locked: 0
+  - name: UI
+    uniqueID: 218183803
+    locked: 0
+  - name: ACTUAL Layer 6
+    uniqueID: 1113558683
+    locked: 0
+  - name: ACTUAL Layer 7
+    uniqueID: 97307233
+    locked: 0
+  - name: ACTUAL Layer 8
+    uniqueID: 2660308317
     locked: 0

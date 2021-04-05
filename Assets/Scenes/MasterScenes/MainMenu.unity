@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 284157263}
   - component: {fileID: 284157262}
   - component: {fileID: 284157264}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Fader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,9 +206,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1675338783
+  m_SortingLayer: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: dbe700bece04c504db67c49811cbe26e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 994687015}
   - component: {fileID: 994687017}
   - component: {fileID: 994687016}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Cloud
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,9 +427,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 1483963543
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: cfc388a15aa65fd4c9c799f1794adedd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1409,7 +1409,17 @@ PrefabInstance:
     - target: {fileID: 3013783878587033689, guid: 0dcd8850749e6f741a12331d9d675b14,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3013783878587033689, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3013783878587033689, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 839509249075135899, guid: 0dcd8850749e6f741a12331d9d675b14,
         type: 3}
@@ -2017,6 +2027,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3812243673933408738, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8942840323218335589, guid: 0dcd8850749e6f741a12331d9d675b14,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2506,6 +2521,36 @@ PrefabInstance:
       propertyPath: sceneCount
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 839509248317007829, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 839509249780701659, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107088936339916573, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322067157552836048, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1044021647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322067157552836048, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322067157552836048, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
 --- !u!224 &839509249058098901 stripped
@@ -2600,3 +2645,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &839509249058098910
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249058098902}
+  m_Enabled: 1
+  m_SortingLayerID: -1044021647
+  m_SortingLayer: 2
+  m_SortingOrder: 2
+--- !u!210 &839509249058098915
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249058098903}
+  m_Enabled: 1
+  m_SortingLayerID: -1044021647
+  m_SortingLayer: 2
+  m_SortingOrder: 2

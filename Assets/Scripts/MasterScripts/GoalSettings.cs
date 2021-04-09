@@ -61,21 +61,44 @@ public class GoalSettings : MonoBehaviour
 
                 //bat.GetComponent<Animator>().SetBool("Victory", true);
 
-                //stops movement of the battery
-                bat.GetComponent<ObjectTouchMovement>().check.moving = false;
+                if(bat.GetComponent<ObjectTouchMovement>() == true)
+                {
+                    //stops movement of the battery
+                    bat.GetComponent<ObjectTouchMovement>().check.moving = false;
 
-                //disable input ability of the battery
-                bat.GetComponent<ObjectTouchMovement>().enabled = false;
+                    //disable input ability of the battery
+                    bat.GetComponent<ObjectTouchMovement>().enabled = false;
 
-                //make the battery intangible
-                bat.GetComponent<Collider2D>().isTrigger = true;
+                    //make the battery intangible
+                    bat.GetComponent<Collider2D>().isTrigger = true;
 
-                bat.tag = "Untagged";
+                    bat.tag = "Untagged";
 
-                filled = true;
+                    filled = true;
 
-                GetComponent<SpriteRenderer>().sprite = victorySprite;
-                bat.GetComponent<SpriteRenderer>().sprite = bat.GetComponent<ObjectTouchMovement>().victorySprite;
+                    GetComponent<SpriteRenderer>().sprite = victorySprite;
+                    bat.GetComponent<SpriteRenderer>().sprite = bat.GetComponent<ObjectTouchMovement>().victorySprite;
+                }
+                else
+                {
+                    //stops movement of the battery
+                    bat.GetComponent<ObjectMovement>().check.moving = false;
+
+                    //disable input ability of the battery
+                    bat.GetComponent<ObjectMovement>().enabled = false;
+
+                    //make the battery intangible
+                    bat.GetComponent<Collider2D>().isTrigger = true;
+
+                    bat.tag = "Untagged";
+
+                    filled = true;
+
+                    GetComponent<SpriteRenderer>().sprite = victorySprite;
+                    bat.GetComponent<SpriteRenderer>().sprite = bat.GetComponent<ObjectMovement>().victorySprite;
+                }
+
+                
             }
         }
     }

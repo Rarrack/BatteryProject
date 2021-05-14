@@ -33,7 +33,16 @@ public class RotationPanel : MonoBehaviour
 
             collision.gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
 
-            collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;
+            //collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;
+            if(collision.gameObject.GetComponent<ObjectTouchMovement>().enabled == true)
+            {
+                collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;
+            }
+            else
+            {
+                collision.gameObject.GetComponent<ObjectMovement>().check.moving = false;
+            }
+
 
             battery = collision.gameObject;
 
@@ -41,7 +50,7 @@ public class RotationPanel : MonoBehaviour
             {
                 case 0:
                     //collision.gameObject.GetComponent<Animator>().SetBool("Rotate 90", true);
-                    battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 90, 1);
+                    battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 1, 1);
                     break;
                 default:
                     //collision.gameObject.GetComponent<Animator>().SetBool("Rotate 0", true);

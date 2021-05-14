@@ -26,6 +26,7 @@ public class LevelManager : MonoBehaviour
             PlayerPrefs.SetInt("Level " + 1, 1); // Sets first level to be active by default 
 
             PlayerPrefs.SetInt("Level Select", 0); // Check to see if level select is active
+            //PlayerPrefs.SetInt("Transition", 0); // Made for brute force transitioning
 
             // Volume Checks
             PlayerPrefs.SetFloat("BGM Volume", 0.7f);

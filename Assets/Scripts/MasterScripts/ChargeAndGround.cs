@@ -40,21 +40,47 @@ public class ChargeAndGround : MonoBehaviour
         {
             collision.gameObject.transform.position = new Vector3(transform.position.x, transform.position.y, 0.1867551f);
 
-            collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;
+            //collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;
+            if(collision.gameObject.GetComponent<ObjectTouchMovement>().enabled == true)
+            {
+                collision.gameObject.GetComponent<ObjectTouchMovement>().check.moving = false;
+            }
+            else
+            {
+                collision.gameObject.GetComponent<ObjectMovement>().check.moving = false;
+            }
 
             switch (charger)
             {
                 case false:
                     GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Ground");
-                    collision.gameObject.GetComponent<ObjectTouchMovement>().charged = false;
-                    collision.gameObject.GetComponent<Animator>().SetBool("Charged", false);
+                    //collision.gameObject.GetComponent<ObjectTouchMovement>().charged = false;
+                    if (collision.gameObject.GetComponent<ObjectTouchMovement>().enabled == true)
+                    {
+                        collision.gameObject.GetComponent<ObjectTouchMovement>().charged = false;
+                    }
+                    else
+                    {
+                        collision.gameObject.GetComponent<ObjectMovement>().charged = false;
+                        collision.gameObject.GetComponent<SpriteRenderer>().sprite = collision.gameObject.GetComponent<ObjectMovement>().states[0];
+                    }
+                    //collision.gameObject.GetComponent<Animator>().SetBool("Charged", false);
                     collision.gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
                     break;
                 case true:
-                    collision.gameObject.GetComponent<Animator>().SetBool("Charging", true);
+                    //collision.gameObject.GetComponent<Animator>().SetBool("Charging", true);
                     GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Charge");
-                    collision.gameObject.GetComponent<ObjectTouchMovement>().charged = true;
-                    collision.gameObject.GetComponent<Animator>().SetBool("Charged", true);
+                    //collision.gameObject.GetComponent<ObjectTouchMovement>().charged = true;
+                    if (collision.gameObject.GetComponent<ObjectTouchMovement>().enabled == true)
+                    {
+                        collision.gameObject.GetComponent<ObjectTouchMovement>().charged = true;
+                    }
+                    else
+                    {
+                        collision.gameObject.GetComponent<ObjectMovement>().charged = true;
+                        collision.gameObject.GetComponent<SpriteRenderer>().sprite = collision.gameObject.GetComponent<ObjectMovement>().states[1];
+                    }
+                    //collision.gameObject.GetComponent<Animator>().SetBool("Charged", true);
                     collision.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
                     break;
             }

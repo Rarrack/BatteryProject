@@ -36,13 +36,14 @@ public class ObjectMovement : MonoBehaviour
     float speed = 10.0f; //Reponsible for base speed of movement on battery
     public ObjectMoveBoolHolder check; //Checks if anything is moving, allows only one object to move at a time
 
-    public bool charged = true; //Checks if object is charged, for use mainly by batteries
+    public bool charged; //Checks if object is charged, for use mainly by batteries
 
     private Vector3 currentDirection = Vector3.zero; //Current direction the object moves in
     GameObject moves; //Holds move counter to increment movement and send info to counter
 
     SpriteRenderer r; //spriteRenderer of object
     Color original; //original color of object
+    public Sprite[] states;
 
     #endregion
 
@@ -73,7 +74,7 @@ public class ObjectMovement : MonoBehaviour
 
     #endregion
 
-    public Sprite victorySprite;
+    //public Sprite victorySprite;
 
     // Use this for initialization
     void Start () {
@@ -83,7 +84,7 @@ public class ObjectMovement : MonoBehaviour
         //
         over = false;
         selected = false;
-        charged = false;
+        //charged = false;
         //enable = true;
         //
         //x = 0f;
@@ -97,7 +98,7 @@ public class ObjectMovement : MonoBehaviour
 
         if (charged == false)
         {
-            GetComponent<SpriteRenderer>().color = Color.white;
+            r.sprite = states[0];
         }
     }
 	
@@ -178,7 +179,8 @@ public class ObjectMovement : MonoBehaviour
             //if left click occurs while mouse is hovering over object, indicates object is selected
             if(Input.GetMouseButton(0) && over == true)
             {
-                r.color = Color.yellow;
+                //r.color = Color.yellow;
+                r.sprite = states[2];
                 selected = true;
             }
     
@@ -270,6 +272,14 @@ public class ObjectMovement : MonoBehaviour
         ResetMovement();
         check.moving = false;
         over = false;
+        if(charged == true)
+        {
+            r.sprite = states[1];
+        }
+        else
+        {
+            r.sprite = states[0];
+        }
         if (gameObject.tag != "dummy")
         {
             //animator.Play("Impact");

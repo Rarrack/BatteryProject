@@ -51,8 +51,8 @@ public class ObjectTouchMovement : MonoBehaviour
     public void ResetMovement()
     {
         this.selected = false;
-        //animator.SetBool("Moved Right", false);
-        //animator.SetBool("Moved Left", false);
+        animator.SetBool("Moved Right", false);
+        animator.SetBool("Moved Left", false);
         GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         currentDirection = Vector3.zero;
     }
@@ -139,22 +139,22 @@ public class ObjectTouchMovement : MonoBehaviour
 
     void Awake()
     {
-        //animator = GetComponent<Animator>();
-        //animator.SetBool("Charged", charged);
+        animator = GetComponent<Animator>();
+        animator.SetBool("Charged", charged);
     }
 
     // Use this for initialization
     void Start()
     {
-        //animator = GetComponent<Animator>();
-        //animator.SetBool("Charged", charged);
-        //overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
-        //animator.runtimeAnimatorController = overrideController;
+        animator = GetComponent<Animator>();
+        animator.SetBool("Charged", charged);
+        overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
+        animator.runtimeAnimatorController = overrideController;
 
-        //if (gameObject.tag == "Battery")
-        //{
-        //    overrideController["Idle"] = idleClips[Random.Range(0, idleClips.Length)];
-        //}
+        if (gameObject.tag == "Battery")
+        {
+            overrideController["Idle"] = idleClips[Random.Range(0, idleClips.Length)];
+        }
 
         // Freezes rotation to prevent physics movement on impact with walls
         GetComponent<Rigidbody2D>().freezeRotation = true;
@@ -172,11 +172,11 @@ public class ObjectTouchMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(i >= 300)
-        //{
-        //    animator.Play("Test Idle");
-        //    i = 0;
-        //}
+        if(i >= 300)
+        {
+            animator.Play("Test Idle");
+            i = 0;
+        }
 
         foreach (Touch touch in Input.touches)
         {
@@ -193,7 +193,7 @@ public class ObjectTouchMovement : MonoBehaviour
                         if ((hits[i].transform.tag == "Battery" || hits[i].transform.tag == "dummy") && hits[i].transform == transform)
                         {
                             this.selected = true;
-                            //GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Battery Select");
+                            GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Battery Select");
                         }
                         else
                         {
@@ -221,7 +221,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             {
                                 if (transform.rotation.z != 0)
                                 {
-                                    //animator.SetBool("Moved Right", true);
+                                    animator.SetBool("Moved Right", true);
                                 }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
@@ -237,7 +237,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             {
                                 if (transform.rotation.z != 0)
                                 {
-                                    //animator.SetBool("Moved Left", true);
+                                    animator.SetBool("Moved Left", true);
                                 }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
@@ -253,7 +253,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             {
                                 if (transform.rotation.z == 0)
                                 {
-                                    //animator.SetBool("Moved Left", true);
+                                    animator.SetBool("Moved Left", true);
                                 }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
@@ -269,7 +269,7 @@ public class ObjectTouchMovement : MonoBehaviour
                             {
                                 if (transform.rotation.z == 0)
                                 {
-                                    //animator.SetBool("Moved Right", true);
+                                    animator.SetBool("Moved Right", true);
                                 }
                                 GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Rolling");
                                 moves.GetComponent<MoveCounter>().Count();
@@ -317,7 +317,7 @@ public class ObjectTouchMovement : MonoBehaviour
         check.moving = false;
         if (gameObject.tag != "dummy")
         {
-            //animator.Play("Impact");
+            animator.Play("Impact");
         }
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Sound");
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().StopSound("Rolling");

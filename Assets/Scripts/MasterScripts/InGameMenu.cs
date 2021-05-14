@@ -133,7 +133,6 @@ public class InGameMenu : MonoBehaviour
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopStageMusic(SceneManager.GetActiveScene().buildIndex);
         PlayerPrefs.SetInt("Level Select", 0);
         PlayerPrefs.Save();
-        //SceneManager.LoadScene(1);
         FadeScreen.GetComponent<Animator>().SetBool("Leave Scene", true);
         whereTo = 1;
     }
@@ -144,7 +143,6 @@ public class InGameMenu : MonoBehaviour
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
         PlayerPrefs.SetInt("Level Select", 1);
         PlayerPrefs.Save();
-        //SceneManager.LoadScene(1);
         FadeScreen.GetComponent<Animator>().SetBool("Leave Scene", true);
         whereTo = 1;
     }
@@ -154,7 +152,6 @@ public class InGameMenu : MonoBehaviour
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Accept");
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Victory Theme");
         int next = SceneManager.GetActiveScene().buildIndex + 1;
-        //SceneManager.LoadScene(next);
         FadeScreen.GetComponent<Animator>().SetBool("Leave Scene", true);
         whereTo = next;
     }

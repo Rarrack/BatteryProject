@@ -61,7 +61,7 @@ public class GoalSettings : MonoBehaviour
 
                 //bat.GetComponent<Animator>().SetBool("Victory", true);
 
-                if(bat.GetComponent<ObjectTouchMovement>() == true)
+                if(bat.GetComponent<ObjectTouchMovement>().enabled == true)
                 {
                     //stops movement of the battery
                     bat.GetComponent<ObjectTouchMovement>().check.moving = false;
@@ -95,7 +95,7 @@ public class GoalSettings : MonoBehaviour
                     filled = true;
 
                     GetComponent<SpriteRenderer>().sprite = victorySprite;
-                    bat.GetComponent<SpriteRenderer>().sprite = bat.GetComponent<ObjectMovement>().victorySprite;
+                    bat.GetComponent<SpriteRenderer>().sprite = bat.GetComponent<ObjectMovement>().states[3];
                 }
 
                 

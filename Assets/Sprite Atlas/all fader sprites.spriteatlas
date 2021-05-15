@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all fader sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: db31b6bfab4277846b185da07920e636, type: 3}
+    - {fileID: 102900000, guid: 073bd096ce4ac4d478109d0da19004f3, type: 3}
+    totalSpriteSurfaceArea: 45619200
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f2f28800288a74f40bb3690e9c8dee89, type: 3}
+  - {fileID: 21300000, guid: 6f5d2c3062f6b2e47b7dbdd076132a9e, type: 3}
+  - {fileID: 21300000, guid: a86dec40c1a7b4843a4505bf0d4108c2, type: 3}
+  - {fileID: 21300000, guid: aca9c65046654ae4ea53729fbf9c7940, type: 3}
+  - {fileID: 21300000, guid: 06b6bcc074285dc49b918f63988b30c0, type: 3}
+  - {fileID: 21300000, guid: 8a54c67128b21bf47bbbe0ae3b97053f, type: 3}
+  - {fileID: 21300000, guid: 1df78dc499b74df44bfcb41e355ba16e, type: 3}
+  - {fileID: 21300000, guid: 904f6f56162157a45a26dd2c354c65fe, type: 3}
+  - {fileID: 21300000, guid: b1f8d9e78a7bf1a4a849bd97241e543d, type: 3}
+  - {fileID: 21300000, guid: 26c99f784b5fd5142abf1ad7f65973d6, type: 3}
+  - {fileID: 21300000, guid: 34990ca8181b3864994a4ec5bd40c9a1, type: 3}
+  - {fileID: 21300000, guid: b6609879f1ac2c14cb6eeb41e4bc03a9, type: 3}
+  - {fileID: 21300000, guid: e87c78c97b3f02248b6ee3fd3724a908, type: 3}
+  - {fileID: 21300000, guid: e541cb6a190bcd241beb8824a87d5a9b, type: 3}
+  - {fileID: 21300000, guid: 937854baf8418414b9e546eced7e3ec9, type: 3}
+  - {fileID: 21300000, guid: 0fa4caca29199b245981dcf39937a262, type: 3}
+  - {fileID: 21300000, guid: 2444f93b56aa2fa4cb4d5988be504b25, type: 3}
+  - {fileID: 21300000, guid: d9feb35b1d49b31479449471207d5921, type: 3}
+  - {fileID: 21300000, guid: 7583310caaf0af14f937dd1c6853f369, type: 3}
+  - {fileID: 21300000, guid: c51130cd666160a45ab066ad515c43e5, type: 3}
+  - {fileID: 21300000, guid: dbe700bece04c504db67c49811cbe26e, type: 3}
+  - {fileID: 21300000, guid: e1e4bacfe7125e44e8fee81f83129134, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - screen_wipe_frame_0006
+  - screen_wipe_frame_0027
+  - screen_wipe_frame_0003
+  - screen_wipe_frame_0008
+  - screen_wipe_frame_0011
+  - screen_wipe_frame_0009
+  - screen_wipe_frame_0029
+  - screen_wipe_frame_0002
+  - screen_wipe_frame_0023
+  - screen_wipe_frame_0028
+  - screen_wipe_frame_0007
+  - screen_wipe_frame_0025
+  - screen_wipe_frame_0021
+  - screen_wipe_frame_0026
+  - screen_wipe_frame_0001
+  - screen_wipe_frame_0005
+  - screen_wipe_frame_0024
+  - screen_wipe_frame_0010
+  - screen_wipe_frame_0020
+  - screen_wipe_frame_0022
+  - screen_wipe_frame_0019
+  - screen_wipe_frame_0004
+  m_Tag: all fader sprites
+  m_IsVariant: 0

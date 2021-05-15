@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all clear circuits assets sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3060fd718d1b9bf41ab03e0c5beb7877, type: 3}
+    totalSpriteSurfaceArea: 41887974
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c8a2d070afb7715409c81f4b2066e840, type: 3}
+  - {fileID: 21300000, guid: ffc1e690e94fa894e830396028ca872d, type: 3}
+  - {fileID: 21300000, guid: 1ae9d2a0508762843bfbf23f53e7d24e, type: 3}
+  - {fileID: 21300000, guid: 19acfaf01f7b7dd42bab07c75f24dbc6, type: 3}
+  - {fileID: 21300000, guid: f76629813f9ae6d4683f514ffba0449e, type: 3}
+  - {fileID: 21300000, guid: 3b03fc82646189e478a9003a3f4b5012, type: 3}
+  - {fileID: 21300000, guid: 783612a2551eff14c98ec6a80fcec041, type: 3}
+  - {fileID: 21300000, guid: ea9b3cb30f3e4c64c8a5865477c2072a, type: 3}
+  - {fileID: 21300000, guid: b3c1d9440bd462c4880fcca29b0944d6, type: 3}
+  - {fileID: 21300000, guid: 77f94d8423100e049b2b8fdce7142397, type: 3}
+  - {fileID: 21300000, guid: 875e3d056dc62154b9d6de0a719ca5d3, type: 3}
+  - {fileID: 21300000, guid: d9a8c30640d65c249a44422c1c69829c, type: 3}
+  - {fileID: 21300000, guid: b9a39ac6d7fdb8d498e266c897b26e72, type: 3}
+  - {fileID: 21300000, guid: 069eb8376a2b976458b1f262323a1592, type: 3}
+  - {fileID: 21300000, guid: 50b61c19921211846b9c57fd8e99e70c, type: 3}
+  - {fileID: 21300000, guid: 218467e977e3546488de53cca9ad2c24, type: 3}
+  - {fileID: 21300000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
+  - {fileID: 21300000, guid: f83598ba4484b984fad0c176a471e93f, type: 3}
+  - {fileID: 21300000, guid: 18a07d8bbe37fcf4a970133633bebba3, type: 3}
+  - {fileID: 21300000, guid: fa61f81c403bdb642867d42d374c2754, type: 3}
+  - {fileID: 21300000, guid: 3764a7ecfc50eed409cb88c8773d27f6, type: 3}
+  - {fileID: 21300000, guid: 5a315d7d3b2aa484eba7a54eb204dd5c, type: 3}
+  - {fileID: 21300000, guid: ca83ff2f940f8894aadc851c7b266f92, type: 3}
+  - {fileID: 21300000, guid: 54a3603fabf18d04cbec22931e904986, type: 3}
+  - {fileID: 21300000, guid: 94df033f1ab06d945967443c657f343e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Game_Bit_Pin_green
+  - Game_Bit_Button_yellow
+  - Game_Bit_Pin_yellow
+  - Game_Bit_Grounding_panel
+  - concepts_D Goal Complete
+  - Game_Bit_Button_red
+  - Game_Bit_Pin_blue
+  - Game_Bit_Toggle_Wall
+  - concepts_AA Red
+  - concepts_D Goal Overlay
+  - concepts_D Goal
+  - concepts_D Green
+  - Gate Draft
+  - Game_Bit_Paperclip_outlines
+  - concepts_AA Goal Complete
+  - Game_Bit_Button_blue
+  - concepts_AA Green
+  - Game_Bit_Button_plate
+  - concepts_AA Goal Overlay
+  - Game_Bit_Pin_red
+  - Clear_Circuits_Dummy_Gears
+  - concepts_AA Goal
+  - concepts_D Blue
+  - Game_Bit_Charging_panel
+  - Clear_Circuits_Bearing
+  m_Tag: all clear circuits assets sprites
+  m_IsVariant: 0

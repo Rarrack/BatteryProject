@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all AA impact sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ff1191ee8c84bdc4b914291fdb748592, type: 3}
+    totalSpriteSurfaceArea: 52973568
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 925b7a50b43a6ed44af290753dd45ea6, type: 3}
+  - {fileID: 21300000, guid: 1cb0ff608744a53428ae1bf1d4e3df3b, type: 3}
+  - {fileID: 21300000, guid: 7da86e01696d5434e848efc0c35eeb36, type: 3}
+  - {fileID: 21300000, guid: 48c52103fd5c0514a89c58d75c2ee0a7, type: 3}
+  - {fileID: 21300000, guid: 09b38f13d7c785648a839aae12151c80, type: 3}
+  - {fileID: 21300000, guid: ee294794840022c4d979492d34ec337e, type: 3}
+  - {fileID: 21300000, guid: 656ef4a4562ee02479eac83b57c60be3, type: 3}
+  - {fileID: 21300000, guid: 2047857547dfb1745ab167993069500c, type: 3}
+  - {fileID: 21300000, guid: d322b5d5485d5f84ca40e9b623e6bd2a, type: 3}
+  - {fileID: 21300000, guid: d089eac6b69e39e479987754ef4540e3, type: 3}
+  - {fileID: 21300000, guid: 0efcca081970c4d488f8b5a8b2d2e9c2, type: 3}
+  - {fileID: 21300000, guid: 92e7e129c0e2c03488c617fb03f8426b, type: 3}
+  - {fileID: 21300000, guid: ed737cf97256cc844821c0aa93d92d6a, type: 3}
+  - {fileID: 21300000, guid: e64bddea5d1ef8d40b46b1d18a3a21e1, type: 3}
+  - {fileID: 21300000, guid: e8a1be2bf8cd561449a02f00f8b4a45c, type: 3}
+  - {fileID: 21300000, guid: 0ff0082c90954b742b255ce23a3c6f25, type: 3}
+  - {fileID: 21300000, guid: e9e7825c71551b04ba74b5ca8721c12e, type: 3}
+  - {fileID: 21300000, guid: a0bb9d8d7a872cf4ea1568bc3527bcb8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - face 4 AA frame 14
+  - face 4 AA frame 17
+  - face 4 AA frame 11
+  - face 4 AA frame 3
+  - face 4 AA frame 9
+  - face 4 AA frame 15
+  - face 4 AA frame 4
+  - face 4 AA frame 13
+  - face 4 AA frame 1
+  - face 4 AA frame 2
+  - face 4 AA frame 16
+  - face 4 AA frame 5
+  - face 4 AA frame 12
+  - face 4 AA frame 6
+  - face 4 AA frame 18
+  - face 4 AA frame 7
+  - face 4 AA frame 8
+  - face 4 AA frame 10
+  m_Tag: all AA impact sprites
+  m_IsVariant: 0

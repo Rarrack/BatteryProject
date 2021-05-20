@@ -76,3 +76,18 @@ TagManager:
   - name: ACTUAL Layer 8
     uniqueID: 2660308317
     locked: 0
+  - name: MainMenu layer 1
+    uniqueID: 3740757829
+    locked: 0
+  - name: MainMenu layer 2
+    uniqueID: 165129143
+    locked: 0
+  - name: MainMenu layer 3
+    uniqueID: 706565311
+    locked: 0
+  - name: MainMenu layer 4
+    uniqueID: 308569789
+    locked: 0
+  - name: MainMenu layer 5
+    uniqueID: 2137903649
+    locked: 0

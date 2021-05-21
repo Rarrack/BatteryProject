@@ -91,3 +91,24 @@ TagManager:
   - name: MainMenu layer 5
     uniqueID: 2137903649
     locked: 0
+  - name: Level BG Layer
+    uniqueID: 3376532393
+    locked: 0
+  - name: Level Walls Layer
+    uniqueID: 1317863845
+    locked: 0
+  - name: Level Hazards Layer
+    uniqueID: 1310875133
+    locked: 0
+  - name: Level Batteries and Goals Layer
+    uniqueID: 291943235
+    locked: 0
+  - name: Level Win Canvas Layer
+    uniqueID: 3013817091
+    locked: 0
+  - name: Level Game Canvas Layer
+    uniqueID: 4193290801
+    locked: 0
+  - name: Level Menu Canvas Layer
+    uniqueID: 3652472719
+    locked: 0

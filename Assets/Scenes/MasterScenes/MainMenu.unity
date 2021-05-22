@@ -2555,6 +2555,22 @@ PrefabInstance:
       propertyPath: levelImg
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 455791484, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelNumber
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 853408504, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 853408504, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364197088, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelNumber
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
 --- !u!224 &839509249058098901 stripped

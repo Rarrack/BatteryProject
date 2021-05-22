@@ -49,12 +49,12 @@ public class RotationPanel : MonoBehaviour
             switch (collision.transform.rotation.z)
             {
                 case 0:
-                    //collision.gameObject.GetComponent<Animator>().SetBool("Rotate 90", true);
-                    battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 1, 1);
+                    collision.gameObject.GetComponent<Animator>().SetBool("Rotate 90", true);
+                    //battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 0.5f, 1);
                     break;
                 default:
-                    //collision.gameObject.GetComponent<Animator>().SetBool("Rotate 0", true);
-                    battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 0, 1);
+                    collision.gameObject.GetComponent<Animator>().SetBool("Rotate 0", true);
+                    //battery.transform.rotation = new Quaternion(battery.transform.rotation.x, battery.transform.rotation.y, 0, 1);
                     break;
             }
         }

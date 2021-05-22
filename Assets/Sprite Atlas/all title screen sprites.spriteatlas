@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all title screen sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cd727d05c40da3449963f59f71e75f76, type: 3}
+    totalSpriteSurfaceArea: 17095448
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: bd616974fb43d90489720c8effa53408, type: 3}
+  - {fileID: 21300000, guid: a3afb105d60580546a4d0c37705e91ac, type: 3}
+  - {fileID: 21300000, guid: 8662c30558e05c04da500128164036e0, type: 3}
+  - {fileID: 21300000, guid: 4d3319887703ff344b61add8f1f9d313, type: 3}
+  - {fileID: 21300000, guid: a27dc29caef8a1b46a5372695efb7ccb, type: 3}
+  - {fileID: 21300000, guid: 979e3abd837680b459e5d8d22afb73e2, type: 3}
+  - {fileID: 21300000, guid: 57697e2e1b13e4f428d1d532582e0aab, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - updated_Title_Screen_blank copy
+  - updated_Title_Screen
+  - Menu_settings
+  - updated_Title_Screen_blank_logo
+  - Main_Logo
+  - Menu_start
+  - NO CLOUD TITLE SCREEN
+  m_Tag: all title screen sprites
+  m_IsVariant: 0

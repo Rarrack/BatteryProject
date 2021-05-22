@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all AA ground rolling sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a3dc78dfc4f8cf64a82949c7f8db347f, type: 3}
+    totalSpriteSurfaceArea: 58859520
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c6d67050784d2fd46bf0df884f5ceb9d, type: 3}
+  - {fileID: 21300000, guid: a8352a11f8e667b489c1dcc97d662f9d, type: 3}
+  - {fileID: 21300000, guid: ad755e12664474b4fbebdb04ee10ec9d, type: 3}
+  - {fileID: 21300000, guid: b118ab22358c5d84a84f23f0778b573c, type: 3}
+  - {fileID: 21300000, guid: 5bebda628022b8144aea172d58228e59, type: 3}
+  - {fileID: 21300000, guid: b61fc9a2071a81549a819ed55e085add, type: 3}
+  - {fileID: 21300000, guid: 4f8396d26a431674ebfc70f8222fbfbc, type: 3}
+  - {fileID: 21300000, guid: 2f0fdcf34a5c43e4db829a0119c267f0, type: 3}
+  - {fileID: 21300000, guid: 2cbb71940950a684e8b3277bcefa4a31, type: 3}
+  - {fileID: 21300000, guid: 3919a705c1113704dac507f59e3c5240, type: 3}
+  - {fileID: 21300000, guid: 67a226a72dabc514aa13ec524ed06877, type: 3}
+  - {fileID: 21300000, guid: 989b6cc821fb0cc41bff39a7607266d5, type: 3}
+  - {fileID: 21300000, guid: 59a1210a27c760f41a5736e6024ebd7e, type: 3}
+  - {fileID: 21300000, guid: b5c85e8b48a5f2346a0428dfe00c0546, type: 3}
+  - {fileID: 21300000, guid: ac3c2b1cc2ac4604fbd49db1ae3b4260, type: 3}
+  - {fileID: 21300000, guid: fa8b8b3cb202b644fa72aed1b637a31c, type: 3}
+  - {fileID: 21300000, guid: 16dc9a4c1dec7a04aaf742a5a96c6545, type: 3}
+  - {fileID: 21300000, guid: 006a98de406f8ba4e8be7eb304d4f11f, type: 3}
+  - {fileID: 21300000, guid: a3312d4f3cd45cb48a481dd02250cd37, type: 3}
+  - {fileID: 21300000, guid: 16099e5f72e072c4a87d5d5f7f9072b5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - AA grounded roll frame 6
+  - AA grounded roll frame 19
+  - AA grounded roll frame 5
+  - AA grounded roll frame 4
+  - AA grounded roll frame 15
+  - AA grounded roll frame 13
+  - AA grounded roll frame 3
+  - AA grounded roll frame 16
+  - AA grounded roll frame 7
+  - AA grounded roll frame 18
+  - AA grounded roll frame 8
+  - AA grounded roll frame 20
+  - AA grounded roll frame 11
+  - AA grounded roll frame 1
+  - AA grounded roll frame 10
+  - AA grounded roll frame 12
+  - AA grounded roll frame 17
+  - AA grounded roll frame 9
+  - AA grounded roll frame 14
+  - AA grounded roll frame 2
+  m_Tag: all AA ground rolling sprites
+  m_IsVariant: 0

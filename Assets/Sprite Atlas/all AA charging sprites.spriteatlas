@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all AA charging sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ef252574a5ac67444a3904abc1254d51, type: 3}
+    totalSpriteSurfaceArea: 44144640
+    bindAsDefault: 0
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ccf430d01d1c0d54bb1e64129a4684e4, type: 3}
+  - {fileID: 21300000, guid: 85b597d0ebbfb6146be22229d398d90c, type: 3}
+  - {fileID: 21300000, guid: e9126a71c6d09cb4faef6a9c7499f7b0, type: 3}
+  - {fileID: 21300000, guid: c43783522196df14b901c871ad6618dc, type: 3}
+  - {fileID: 21300000, guid: 2e5e79d2feadaa642a13235beed7e92b, type: 3}
+  - {fileID: 21300000, guid: 581a3d4592229434c84741b73335d33e, type: 3}
+  - {fileID: 21300000, guid: 8797e756f8f533c4a9191e6992b55b44, type: 3}
+  - {fileID: 21300000, guid: 37641b680899b834088dbd8fe1e8acbf, type: 3}
+  - {fileID: 21300000, guid: f3d3c8f956dab6444ad59b2b00117ac2, type: 3}
+  - {fileID: 21300000, guid: 4ac4301af02d45942b706ae2778d7c34, type: 3}
+  - {fileID: 21300000, guid: bc04c26a925b6ab488461edf99f784fa, type: 3}
+  - {fileID: 21300000, guid: 2c44b4bc4a7c0fc4794d85499c9117da, type: 3}
+  - {fileID: 21300000, guid: 19ec964deefe2fc4697365d64ed8be76, type: 3}
+  - {fileID: 21300000, guid: 89d5970e2bdbfc544bafa544a691ea3a, type: 3}
+  - {fileID: 21300000, guid: a6d5fb1e707d1f1419334a58166ee5ad, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - AA charge frame 4
+  - AA charge frame 13
+  - AA charge frame 5
+  - AA charge frame 7
+  - AA charge frame 1
+  - AA charge frame 2
+  - AA charge frame 6
+  - AA charge frame 15
+  - AA charge frame 8
+  - AA charge frame 9
+  - AA charge frame 3
+  - AA charge frame 12
+  - AA charge frame 14
+  - AA charge frame 11
+  - AA charge frame 10
+  m_Tag: all AA charging sprites
+  m_IsVariant: 0

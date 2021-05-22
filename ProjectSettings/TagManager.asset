@@ -76,3 +76,39 @@ TagManager:
   - name: ACTUAL Layer 8
     uniqueID: 2660308317
     locked: 0
+  - name: MainMenu layer 1
+    uniqueID: 3740757829
+    locked: 0
+  - name: MainMenu layer 2
+    uniqueID: 165129143
+    locked: 0
+  - name: MainMenu layer 3
+    uniqueID: 706565311
+    locked: 0
+  - name: MainMenu layer 4
+    uniqueID: 308569789
+    locked: 0
+  - name: MainMenu layer 5
+    uniqueID: 2137903649
+    locked: 0
+  - name: Level BG Layer
+    uniqueID: 3376532393
+    locked: 0
+  - name: Level Walls Layer
+    uniqueID: 1317863845
+    locked: 0
+  - name: Level Hazards Layer
+    uniqueID: 1310875133
+    locked: 0
+  - name: Level Batteries and Goals Layer
+    uniqueID: 291943235
+    locked: 0
+  - name: Level Win Canvas Layer
+    uniqueID: 3013817091
+    locked: 0
+  - name: Level Game Canvas Layer
+    uniqueID: 4193290801
+    locked: 0
+  - name: Level Menu Canvas Layer
+    uniqueID: 3652472719
+    locked: 0

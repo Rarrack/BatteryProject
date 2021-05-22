@@ -1418,6 +1418,7 @@ GameObject:
   - component: {fileID: 792359295}
   - component: {fileID: 792359294}
   - component: {fileID: 792359298}
+  - component: {fileID: 792359299}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1515,6 +1516,26 @@ MonoBehaviour:
   victoryTypes:
   - {fileID: 21300000, guid: e465751ed19a036488bf05965d75479e, type: 3}
   - {fileID: 21300000, guid: 5202dc1b516fc9642b74ca44f948faa5, type: 3}
+--- !u!114 &792359299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792359293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e188ee899633d0b49870a5ae38b7359d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ratio: {x: 9, y: 16}
+  forceRatioOnAwake: 1
+  listenForWindowChanges: 1
+  createCameraForLetterBoxRendering: 1
+  findCamerasAutomatically: 1
+  letterBoxCameraColor: {r: 0, g: 0, b: 0, a: 1}
+  cameras: []
+  letterBoxCamera: {fileID: 0}
 --- !u!1001 &873464106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1801,7 +1822,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1204221555
 PrefabInstance:

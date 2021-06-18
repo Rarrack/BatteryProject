@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 375573333}
   - component: {fileID: 375573335}
   - component: {fileID: 375573334}
+  - component: {fileID: 7993912634141679700}
   m_Layer: 5
   m_Name: BGM Title
   m_TagString: Untagged
@@ -115,6 +116,17 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: BGM Volume
+--- !u!210 &7993912634141679700
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375573332}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &486379378
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +212,7 @@ GameObject:
   - component: {fileID: 574699048}
   - component: {fileID: 574699050}
   - component: {fileID: 574699049}
+  - component: {fileID: 4565808090935438509}
   m_Layer: 5
   m_Name: SFX Title
   m_TagString: Untagged
@@ -268,6 +281,17 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: SFX Volume
+--- !u!210 &4565808090935438509
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574699047}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &625513045
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +524,7 @@ GameObject:
   - component: {fileID: 1535178414}
   - component: {fileID: 1535178413}
   - component: {fileID: 1535178412}
+  - component: {fileID: 6831888871426093812}
   m_Layer: 5
   m_Name: SFX Voume Slider
   m_TagString: Untagged
@@ -634,6 +659,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3462433c9ee1b9f4e8d18bc300c0a69f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &6831888871426093812
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535178410}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &1546318306
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,6 +792,7 @@ GameObject:
   - component: {fileID: 1792870663}
   - component: {fileID: 1792870662}
   - component: {fileID: 1792870661}
+  - component: {fileID: 6210492221013117198}
   m_Layer: 5
   m_Name: BGM Voume Slider
   m_TagString: Untagged
@@ -890,6 +927,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3462433c9ee1b9f4e8d18bc300c0a69f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &6210492221013117198
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792870659}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &2023340842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,6 +1099,7 @@ GameObject:
   - component: {fileID: 114627033952556056}
   - component: {fileID: 114161330499326342}
   - component: {fileID: 114254945365131546}
+  - component: {fileID: 3490954642158396158}
   m_Layer: 5
   m_Name: Return To Main Button
   m_TagString: Untagged
@@ -1182,6 +1231,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea490816b26f70341ad44ee3ed3d4cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &3490954642158396158
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103778187747978}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &1259042005974076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1329,7 @@ GameObject:
   - component: {fileID: 114337767640854446}
   - component: {fileID: 114208652141150566}
   - component: {fileID: 114719011278773120}
+  - component: {fileID: 7060106313349409563}
   m_Layer: 5
   m_Name: Back To Game Button
   m_TagString: Untagged
@@ -1400,6 +1461,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea490816b26f70341ad44ee3ed3d4cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &7060106313349409563
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380173107521930}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &1411155639227868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1595,7 @@ GameObject:
   - component: {fileID: 222126616096155122}
   - component: {fileID: 114968080735198272}
   - component: {fileID: 114975958354756186}
+  - component: {fileID: 8416690422414295830}
   m_Layer: 5
   m_Name: Menu Background
   m_TagString: Untagged
@@ -1598,6 +1671,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea490816b26f70341ad44ee3ed3d4cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &8416690422414295830
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753431793332002}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &5303973656011805707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +1694,7 @@ GameObject:
   - component: {fileID: 1398834148818078485}
   - component: {fileID: 6334528782545183368}
   - component: {fileID: 8205997250579023439}
+  - component: {fileID: 6615632765955270745}
   m_Layer: 5
   m_Name: SFX Decrease
   m_TagString: Untagged
@@ -1729,6 +1814,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &6615632765955270745
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303973656011805707}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &5584553001514816845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,6 +1837,7 @@ GameObject:
   - component: {fileID: 4834811523962576356}
   - component: {fileID: 3266518319295107193}
   - component: {fileID: 5719995087146355468}
+  - component: {fileID: 6459433382440072036}
   m_Layer: 5
   m_Name: BGM Decrease
   m_TagString: Untagged
@@ -1860,6 +1957,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &6459433382440072036
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5584553001514816845}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &6113446209048574657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,6 +1980,7 @@ GameObject:
   - component: {fileID: 4286882252325678958}
   - component: {fileID: 4521227040338143499}
   - component: {fileID: 2562142738015925054}
+  - component: {fileID: 2380390446870184617}
   m_Layer: 5
   m_Name: SFX Increase
   m_TagString: Untagged
@@ -1991,6 +2100,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &2380390446870184617
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6113446209048574657}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &7321646282160704061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,6 +2122,7 @@ GameObject:
   - component: {fileID: 872541135351304923}
   - component: {fileID: 1193540752328179888}
   - component: {fileID: 4948864892698031394}
+  - component: {fileID: 81320237918814017}
   m_Layer: 5
   m_Name: Menu Title
   m_TagString: Untagged
@@ -2070,6 +2191,17 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: SETTINGS
+--- !u!210 &81320237918814017
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321646282160704061}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0
 --- !u!1 &9208150223874553838
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,6 +2214,7 @@ GameObject:
   - component: {fileID: 2520935467760315461}
   - component: {fileID: 2173657976823433247}
   - component: {fileID: 1203961546435525042}
+  - component: {fileID: 6939835786392841316}
   m_Layer: 5
   m_Name: BGM Increase
   m_TagString: Untagged
@@ -2201,3 +2334,14 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &6939835786392841316
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9208150223874553838}
+  m_Enabled: 1
+  m_SortingLayerID: -642494577
+  m_SortingLayer: 19
+  m_SortingOrder: 0

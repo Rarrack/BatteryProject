@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 222781501223710830}
   - component: {fileID: 114401689295502066}
   - component: {fileID: 114428117332213258}
+  - component: {fileID: 5502521129232154002}
   m_Layer: 5
   m_Name: Menu Button
   m_TagString: Untagged
@@ -131,6 +132,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &5502521129232154002
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031268929171760}
+  m_Enabled: 1
+  m_SortingLayerID: -101676495
+  m_SortingLayer: 18
+  m_SortingOrder: 0
 --- !u!1 &1161821224755398
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +155,7 @@ GameObject:
   - component: {fileID: 222721939491457874}
   - component: {fileID: 114597717913972468}
   - component: {fileID: 114936812177196324}
+  - component: {fileID: 6828318816583954773}
   m_Layer: 5
   m_Name: Counter
   m_TagString: Untagged
@@ -220,6 +233,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   masterCount: 6
+--- !u!210 &6828318816583954773
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161821224755398}
+  m_Enabled: 1
+  m_SortingLayerID: -101676495
+  m_SortingLayer: 18
+  m_SortingOrder: 0
 --- !u!1 &1266448959170010
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +357,7 @@ GameObject:
   - component: {fileID: 222105481187878548}
   - component: {fileID: 114713117717697436}
   - component: {fileID: 114371069392325358}
+  - component: {fileID: 7393571036978030818}
   m_Layer: 5
   m_Name: Reset Button
   m_TagString: Untagged
@@ -452,6 +477,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &7393571036978030818
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341624005551916}
+  m_Enabled: 1
+  m_SortingLayerID: -101676495
+  m_SortingLayer: 18
+  m_SortingOrder: 0
 --- !u!1 &1427680167522924
 GameObject:
   m_ObjectHideFlags: 0

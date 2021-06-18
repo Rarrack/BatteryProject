@@ -31,7 +31,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 3060fd718d1b9bf41ab03e0c5beb7877, type: 3}
-    totalSpriteSurfaceArea: 41887974
+    totalSpriteSurfaceArea: 41927974
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -50,6 +50,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: b9a39ac6d7fdb8d498e266c897b26e72, type: 3}
   - {fileID: 21300000, guid: 069eb8376a2b976458b1f262323a1592, type: 3}
   - {fileID: 21300000, guid: 50b61c19921211846b9c57fd8e99e70c, type: 3}
+  - {fileID: 21300000, guid: d36d9cb9b18ee8e42b46b1b68f84369a, type: 3}
   - {fileID: 21300000, guid: 218467e977e3546488de53cca9ad2c24, type: 3}
   - {fileID: 21300000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
   - {fileID: 21300000, guid: f83598ba4484b984fad0c176a471e93f, type: 3}
@@ -76,6 +77,7 @@ SpriteAtlas:
   - Gate Draft
   - Game_Bit_Paperclip_outlines
   - concepts_AA Goal Complete
+  - Game_Bit_Disableable_Wall
   - Game_Bit_Button_blue
   - concepts_AA Green
   - Game_Bit_Button_plate

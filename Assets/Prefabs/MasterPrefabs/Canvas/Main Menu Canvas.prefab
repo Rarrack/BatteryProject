@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 342512231}
   - component: {fileID: 342512230}
   - component: {fileID: 342512229}
+  - component: {fileID: 839509249058098945}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -287,7 +288,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -321,6 +322,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098945
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342512227}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 18
 --- !u!1 &370983274
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,9 +398,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -465,9 +477,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 38
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -491,6 +503,7 @@ GameObject:
   - component: {fileID: 480965094}
   - component: {fileID: 480965097}
   - component: {fileID: 480965095}
+  - component: {fileID: 839509249058098942}
   m_Layer: 5
   m_Name: SFX Volume Slider
   m_TagString: Untagged
@@ -558,7 +571,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 710928217}
   m_FillRect: {fileID: 2036855130}
   m_HandleRect: {fileID: 710928215}
@@ -625,6 +638,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3462433c9ee1b9f4e8d18bc300c0a69f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &839509249058098942
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480965093}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 6
 --- !u!1 &504875387
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,9 +793,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 51
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -927,9 +951,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 53
   m_Sprite: {fileID: 21300000, guid: c5e3dfa4d41b3a94d8df65cc4d257b71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1006,9 +1030,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 25
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -1085,9 +1109,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -1164,94 +1188,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a303ba36347e2b14cb524136dc3e0ea5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 37.53, y: 9.987231}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &669370374
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 669370375}
-  - component: {fileID: 669370376}
-  m_Layer: 0
-  m_Name: Level Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &669370375
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669370374}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 18.028233, z: 0}
-  m_LocalScale: {x: 1.1576389, y: 0.5689841, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1988306827}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &669370376
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669370374}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 45.01, y: 80.01778}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1268,6 +1213,7 @@ GameObject:
   - component: {fileID: 680909188}
   - component: {fileID: 680909190}
   - component: {fileID: 680909189}
+  - component: {fileID: 839509249058098944}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -1333,6 +1279,17 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!210 &839509249058098944
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680909187}
+  m_Enabled: 1
+  m_SortingLayerID: -554209467
+  m_SortingLayer: 8
+  m_SortingOrder: 0
 --- !u!1 &688251438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,6 +1302,7 @@ GameObject:
   - component: {fileID: 688251442}
   - component: {fileID: 688251441}
   - component: {fileID: 688251440}
+  - component: {fileID: 839509249058098955}
   m_Layer: 5
   m_Name: Stage Right
   m_TagString: Untagged
@@ -1465,6 +1423,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098955
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688251438}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 4
 --- !u!1 &710928214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,9 +1573,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 13
   m_Sprite: {fileID: 21300000, guid: c5e3dfa4d41b3a94d8df65cc4d257b71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1630,6 +1599,7 @@ GameObject:
   - component: {fileID: 748720141}
   - component: {fileID: 748720140}
   - component: {fileID: 748720139}
+  - component: {fileID: 839509249058098934}
   m_Layer: 5
   m_Name: BGM Decrease
   m_TagString: Untagged
@@ -1653,8 +1623,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -517.9999, y: 286}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -517.9999, y: 281}
+  m_SizeDelta: {x: 147.5, y: 83.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &748720141
 CanvasRenderer:
@@ -1686,7 +1656,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 1d3078e0c15faa84e8b2fcc7f06e0024, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1715,7 +1685,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1749,6 +1719,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098934
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748720137}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 8
 --- !u!1 &753940353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,9 +1795,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 14
   m_Sprite: {fileID: 21300000, guid: c5e3dfa4d41b3a94d8df65cc4d257b71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1919,6 +1900,7 @@ GameObject:
   - component: {fileID: 792355507}
   - component: {fileID: 792355506}
   - component: {fileID: 792355505}
+  - component: {fileID: 839509249058099013}
   m_Layer: 5
   m_Name: Stage Left
   m_TagString: Untagged
@@ -2039,6 +2021,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099013
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792355503}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 42
 --- !u!1 &817268421
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,9 +2097,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: f618ea749c974a34081e925e3d0321bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2130,6 +2123,7 @@ GameObject:
   - component: {fileID: 846609515}
   - component: {fileID: 846609514}
   - component: {fileID: 846609513}
+  - component: {fileID: 839509249058098953}
   m_Layer: 5
   m_Name: Stage Right
   m_TagString: Untagged
@@ -2250,6 +2244,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098953
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846609511}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 17
 --- !u!1 &914907819
 GameObject:
   m_ObjectHideFlags: 0
@@ -2315,9 +2320,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 7231be203127b8048bcdd0221a447796, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2394,9 +2399,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c5e3dfa4d41b3a94d8df65cc4d257b71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2420,6 +2425,7 @@ GameObject:
   - component: {fileID: 948594955}
   - component: {fileID: 948594954}
   - component: {fileID: 948594953}
+  - component: {fileID: 839509249058098935}
   m_Layer: 5
   m_Name: BGM Volume Slider
   m_TagString: Untagged
@@ -2487,7 +2493,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1862124814}
   m_FillRect: {fileID: 223840288}
   m_HandleRect: {fileID: 1862124813}
@@ -2554,6 +2560,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3462433c9ee1b9f4e8d18bc300c0a69f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &839509249058098935
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948594951}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 5
 --- !u!1 &977304214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2590,6 +2607,110 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: -8}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &994687014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 994687015}
+  - component: {fileID: 994687017}
+  - component: {fileID: 994687016}
+  m_Layer: 1
+  m_Name: Cloud
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &994687015
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994687014}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 153.86458, y: 153.86458, z: 153.86458}
+  m_Children: []
+  m_Father: {fileID: 839509248797561563}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -19, y: 739}
+  m_SizeDelta: {x: -1267.2, y: -2268.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!212 &994687017
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994687014}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 308569789
+  m_SortingLayer: 11
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: cfc388a15aa65fd4c9c799f1794adedd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 12.8, y: 7.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &994687016
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994687014}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f339a17bda731744eb7885212ebe3025, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &998358779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2602,6 +2723,7 @@ GameObject:
   - component: {fileID: 998358783}
   - component: {fileID: 998358782}
   - component: {fileID: 998358781}
+  - component: {fileID: 839509249058098954}
   m_Layer: 5
   m_Name: Stage Left
   m_TagString: Untagged
@@ -2722,6 +2844,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098954
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998358779}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 16
 --- !u!1 &1011051927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2787,9 +2920,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -2866,9 +2999,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 54
   m_Sprite: {fileID: 21300000, guid: cab0a725cca727847bb4311ca79fd89e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2945,9 +3078,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 52
   m_Sprite: {fileID: 21300000, guid: 4c0d4b4160a548e4c9ec08ed4393d0f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3050,6 +3183,7 @@ GameObject:
   - component: {fileID: 1203103897}
   - component: {fileID: 1203103896}
   - component: {fileID: 1203103895}
+  - component: {fileID: 839509249058099012}
   m_Layer: 5
   m_Name: Stage Right
   m_TagString: Untagged
@@ -3170,6 +3304,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099012
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203103893}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 43
 --- !u!1 &1242919427
 GameObject:
   m_ObjectHideFlags: 0
@@ -3235,9 +3380,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: 9e2a68f4450c29748ac08b77550f4ae2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3340,6 +3485,7 @@ GameObject:
   - component: {fileID: 1298971420}
   - component: {fileID: 1298971419}
   - component: {fileID: 1298971418}
+  - component: {fileID: 839509249058099003}
   m_Layer: 5
   m_Name: Stage Left
   m_TagString: Untagged
@@ -3460,6 +3606,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099003
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298971416}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 55
 --- !u!1 &1318958281
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,9 +3792,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 39
   m_Sprite: {fileID: 21300000, guid: 3bc121503bbdf654c87f246503b368c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3714,9 +3871,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: -554209467
+  m_SortingLayer: 8
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: bd32904ab2abe9948963035efa2040f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3740,6 +3897,7 @@ GameObject:
   - component: {fileID: 1395329107}
   - component: {fileID: 1395329106}
   - component: {fileID: 1395329105}
+  - component: {fileID: 839509249058098946}
   m_Layer: 5
   m_Name: Level Start Button
   m_TagString: Untagged
@@ -3826,7 +3984,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3860,6 +4018,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098946
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395329103}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 17
 --- !u!1 &1438755974
 GameObject:
   m_ObjectHideFlags: 0
@@ -3872,6 +4041,7 @@ GameObject:
   - component: {fileID: 1438755978}
   - component: {fileID: 1438755977}
   - component: {fileID: 1438755976}
+  - component: {fileID: 839509249058098943}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -3957,7 +4127,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3991,6 +4161,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098943
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438755974}
+  m_Enabled: 1
+  m_SortingLayerID: -554209467
+  m_SortingLayer: 8
+  m_SortingOrder: 2
 --- !u!1 &1456317760
 GameObject:
   m_ObjectHideFlags: 0
@@ -4056,9 +4237,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -4214,8 +4395,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
   m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4293,9 +4474,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 40
   m_Sprite: {fileID: 21300000, guid: c5e3dfa4d41b3a94d8df65cc4d257b71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4377,9 +4558,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 16
   m_Sprite: {fileID: 21300000, guid: b55feeff6ad23d44c8416e411f033e3f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4456,9 +4637,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 27
   m_Sprite: {fileID: 21300000, guid: c5e3dfa4d41b3a94d8df65cc4d257b71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4535,9 +4716,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 26
   m_Sprite: {fileID: 21300000, guid: a084bea3745b5fb499a5cf4b4e17d7c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4640,6 +4821,7 @@ GameObject:
   - component: {fileID: 1615066479}
   - component: {fileID: 1615066478}
   - component: {fileID: 1615066477}
+  - component: {fileID: 839509249058098936}
   m_Layer: 5
   m_Name: BGM Increase
   m_TagString: Untagged
@@ -4725,7 +4907,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -4759,6 +4941,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098936
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615066475}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 7
 --- !u!1 &1643945088
 GameObject:
   m_ObjectHideFlags: 0
@@ -4850,6 +5043,7 @@ GameObject:
   - component: {fileID: 1661662048}
   - component: {fileID: 1661662047}
   - component: {fileID: 1661662046}
+  - component: {fileID: 839509249058099022}
   m_Layer: 5
   m_Name: Stage Right
   m_TagString: Untagged
@@ -4970,6 +5164,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099022
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661662044}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 30
 --- !u!1 &1669506503
 GameObject:
   m_ObjectHideFlags: 0
@@ -5035,9 +5240,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 13
   m_Sprite: {fileID: 21300000, guid: 2ba83b11fb2969045961e3d1e97a692d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5134,6 +5339,7 @@ GameObject:
   - component: {fileID: 1703930697}
   - component: {fileID: 1703930699}
   - component: {fileID: 1703930698}
+  - component: {fileID: 839509249058098948}
   m_Layer: 5
   m_Name: Level Counter
   m_TagString: Untagged
@@ -5204,6 +5410,17 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Least Moves: 0/10'
+--- !u!210 &839509249058098948
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703930696}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 15
 --- !u!1 &1721568739
 GameObject:
   m_ObjectHideFlags: 0
@@ -5295,6 +5512,7 @@ GameObject:
   - component: {fileID: 1769616873}
   - component: {fileID: 1769616872}
   - component: {fileID: 1769616871}
+  - component: {fileID: 839509249058098932}
   m_Layer: 5
   m_Name: SFX Decrease
   m_TagString: Untagged
@@ -5318,8 +5536,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -517.9999, y: -258}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -517.9999, y: -253}
+  m_SizeDelta: {x: 147.5, y: 83.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1769616873
 CanvasRenderer:
@@ -5351,7 +5569,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 1d3078e0c15faa84e8b2fcc7f06e0024, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5380,7 +5598,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5414,6 +5632,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098932
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769616869}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 10
 --- !u!1 &1807183111
 GameObject:
   m_ObjectHideFlags: 0
@@ -5426,6 +5655,7 @@ GameObject:
   - component: {fileID: 1807183115}
   - component: {fileID: 1807183114}
   - component: {fileID: 1807183113}
+  - component: {fileID: 839509249058098933}
   m_Layer: 5
   m_Name: SFX Increase
   m_TagString: Untagged
@@ -5511,7 +5741,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5545,6 +5775,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098933
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807183111}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 9
 --- !u!1 &1862124812
 GameObject:
   m_ObjectHideFlags: 0
@@ -5631,6 +5872,7 @@ GameObject:
   - component: {fileID: 1872344835}
   - component: {fileID: 1872344834}
   - component: {fileID: 1872344833}
+  - component: {fileID: 839509249058099023}
   m_Layer: 5
   m_Name: Stage Left
   m_TagString: Untagged
@@ -5751,6 +5993,17 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099023
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872344831}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 29
 --- !u!1 &1873676758
 GameObject:
   m_ObjectHideFlags: 0
@@ -5763,6 +6016,7 @@ GameObject:
   - component: {fileID: 1873676762}
   - component: {fileID: 1873676761}
   - component: {fileID: 1873676760}
+  - component: {fileID: 839509249058098939}
   m_Layer: 5
   m_Name: Credits Button
   m_TagString: Untagged
@@ -5848,7 +6102,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5882,6 +6136,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098939
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873676758}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 2
 --- !u!1 &1903177137
 GameObject:
   m_ObjectHideFlags: 0
@@ -5947,9 +6212,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 28
   m_Sprite: {fileID: 21300000, guid: 565a2abadd3205842ba3ab8388a1be48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6026,9 +6291,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 41
   m_Sprite: {fileID: 21300000, guid: 949c70a183423104cba6df0c3be6b4d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6051,6 +6316,7 @@ GameObject:
   - component: {fileID: 1988306827}
   - component: {fileID: 1988306828}
   - component: {fileID: 1988306829}
+  - component: {fileID: 839509249058098952}
   m_Layer: 5
   m_Name: Level Preview
   m_TagString: Untagged
@@ -6071,17 +6337,17 @@ RectTransform:
   m_Children:
   - {fileID: 817268422}
   - {fileID: 714936752}
-  - {fileID: 669370375}
+  - {fileID: 7866393398119338605}
   - {fileID: 1703930697}
   - {fileID: 1395329104}
   - {fileID: 342512228}
   m_Father: {fileID: 839509249075135877}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: -1180, y: -2176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1988306828
 CanvasRenderer:
@@ -6110,8 +6376,19 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f8cbbeb2c13932946a048ced45026611, type: 3}
   - {fileID: 21300000, guid: 612c55519c394d847a7d1cf978eee7d6, type: 3}
   - {fileID: 21300000, guid: 49e231e334c29984f890e292fa8b81a3, type: 3}
-  preview: {fileID: 669370374}
+  preview: {fileID: 0}
   counterText: {fileID: 1254147759}
+--- !u!210 &839509249058098952
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988306826}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 11
 --- !u!1 &2036855129
 GameObject:
   m_ObjectHideFlags: 0
@@ -6251,9 +6528,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: eb64b9ff120ba764a8348a9fe3035c41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -6409,9 +6686,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 4ceb89a84e767594bb4c57901b8575d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6459,6 +6736,85 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &267986928849810729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7866393398119338605}
+  - component: {fileID: 6755136162461717807}
+  m_Layer: 0
+  m_Name: Level Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7866393398119338605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267986928849810729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 17.6, z: -11907.853}
+  m_LocalScale: {x: 5.010842, y: 2.9449527, z: 119.07853}
+  m_Children: []
+  m_Father: {fileID: 1988306827}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6755136162461717807
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267986928849810729}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 14
+  m_Sprite: {fileID: 21300000, guid: 8ff5e432e91e0ba4f9401d2950fd800f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.53, y: 16.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &372594217063505825
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,13 +6828,14 @@ GameObject:
   - component: {fileID: 3784302646855902494}
   - component: {fileID: 7716626266001985636}
   - component: {fileID: 5274459934873463600}
+  - component: {fileID: 839509249058099009}
   m_Layer: 5
   m_Name: Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7031526654100948693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6488,14 +6845,14 @@ RectTransform:
   m_GameObject: {fileID: 372594217063505825}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99985605, y: 0.99985605, z: 0.99985605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2344151974428960825}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: 463.00003}
+  m_AnchoredPosition: {x: 4, y: 526}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7408484535884177474
@@ -6526,8 +6883,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 8faf1ea669ef19a41b6185ad47ef17dd, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6557,7 +6914,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -6579,7 +6936,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5274459934873463600}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6603,9 +6960,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 2
-  sceneCount: 0
-  levelImg: {fileID: 0}
+  levelNumber: 26
+  sceneCount: 10
+  levelImg: {fileID: 21300000, guid: 54475c97bb87f664a861c82ac3ff9980, type: 3}
+--- !u!210 &839509249058099009
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372594217063505825}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 61
 --- !u!1 &685456297875678633
 GameObject:
   m_ObjectHideFlags: 0
@@ -6619,13 +6987,14 @@ GameObject:
   - component: {fileID: 2194839644698275871}
   - component: {fileID: 2479928542074777638}
   - component: {fileID: 1830383314834552662}
+  - component: {fileID: 839509249058099034}
   m_Layer: 5
   m_Name: Level 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7424525555319324019
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6704,7 +7073,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -6753,6 +7122,17 @@ MonoBehaviour:
   levelNumber: 11
   sceneCount: 10
   levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
+--- !u!210 &839509249058099034
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685456297875678633}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 20
 --- !u!1 &736210038931725935
 GameObject:
   m_ObjectHideFlags: 0
@@ -6766,13 +7146,14 @@ GameObject:
   - component: {fileID: 1627374308004809223}
   - component: {fileID: 7474671770477039286}
   - component: {fileID: 5873032993215030561}
+  - component: {fileID: 839509249058099028}
   m_Layer: 5
   m_Name: Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4777276669695929337
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6782,14 +7163,14 @@ RectTransform:
   m_GameObject: {fileID: 736210038931725935}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002037, y: 1.0002037, z: 1.0002037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7797007925731283181}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.4, y: -38}
+  m_AnchoredPosition: {x: 385, y: 527}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6675560621316460441
@@ -6820,8 +7201,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dbaa78228dfab8044aea7cd8da73761e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6851,7 +7232,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -6873,7 +7254,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5873032993215030561}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6897,9 +7278,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 3
-  sceneCount: 0
+  levelNumber: 15
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099028
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736210038931725935}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 35
 --- !u!1 &839509247960138933
 GameObject:
   m_ObjectHideFlags: 0
@@ -6912,6 +7304,7 @@ GameObject:
   - component: {fileID: 839509247960138929}
   - component: {fileID: 839509247960138928}
   - component: {fileID: 839509247960138935}
+  - component: {fileID: 839509249058098938}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -6997,7 +7390,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -7031,6 +7424,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098938
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509247960138933}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 3
 --- !u!1 &839509248317007829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7043,7 +7447,9 @@ GameObject:
   - component: {fileID: 839509248317007825}
   - component: {fileID: 839509248317007824}
   - component: {fileID: 839509248317007831}
-  m_Layer: 5
+  - component: {fileID: 839509249058098905}
+  - component: {fileID: 839509249058098910}
+  m_Layer: 2
   m_Name: Settings Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7162,6 +7568,36 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!95 &839509249058098905
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248317007829}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f8ba03fb710f4ae4d817bba31ceea15a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &839509249058098910
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248317007829}
+  m_Enabled: 1
+  m_SortingLayerID: 2137903649
+  m_SortingLayer: 12
+  m_SortingOrder: 2
 --- !u!1 &839509248428549462
 GameObject:
   m_ObjectHideFlags: 0
@@ -7175,6 +7611,7 @@ GameObject:
   - component: {fileID: 839509248428549457}
   - component: {fileID: 839509248428549456}
   - component: {fileID: 46438001}
+  - component: {fileID: 839509249058098962}
   m_Layer: 5
   m_Name: Level 1
   m_TagString: Untagged
@@ -7308,7 +7745,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNumber: 1
   sceneCount: 15
-  levelImg: {fileID: 21300000, guid: cfc3b0acd5bc6ca4aa0dab3abff445de, type: 3}
+  levelImg: {fileID: 21300000, guid: 8ff5e432e91e0ba4f9401d2950fd800f, type: 3}
+--- !u!210 &839509249058098962
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248428549462}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 11
 --- !u!1 &839509248453716504
 GameObject:
   m_ObjectHideFlags: 0
@@ -7322,13 +7770,14 @@ GameObject:
   - component: {fileID: 839509248453716507}
   - component: {fileID: 839509248453716506}
   - component: {fileID: 455791484}
+  - component: {fileID: 839509249058098959}
   m_Layer: 5
   m_Name: Level 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &839509248453716505
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7456,6 +7905,17 @@ MonoBehaviour:
   levelNumber: 4
   sceneCount: 10
   levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
+--- !u!210 &839509249058098959
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248453716504}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 8
 --- !u!1 &839509248709065573
 GameObject:
   m_ObjectHideFlags: 0
@@ -7467,6 +7927,7 @@ GameObject:
   - component: {fileID: 839509248709065574}
   - component: {fileID: 839509248709065568}
   - component: {fileID: 839509248709065575}
+  - component: {fileID: 839509249058098941}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -7540,6 +8001,17 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!210 &839509249058098941
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248709065573}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 0
 --- !u!1 &839509248797561562
 GameObject:
   m_ObjectHideFlags: 0
@@ -7551,6 +8023,7 @@ GameObject:
   - component: {fileID: 839509248797561563}
   - component: {fileID: 839509248797561541}
   - component: {fileID: 839509248797561540}
+  - component: {fileID: 839509249058099042}
   m_Layer: 5
   m_Name: Main Menu
   m_TagString: Untagged
@@ -7573,6 +8046,7 @@ RectTransform:
   - {fileID: 7285535722637735723}
   - {fileID: 839509249780701636}
   - {fileID: 839509248317007830}
+  - {fileID: 994687015}
   m_Father: {fileID: 839509249075135877}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7618,6 +8092,17 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!210 &839509249058099042
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248797561562}
+  m_Enabled: 1
+  m_SortingLayerID: 308569789
+  m_SortingLayer: 11
+  m_SortingOrder: 1
 --- !u!1 &839509248802696191
 GameObject:
   m_ObjectHideFlags: 0
@@ -7631,6 +8116,7 @@ GameObject:
   - component: {fileID: 839509248802696186}
   - component: {fileID: 839509248802696185}
   - component: {fileID: 400288082}
+  - component: {fileID: 839509249058098957}
   m_Layer: 5
   m_Name: Level 6
   m_TagString: Untagged
@@ -7762,9 +8248,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 4
+  levelNumber: 6
   sceneCount: 10
   levelImg: {fileID: 21300000, guid: aa42f94d765ed934ab7c347f6ea3e375, type: 3}
+--- !u!210 &839509249058098957
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248802696191}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 6
 --- !u!1 &839509248807513101
 GameObject:
   m_ObjectHideFlags: 0
@@ -7777,6 +8274,7 @@ GameObject:
   - component: {fileID: 839509248807513096}
   - component: {fileID: 839509248807513103}
   - component: {fileID: 483245139}
+  - component: {fileID: 839509249058099041}
   m_Layer: 5
   m_Name: Stage Select
   m_TagString: Untagged
@@ -7869,6 +8367,17 @@ MonoBehaviour:
   - {fileID: 2344151974428960825}
   currentStage: 0
   easing: 0.5
+--- !u!210 &839509249058099041
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509248807513101}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 99
 --- !u!1 &839509249026130487
 GameObject:
   m_ObjectHideFlags: 0
@@ -7882,13 +8391,14 @@ GameObject:
   - component: {fileID: 839509249026130482}
   - component: {fileID: 839509249026130481}
   - component: {fileID: 853408504}
+  - component: {fileID: 839509249058098960}
   m_Layer: 5
   m_Name: Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &839509249026130480
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8016,6 +8526,17 @@ MonoBehaviour:
   levelNumber: 3
   sceneCount: 10
   levelImg: {fileID: 21300000, guid: 7c48f3a820265dd42a6cc9b2db793dbf, type: 3}
+--- !u!210 &839509249058098960
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249026130487}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 9
 --- !u!1 &839509249062821300
 GameObject:
   m_ObjectHideFlags: 0
@@ -8028,6 +8549,7 @@ GameObject:
   - component: {fileID: 839509249062821296}
   - component: {fileID: 839509249062821303}
   - component: {fileID: 839509249062821302}
+  - component: {fileID: 839509249058098956}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -8147,6 +8669,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098956
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249062821300}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 5
 --- !u!1 &839509249075135897
 GameObject:
   m_ObjectHideFlags: 0
@@ -8209,8 +8742,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 308569789
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!114 &839509249075135899
 MonoBehaviour:
@@ -8278,6 +8811,7 @@ GameObject:
   - component: {fileID: 839509249532055922}
   - component: {fileID: 839509249532055921}
   - component: {fileID: 601652690}
+  - component: {fileID: 839509249058098958}
   m_Layer: 5
   m_Name: Level 5
   m_TagString: Untagged
@@ -8409,9 +8943,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 3
+  levelNumber: 5
   sceneCount: 16
   levelImg: {fileID: 21300000, guid: 72a80d78ec14b4645ab20bd684c67b44, type: 3}
+--- !u!210 &839509249058098958
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249532055927}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 7
 --- !u!1 &839509249780701659
 GameObject:
   m_ObjectHideFlags: 0
@@ -8424,7 +8969,9 @@ GameObject:
   - component: {fileID: 839509249780701639}
   - component: {fileID: 839509249780701638}
   - component: {fileID: 839509249780701637}
-  m_Layer: 5
+  - component: {fileID: 839509249058098904}
+  - component: {fileID: 839509249058098915}
+  m_Layer: 2
   m_Name: Start Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8445,9 +8992,9 @@ RectTransform:
   m_Father: {fileID: 839509248797561563}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 347, y: 11}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -293, y: 11}
   m_SizeDelta: {x: 1050, y: 204.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &839509249780701639
@@ -8543,6 +9090,36 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!95 &839509249058098904
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249780701659}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d22b303566f68294dae3e80922e0f66c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &839509249058098915
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249780701659}
+  m_Enabled: 1
+  m_SortingLayerID: 2137903649
+  m_SortingLayer: 12
+  m_SortingOrder: 1
 --- !u!1 &839509249796747321
 GameObject:
   m_ObjectHideFlags: 0
@@ -8556,6 +9133,7 @@ GameObject:
   - component: {fileID: 839509249796747300}
   - component: {fileID: 839509249796747323}
   - component: {fileID: 1364197088}
+  - component: {fileID: 839509249058098961}
   m_Layer: 5
   m_Name: Level 2
   m_TagString: Untagged
@@ -8690,6 +9268,17 @@ MonoBehaviour:
   levelNumber: 2
   sceneCount: 6
   levelImg: {fileID: 21300000, guid: 05f721b4904241f4fbbc07970dbf8bdc, type: 3}
+--- !u!210 &839509249058098961
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839509249796747321}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 10
 --- !u!1 &1107088936339916573
 GameObject:
   m_ObjectHideFlags: 0
@@ -8700,7 +9289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7285535722637735723}
   - component: {fileID: 6322067157552836048}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8721,10 +9310,10 @@ RectTransform:
   m_Father: {fileID: 839509248797561563}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 745.43164}
-  m_SizeDelta: {x: 41.68, y: 20.84}
+  m_SizeDelta: {x: -1238.3201, y: -2255.1602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &6322067157552836048
 SpriteRenderer:
@@ -8760,9 +9349,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 308569789
+  m_SortingLayer: 11
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: a27dc29caef8a1b46a5372695efb7ccb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8786,6 +9375,7 @@ GameObject:
   - component: {fileID: 2561376894586370609}
   - component: {fileID: 8784670815285637126}
   - component: {fileID: 5193818487592020580}
+  - component: {fileID: 839509249058099014}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -8905,6 +9495,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099014
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165285992180442896}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 44
 --- !u!1 &1180447882330007597
 GameObject:
   m_ObjectHideFlags: 0
@@ -8914,6 +9515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2344151974428960825}
+  - component: {fileID: 839509249058099011}
   m_Layer: 5
   m_Name: Stage 5
   m_TagString: Untagged
@@ -8953,6 +9555,17 @@ RectTransform:
   m_AnchoredPosition: {x: 6896, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!210 &839509249058099011
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180447882330007597}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 94
 --- !u!1 &1483243539762953802
 GameObject:
   m_ObjectHideFlags: 0
@@ -8965,6 +9578,7 @@ GameObject:
   - component: {fileID: 188715383566469459}
   - component: {fileID: 5649603783890370213}
   - component: {fileID: 1517329195084077630}
+  - component: {fileID: 839509249058099004}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -9084,6 +9698,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099004
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483243539762953802}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 56
 --- !u!1 &1835598108172565699
 GameObject:
   m_ObjectHideFlags: 0
@@ -9172,6 +9797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2433389953396737084}
+  - component: {fileID: 839509249058099040}
   m_Layer: 5
   m_Name: Stage 1
   m_TagString: Untagged
@@ -9210,6 +9836,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!210 &839509249058099040
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983854854450260081}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 98
 --- !u!1 &2278411009771866730
 GameObject:
   m_ObjectHideFlags: 0
@@ -9223,13 +9860,14 @@ GameObject:
   - component: {fileID: 5459314629589548731}
   - component: {fileID: 2709731771591931871}
   - component: {fileID: 5966654432435969683}
+  - component: {fileID: 839509249058099019}
   m_Layer: 5
   m_Name: Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1746140136320656508
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9239,14 +9877,14 @@ RectTransform:
   m_GameObject: {fileID: 2278411009771866730}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99985605, y: 0.99985605, z: 0.99985605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471789264692005154}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: 463.00003}
+  m_AnchoredPosition: {x: 4, y: 526}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3625774341007151991
@@ -9277,8 +9915,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 8faf1ea669ef19a41b6185ad47ef17dd, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9308,7 +9946,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -9330,7 +9968,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5966654432435969683}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9354,9 +9992,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 2
-  sceneCount: 0
-  levelImg: {fileID: 0}
+  levelNumber: 20
+  sceneCount: 10
+  levelImg: {fileID: 21300000, guid: fdb324c892ce2184488dcafc4ba094bd, type: 3}
+--- !u!210 &839509249058099019
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2278411009771866730}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 49
 --- !u!1 &2476672037765511351
 GameObject:
   m_ObjectHideFlags: 0
@@ -9370,13 +10019,14 @@ GameObject:
   - component: {fileID: 8066401712246827841}
   - component: {fileID: 7177347914818265012}
   - component: {fileID: 6907528709082585434}
+  - component: {fileID: 839509249058099026}
   m_Layer: 5
   m_Name: Level 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1438011794144246965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9386,15 +10036,15 @@ RectTransform:
   m_GameObject: {fileID: 2476672037765511351}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002037, y: 1.0002037, z: 1.0002037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7797007925731283181}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.40015, y: -558.2001}
-  m_SizeDelta: {x: 340.63, y: 353.5}
+  m_AnchoredPosition: {x: -0.8, y: 98.99998}
+  m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5260513451460047563
 CanvasRenderer:
@@ -9424,8 +10074,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 002a34b288c1b1145b7ee138ee2e4c1d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9455,7 +10105,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -9477,7 +10127,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6907528709082585434}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9501,9 +10151,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 5
-  sceneCount: 0
+  levelNumber: 17
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099026
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2476672037765511351}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 33
 --- !u!1 &2481672496014697183
 GameObject:
   m_ObjectHideFlags: 0
@@ -9516,6 +10177,7 @@ GameObject:
   - component: {fileID: 9184592918531553651}
   - component: {fileID: 1807353203594396654}
   - component: {fileID: 9008551590551952515}
+  - component: {fileID: 839509249058098937}
   m_Layer: 5
   m_Name: Data Delete Button
   m_TagString: Untagged
@@ -9601,7 +10263,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -9635,6 +10297,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058098937
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2481672496014697183}
+  m_Enabled: 1
+  m_SortingLayerID: 165129143
+  m_SortingLayer: 9
+  m_SortingOrder: 4
 --- !u!1 &2759228504694149840
 GameObject:
   m_ObjectHideFlags: 0
@@ -9648,6 +10321,7 @@ GameObject:
   - component: {fileID: 5046799255881086790}
   - component: {fileID: 1180677329654555572}
   - component: {fileID: 1495966638386654498}
+  - component: {fileID: 839509249058099010}
   m_Layer: 5
   m_Name: Level 1
   m_TagString: Untagged
@@ -9733,7 +10407,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -9779,9 +10453,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 8
+  levelNumber: 25
   sceneCount: 12
   levelImg: {fileID: 21300000, guid: 54475c97bb87f664a861c82ac3ff9980, type: 3}
+--- !u!210 &839509249058099010
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759228504694149840}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 62
 --- !u!1 &2813590237235409642
 GameObject:
   m_ObjectHideFlags: 0
@@ -9795,6 +10480,7 @@ GameObject:
   - component: {fileID: 699937047010546623}
   - component: {fileID: 3773963810702282716}
   - component: {fileID: 1221867148497827576}
+  - component: {fileID: 839509249058099038}
   m_Layer: 5
   m_Name: Level 1
   m_TagString: Untagged
@@ -9880,7 +10566,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -9926,9 +10612,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 5
+  levelNumber: 7
   sceneCount: 17
   levelImg: {fileID: 21300000, guid: ab0eebd2cd2564a45aaa40dc562128e1, type: 3}
+--- !u!210 &839509249058099038
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2813590237235409642}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 24
 --- !u!1 &3812243673933408738
 GameObject:
   m_ObjectHideFlags: 0
@@ -9960,10 +10657,10 @@ RectTransform:
   m_Father: {fileID: 839509248797561563}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
+  m_SizeDelta: {x: -1279, y: -2275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &3013783878587033689
 SpriteRenderer:
@@ -9999,10 +10696,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 62b1dc2022b64a04abbd7b371048322a, type: 3}
+  m_SortingLayerID: 308569789
+  m_SortingLayer: 11
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 57697e2e1b13e4f428d1d532582e0aab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10010,7 +10707,7 @@ SpriteRenderer:
   m_Size: {x: 45.01, y: 80.01778}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &4261517876333225525
@@ -10026,13 +10723,14 @@ GameObject:
   - component: {fileID: 7593587242956619433}
   - component: {fileID: 866209662189822073}
   - component: {fileID: 5253732507471644387}
+  - component: {fileID: 839509249058099029}
   m_Layer: 5
   m_Name: Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3068034583739767378
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10042,14 +10740,14 @@ RectTransform:
   m_GameObject: {fileID: 4261517876333225525}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99985605, y: 0.99985605, z: 0.99985605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7797007925731283181}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: 463.00003}
+  m_AnchoredPosition: {x: 4, y: 526}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5112774640331116439
@@ -10080,8 +10778,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 8faf1ea669ef19a41b6185ad47ef17dd, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10111,7 +10809,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -10133,7 +10831,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5253732507471644387}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10157,9 +10855,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 2
-  sceneCount: 0
+  levelNumber: 14
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099029
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261517876333225525}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 36
 --- !u!1 &4281875476720995985
 GameObject:
   m_ObjectHideFlags: 0
@@ -10173,13 +10882,14 @@ GameObject:
   - component: {fileID: 6983642279079029281}
   - component: {fileID: 5936997065153314811}
   - component: {fileID: 4264847359902931957}
+  - component: {fileID: 839509249058099033}
   m_Layer: 5
   m_Name: Level 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6354907741899544658
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10258,7 +10968,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -10307,6 +11017,17 @@ MonoBehaviour:
   levelNumber: 12
   sceneCount: 10
   levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
+--- !u!210 &839509249058099033
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4281875476720995985}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 19
 --- !u!1 &4341199233070794805
 GameObject:
   m_ObjectHideFlags: 0
@@ -10316,6 +11037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1692411924013762392}
+  - component: {fileID: 839509249058099039}
   m_Layer: 5
   m_Name: Stage 2
   m_TagString: Untagged
@@ -10356,6 +11078,17 @@ RectTransform:
   m_AnchoredPosition: {x: 1724, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!210 &839509249058099039
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4341199233070794805}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 97
 --- !u!1 &4433385004233134117
 GameObject:
   m_ObjectHideFlags: 0
@@ -10369,13 +11102,14 @@ GameObject:
   - component: {fileID: 363178906814746452}
   - component: {fileID: 8990304577706550729}
   - component: {fileID: 3437196005465691139}
+  - component: {fileID: 839509249058099005}
   m_Layer: 5
   m_Name: Level 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1940463832037385283
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10385,15 +11119,15 @@ RectTransform:
   m_GameObject: {fileID: 4433385004233134117}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9997014, y: 0.9997014, z: 0.9997014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2344151974428960825}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: -558.2001}
-  m_SizeDelta: {x: 340.81, y: 353.5}
+  m_AnchoredPosition: {x: 386, y: 98.599976}
+  m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &719150431881563043
 CanvasRenderer:
@@ -10423,8 +11157,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c3947a89d638c00438fcfcb65a63d84f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10454,7 +11188,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -10474,7 +11208,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 363178906814746452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3437196005465691139}
+        m_MethodName: Choice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &3437196005465691139
@@ -10489,9 +11234,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 6
-  sceneCount: 0
+  levelNumber: 30
+  sceneCount: 10
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099005
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4433385004233134117}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 57
 --- !u!1 &4650758945058315101
 GameObject:
   m_ObjectHideFlags: 0
@@ -10505,13 +11261,14 @@ GameObject:
   - component: {fileID: 4507602810549482786}
   - component: {fileID: 7614795950708080366}
   - component: {fileID: 3462767905762929046}
+  - component: {fileID: 839509249058099007}
   m_Layer: 5
   m_Name: Level 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7666729871055392763
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10521,14 +11278,14 @@ RectTransform:
   m_GameObject: {fileID: 4650758945058315101}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9997014, y: 0.9997014, z: 0.9997014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2344151974428960825}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: -38}
+  m_AnchoredPosition: {x: -387, y: 99.99998}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1097244853445452264
@@ -10559,8 +11316,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ce792dda84ecd5946855c671decfe1e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10590,7 +11347,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -10612,7 +11369,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3462767905762929046}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10636,9 +11393,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 4
-  sceneCount: 0
-  levelImg: {fileID: 0}
+  levelNumber: 28
+  sceneCount: 10
+  levelImg: {fileID: 21300000, guid: 54475c97bb87f664a861c82ac3ff9980, type: 3}
+--- !u!210 &839509249058099007
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4650758945058315101}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 59
 --- !u!1 &4740757555475525135
 GameObject:
   m_ObjectHideFlags: 0
@@ -10652,13 +11420,14 @@ GameObject:
   - component: {fileID: 1602567209197035063}
   - component: {fileID: 209823075459497919}
   - component: {fileID: 5441053639819259732}
+  - component: {fileID: 839509249058099016}
   m_Layer: 5
   m_Name: Level 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7988377692738599347
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10668,15 +11437,15 @@ RectTransform:
   m_GameObject: {fileID: 4740757555475525135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002037, y: 1.0002037, z: 1.0002037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471789264692005154}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.40015, y: -558.2001}
-  m_SizeDelta: {x: 340.63, y: 353.5}
+  m_AnchoredPosition: {x: -0.8, y: 98.99998}
+  m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7414763082787185464
 CanvasRenderer:
@@ -10706,8 +11475,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 002a34b288c1b1145b7ee138ee2e4c1d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10737,7 +11506,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -10759,7 +11528,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5441053639819259732}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10783,9 +11552,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 5
-  sceneCount: 0
+  levelNumber: 23
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099016
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740757555475525135}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 46
 --- !u!1 &4953135059883959632
 GameObject:
   m_ObjectHideFlags: 0
@@ -10798,6 +11578,7 @@ GameObject:
   - component: {fileID: 4134798273752605510}
   - component: {fileID: 8672178877471009979}
   - component: {fileID: 6561851399078125347}
+  - component: {fileID: 839509249058099032}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -10917,6 +11698,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099032
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4953135059883959632}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 18
 --- !u!1 &5330199024017485053
 GameObject:
   m_ObjectHideFlags: 0
@@ -10926,6 +11718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7797007925731283181}
+  - component: {fileID: 839509249058099031}
   m_Layer: 5
   m_Name: Stage 3
   m_TagString: Untagged
@@ -10966,6 +11759,17 @@ RectTransform:
   m_AnchoredPosition: {x: 3448, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!210 &839509249058099031
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5330199024017485053}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 96
 --- !u!1 &5996065004197758027
 GameObject:
   m_ObjectHideFlags: 0
@@ -10979,13 +11783,14 @@ GameObject:
   - component: {fileID: 712927434851681809}
   - component: {fileID: 504150776060396569}
   - component: {fileID: 2235809279731854030}
+  - component: {fileID: 839509249058099006}
   m_Layer: 5
   m_Name: Level 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6391486443963078354
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10995,15 +11800,15 @@ RectTransform:
   m_GameObject: {fileID: 5996065004197758027}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002037, y: 1.0002037, z: 1.0002037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2344151974428960825}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.40015, y: -558.2001}
-  m_SizeDelta: {x: 340.63, y: 353.5}
+  m_AnchoredPosition: {x: -0.8, y: 98.99998}
+  m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5087101591093243637
 CanvasRenderer:
@@ -11033,8 +11838,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 002a34b288c1b1145b7ee138ee2e4c1d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11064,7 +11869,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -11086,7 +11891,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2235809279731854030}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11110,9 +11915,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 5
-  sceneCount: 0
-  levelImg: {fileID: 0}
+  levelNumber: 29
+  sceneCount: 10
+  levelImg: {fileID: 21300000, guid: 54475c97bb87f664a861c82ac3ff9980, type: 3}
+--- !u!210 &839509249058099006
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5996065004197758027}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 58
 --- !u!1 &6280686211723194803
 GameObject:
   m_ObjectHideFlags: 0
@@ -11126,13 +11942,14 @@ GameObject:
   - component: {fileID: 1089229061970997386}
   - component: {fileID: 727628902636567667}
   - component: {fileID: 6902529499872266513}
+  - component: {fileID: 839509249058099025}
   m_Layer: 5
   m_Name: Level 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1849873439261859512
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11142,15 +11959,15 @@ RectTransform:
   m_GameObject: {fileID: 6280686211723194803}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9997014, y: 0.9997014, z: 0.9997014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7797007925731283181}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: -558.2001}
-  m_SizeDelta: {x: 340.81, y: 353.5}
+  m_AnchoredPosition: {x: 386, y: 98.599976}
+  m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1603601337018753145
 CanvasRenderer:
@@ -11180,8 +11997,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c3947a89d638c00438fcfcb65a63d84f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11211,7 +12028,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -11231,7 +12048,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1089229061970997386}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6902529499872266513}
+        m_MethodName: Choice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &6902529499872266513
@@ -11246,9 +12074,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 6
-  sceneCount: 0
+  levelNumber: 18
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099025
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6280686211723194803}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 32
 --- !u!1 &6648328962700585461
 GameObject:
   m_ObjectHideFlags: 0
@@ -11262,13 +12101,14 @@ GameObject:
   - component: {fileID: 4410664474399914951}
   - component: {fileID: 1783528307602146469}
   - component: {fileID: 5099033419577698429}
+  - component: {fileID: 839509249058099035}
   m_Layer: 5
   m_Name: Level 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6200870696362015200
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11347,7 +12187,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -11396,6 +12236,17 @@ MonoBehaviour:
   levelNumber: 10
   sceneCount: 10
   levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
+--- !u!210 &839509249058099035
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6648328962700585461}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 21
 --- !u!1 &6651596152025558889
 GameObject:
   m_ObjectHideFlags: 0
@@ -11488,13 +12339,14 @@ GameObject:
   - component: {fileID: 6235372371456727133}
   - component: {fileID: 9061667495579702360}
   - component: {fileID: 565009629046441364}
+  - component: {fileID: 839509249058099018}
   m_Layer: 5
   m_Name: Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5888917450286984896
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11504,14 +12356,14 @@ RectTransform:
   m_GameObject: {fileID: 6886546766085984291}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002037, y: 1.0002037, z: 1.0002037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471789264692005154}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.4, y: -38}
+  m_AnchoredPosition: {x: 385, y: 527}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1106503968922842175
@@ -11542,8 +12394,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dbaa78228dfab8044aea7cd8da73761e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11573,7 +12425,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -11595,7 +12447,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 565009629046441364}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11619,9 +12471,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 3
-  sceneCount: 0
-  levelImg: {fileID: 0}
+  levelNumber: 21
+  sceneCount: 10
+  levelImg: {fileID: 21300000, guid: fdb324c892ce2184488dcafc4ba094bd, type: 3}
+--- !u!210 &839509249058099018
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886546766085984291}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 48
 --- !u!1 &6932280249080116503
 GameObject:
   m_ObjectHideFlags: 0
@@ -11714,13 +12577,14 @@ GameObject:
   - component: {fileID: 4645529625592935167}
   - component: {fileID: 2005268167089446965}
   - component: {fileID: 819340010249697339}
+  - component: {fileID: 839509249058099036}
   m_Layer: 5
   m_Name: Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4436338168593824792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11799,7 +12663,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -11848,6 +12712,17 @@ MonoBehaviour:
   levelNumber: 9
   sceneCount: 10
   levelImg: {fileID: 21300000, guid: d1e1e27ba42a00d48acfaa09551b3733, type: 3}
+--- !u!210 &839509249058099036
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6993703645486106164}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 22
 --- !u!1 &7143300561593790113
 GameObject:
   m_ObjectHideFlags: 0
@@ -11861,13 +12736,14 @@ GameObject:
   - component: {fileID: 7200704939454207274}
   - component: {fileID: 2242538095731662467}
   - component: {fileID: 3204173111537920534}
+  - component: {fileID: 839509249058099017}
   m_Layer: 5
   m_Name: Level 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8942840323218335589
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11877,14 +12753,14 @@ RectTransform:
   m_GameObject: {fileID: 7143300561593790113}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9997014, y: 0.9997014, z: 0.9997014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471789264692005154}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: -38}
+  m_AnchoredPosition: {x: -387, y: 99.99998}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9220564890347679699
@@ -11915,8 +12791,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ce792dda84ecd5946855c671decfe1e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -11946,7 +12822,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -11968,7 +12844,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3204173111537920534}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11992,9 +12868,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 4
-  sceneCount: 0
+  levelNumber: 22
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099017
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7143300561593790113}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 47
 --- !u!1 &7334229867802618460
 GameObject:
   m_ObjectHideFlags: 0
@@ -12007,6 +12894,7 @@ GameObject:
   - component: {fileID: 4280904869033637111}
   - component: {fileID: 1203419189355024163}
   - component: {fileID: 887912777341007942}
+  - component: {fileID: 839509249058099024}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -12126,6 +13014,17 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!210 &839509249058099024
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7334229867802618460}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 31
 --- !u!1 &7375330395709904333
 GameObject:
   m_ObjectHideFlags: 0
@@ -12139,13 +13038,14 @@ GameObject:
   - component: {fileID: 8849816884536225093}
   - component: {fileID: 5749588422884181205}
   - component: {fileID: 4788921554634134729}
+  - component: {fileID: 839509249058099008}
   m_Layer: 5
   m_Name: Level 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4745883380391095968
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12155,14 +13055,14 @@ RectTransform:
   m_GameObject: {fileID: 7375330395709904333}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0002037, y: 1.0002037, z: 1.0002037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2344151974428960825}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.4, y: -38}
+  m_AnchoredPosition: {x: 385, y: 527}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2032312316971030398
@@ -12193,8 +13093,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dbaa78228dfab8044aea7cd8da73761e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -12224,7 +13124,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -12246,7 +13146,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4788921554634134729}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12270,9 +13170,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 3
-  sceneCount: 0
-  levelImg: {fileID: 0}
+  levelNumber: 27
+  sceneCount: 10
+  levelImg: {fileID: 21300000, guid: 54475c97bb87f664a861c82ac3ff9980, type: 3}
+--- !u!210 &839509249058099008
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375330395709904333}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 60
 --- !u!1 &7815155007707233930
 GameObject:
   m_ObjectHideFlags: 0
@@ -12282,6 +13193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 471789264692005154}
+  - component: {fileID: 839509249058099021}
   m_Layer: 5
   m_Name: Stage 4
   m_TagString: Untagged
@@ -12322,6 +13234,17 @@ RectTransform:
   m_AnchoredPosition: {x: 5172, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!210 &839509249058099021
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7815155007707233930}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 95
 --- !u!1 &7993533078907727298
 GameObject:
   m_ObjectHideFlags: 0
@@ -12414,13 +13337,14 @@ GameObject:
   - component: {fileID: 8044038499242040494}
   - component: {fileID: 6683993856250884364}
   - component: {fileID: 4951097819121579816}
+  - component: {fileID: 839509249058099027}
   m_Layer: 5
   m_Name: Level 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3858882863840206752
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12430,14 +13354,14 @@ RectTransform:
   m_GameObject: {fileID: 8031143845397384418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9997014, y: 0.9997014, z: 0.9997014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7797007925731283181}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: -38}
+  m_AnchoredPosition: {x: -387, y: 99.99998}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3775784696629824671
@@ -12468,8 +13392,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ce792dda84ecd5946855c671decfe1e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -12499,7 +13423,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -12521,7 +13445,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4951097819121579816}
-        m_MethodName: Load
+        m_MethodName: Choice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12545,9 +13469,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 4
-  sceneCount: 0
+  levelNumber: 16
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099027
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8031143845397384418}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 34
 --- !u!1 &8333931773587750449
 GameObject:
   m_ObjectHideFlags: 0
@@ -12561,6 +13496,7 @@ GameObject:
   - component: {fileID: 7068157837042560107}
   - component: {fileID: 4191824559630401839}
   - component: {fileID: 1615538211851361827}
+  - component: {fileID: 839509249058099030}
   m_Layer: 5
   m_Name: Level 1
   m_TagString: Untagged
@@ -12646,7 +13582,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -12692,9 +13628,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 7
+  levelNumber: 13
   sceneCount: 11
   levelImg: {fileID: 21300000, guid: fdb324c892ce2184488dcafc4ba094bd, type: 3}
+--- !u!210 &839509249058099030
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333931773587750449}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 37
 --- !u!1 &8775949427024670545
 GameObject:
   m_ObjectHideFlags: 0
@@ -12708,6 +13655,7 @@ GameObject:
   - component: {fileID: 5263622444539132151}
   - component: {fileID: 390838312172319830}
   - component: {fileID: 7000045416513987684}
+  - component: {fileID: 839509249058099037}
   m_Layer: 5
   m_Name: Level 2
   m_TagString: Untagged
@@ -12793,7 +13741,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -12839,9 +13787,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 6
+  levelNumber: 8
   sceneCount: 11
   levelImg: {fileID: 21300000, guid: f06c04d4383894e47abff6eea4ba8087, type: 3}
+--- !u!210 &839509249058099037
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8775949427024670545}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 23
 --- !u!1 &9054200886874718362
 GameObject:
   m_ObjectHideFlags: 0
@@ -12855,13 +13814,14 @@ GameObject:
   - component: {fileID: 8053123243845529063}
   - component: {fileID: 3369229114182374227}
   - component: {fileID: 4109479788097239370}
+  - component: {fileID: 839509249058099015}
   m_Layer: 5
   m_Name: Level 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &73169792831985293
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12871,15 +13831,15 @@ RectTransform:
   m_GameObject: {fileID: 9054200886874718362}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9997014, y: 0.9997014, z: 0.9997014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 471789264692005154}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 259.7, y: -558.2001}
-  m_SizeDelta: {x: 340.81, y: 353.5}
+  m_AnchoredPosition: {x: 386, y: 98.599976}
+  m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4340178026336836326
 CanvasRenderer:
@@ -12909,8 +13869,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: c3947a89d638c00438fcfcb65a63d84f, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -12940,7 +13900,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -12960,7 +13920,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8053123243845529063}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4109479788097239370}
+        m_MethodName: Choice
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &4109479788097239370
@@ -12975,9 +13946,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 6
-  sceneCount: 0
+  levelNumber: 24
+  sceneCount: 11
   levelImg: {fileID: 0}
+--- !u!210 &839509249058099015
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9054200886874718362}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 45
 --- !u!1 &9099751116473976042
 GameObject:
   m_ObjectHideFlags: 0
@@ -12991,13 +13973,14 @@ GameObject:
   - component: {fileID: 1883533714793628446}
   - component: {fileID: 9108289451262583518}
   - component: {fileID: 174076127543633392}
+  - component: {fileID: 839509249058099020}
   m_Layer: 5
   m_Name: Level 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6555793123277535532
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13014,7 +13997,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.4, y: 463}
+  m_AnchoredPosition: {x: -382, y: 530}
   m_SizeDelta: {x: 340.7, y: 353.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3849588510001310729
@@ -13045,8 +14028,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dfa94d2b60f4e5e4b96fea3a5aba073e, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13076,7 +14059,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -13122,6 +14105,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c55c26876590014dbe2eea1a8ed30b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 0
-  sceneCount: 0
-  levelImg: {fileID: 0}
+  levelNumber: 19
+  sceneCount: 10
+  levelImg: {fileID: 21300000, guid: fdb324c892ce2184488dcafc4ba094bd, type: 3}
+--- !u!210 &839509249058099020
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9099751116473976042}
+  m_Enabled: 1
+  m_SortingLayerID: 706565311
+  m_SortingLayer: 10
+  m_SortingOrder: 50

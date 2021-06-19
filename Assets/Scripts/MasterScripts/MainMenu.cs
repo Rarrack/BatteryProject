@@ -69,7 +69,6 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-
     GameObject fadeScreen; // screen to be faded
     int waitTime = 0; // how long fade lasts
     bool fadeStart = false; // determines when fade will start

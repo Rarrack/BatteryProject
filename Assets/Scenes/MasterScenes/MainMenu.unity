@@ -2572,6 +2572,10 @@ PrefabInstance:
       propertyPath: levelImg
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 46438001, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelNumber
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 370983276, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
       propertyPath: m_SortingLayerID
       value: 706565311
@@ -2927,6 +2931,18 @@ PrefabInstance:
     - target: {fileID: 1924622676, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
       propertyPath: m_SortingOrder
       value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 455791484, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelNumber
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 853408504, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364197088, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
+      propertyPath: levelNumber
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}

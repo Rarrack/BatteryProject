@@ -317,7 +317,15 @@ public class ObjectTouchMovement : MonoBehaviour
         check.moving = false;
         if (gameObject.tag != "dummy")
         {
-            animator.Play("Impact");
+            if(Charged == false)
+            {
+                animator.Play("Impact G");
+            }
+            else
+            {
+                animator.Play("Impact");
+            }
+            
         }
         //GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Sound");
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().StopSound("Rolling");

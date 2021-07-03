@@ -201,12 +201,12 @@ PrefabInstance:
     - target: {fileID: 5701701834100246111, guid: 71b1822a892af98458ba9df2d73d1224,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.587
+      value: -3.48
       objectReference: {fileID: 0}
     - target: {fileID: 5701701834100246111, guid: 71b1822a892af98458ba9df2d73d1224,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.722
+      value: 3.55
       objectReference: {fileID: 0}
     - target: {fileID: 5701701834100246111, guid: 71b1822a892af98458ba9df2d73d1224,
         type: 3}
@@ -517,15 +517,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: AA Goal Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 3663943091327223548, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Goals
+      objectReference: {fileID: 0}
     - target: {fileID: 6838362039580461976, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.354
+      value: 2.304
       objectReference: {fileID: 0}
     - target: {fileID: 6838362039580461976, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.042
+      value: 5.032
       objectReference: {fileID: 0}
     - target: {fileID: 6838362039580461976, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
         type: 3}

@@ -603,6 +603,66 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 95d5b4f9fbb3bc94c99adbdfa142b3a3, type: 2}
+    - target: {fileID: 5274459934873463600, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: a88da21537cf4dd46b1f1e650295070e,
+        type: 3}
+    - target: {fileID: 1495966638386654498, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: cd8f9c012931d4b4c9daf73d64c89cbb,
+        type: 3}
+    - target: {fileID: 3437196005465691139, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 1368958b3a76e4542a62d654c23d7381,
+        type: 3}
+    - target: {fileID: 3462767905762929046, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: c86119a7b6ec1a84ea00f64f7d47202c,
+        type: 3}
+    - target: {fileID: 5441053639819259732, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 43e696eabc6559b4ebe0db66d01b46a9,
+        type: 3}
+    - target: {fileID: 2235809279731854030, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 56cd8ebca3c990446a06d0f982e1ecc1,
+        type: 3}
+    - target: {fileID: 565009629046441364, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: afb0ba9b003ee9c45ab053c89b2706b7,
+        type: 3}
+    - target: {fileID: 3204173111537920534, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: c2112bfa030607e43ade30463b562fbd,
+        type: 3}
+    - target: {fileID: 4788921554634134729, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: c2f47c4e9d330ac49b39d95a111d5ada,
+        type: 3}
+    - target: {fileID: 4109479788097239370, guid: 0dcd8850749e6f741a12331d9d675b14,
+        type: 3}
+      propertyPath: levelImg
+      value: 
+      objectReference: {fileID: 21300000, guid: f04a40b0c6f476f4a87d516004368255,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dcd8850749e6f741a12331d9d675b14, type: 3}
 --- !u!1 &839509249058098901 stripped

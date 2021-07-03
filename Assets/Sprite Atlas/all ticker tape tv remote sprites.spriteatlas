@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all ticker tape tv remote sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b90edae0df89dce4c95055338168f8e9, type: 3}
+    totalSpriteSurfaceArea: 101570560
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7cb36b20e86f391408487f77bb27a706, type: 3}
+  - {fileID: 21300000, guid: dceec230287440848a1d41cd5984086a, type: 3}
+  - {fileID: 21300000, guid: e13d9750c6867514b86877dda3fc7aa8, type: 3}
+  - {fileID: 21300000, guid: 95961260ab0557f4398acf19ef52028d, type: 3}
+  - {fileID: 21300000, guid: ca8941c0fb5423146a15b7894d5e45eb, type: 3}
+  - {fileID: 21300000, guid: a0c61bd0748a8d943b22cac759d1d123, type: 3}
+  - {fileID: 21300000, guid: 389b1e118e006d848842751fdbbfadd6, type: 3}
+  - {fileID: 21300000, guid: 851762916aa4d8745a106599cc295f3b, type: 3}
+  - {fileID: 21300000, guid: aa798d910d0071746856f3122cb82679, type: 3}
+  - {fileID: 21300000, guid: e50f1ba16bd9e0341bd9929566b27d3b, type: 3}
+  - {fileID: 21300000, guid: 0a85bbb16e0957d4d97329511db5251e, type: 3}
+  - {fileID: 21300000, guid: 598787f1f88c9fe4f8063e32c7416066, type: 3}
+  - {fileID: 21300000, guid: 7007cf32e601ca644b3b1ea23a74fe9c, type: 3}
+  - {fileID: 21300000, guid: 7726db6215b8a324c9426ac14485aa85, type: 3}
+  - {fileID: 21300000, guid: 0360df6264a8ac14293cb96833fb7c52, type: 3}
+  - {fileID: 21300000, guid: 483a8a72f11f0c349a54e913e3ac5e06, type: 3}
+  - {fileID: 21300000, guid: feef4f72d71fdd448b6d6e94f93c5204, type: 3}
+  - {fileID: 21300000, guid: 0d4c1a826b0a5384aa7d03489fea2cfe, type: 3}
+  - {fileID: 21300000, guid: 9e5293c2e3b878e42acd6bfbc15906f3, type: 3}
+  - {fileID: 21300000, guid: 0f9fd4c2ea193034d84646a2766d1789, type: 3}
+  - {fileID: 21300000, guid: 1f2a26039d30a804c9a95a598c51155e, type: 3}
+  - {fileID: 21300000, guid: e45afe43f9c01fb4f8ddbbedfd713578, type: 3}
+  - {fileID: 21300000, guid: 335a657362315ae439c190cd8d280d3d, type: 3}
+  - {fileID: 21300000, guid: d83e38d3a0ef9f247b9d5998b8e35c21, type: 3}
+  - {fileID: 21300000, guid: ad708bd3300b3284ebb12d01c26276b3, type: 3}
+  - {fileID: 21300000, guid: f8b8ff5464b411c4aa3ee57b94ae1889, type: 3}
+  - {fileID: 21300000, guid: b86851b41af540647967d2dc93b375c7, type: 3}
+  - {fileID: 21300000, guid: 8e3b81e4a4551074c9f0bd72100857b2, type: 3}
+  - {fileID: 21300000, guid: e7b495e4b490eee48beb431fc2a8b48b, type: 3}
+  - {fileID: 21300000, guid: 5131e005c1509c34abdedc724792af54, type: 3}
+  - {fileID: 21300000, guid: cf6cf4e52de6c464899e65299f3f81b0, type: 3}
+  - {fileID: 21300000, guid: a064851675c9126458a0e6a3e5483330, type: 3}
+  - {fileID: 21300000, guid: 284f56164f08b6b448502f7a4763d141, type: 3}
+  - {fileID: 21300000, guid: 92e2ce46e7cf4c9478cc435ca6bf823c, type: 3}
+  - {fileID: 21300000, guid: 49fa74b614caae64f98e5e8f59a0f2c2, type: 3}
+  - {fileID: 21300000, guid: 5abc4d375807ea34599339725a14ecb5, type: 3}
+  - {fileID: 21300000, guid: 1694ec574ae256e4eb2d6535e11689d6, type: 3}
+  - {fileID: 21300000, guid: 7b97f7e70aa2dc64a9cd472d16acc41f, type: 3}
+  - {fileID: 21300000, guid: ac08cbf7c9f511e46b8c4beba4a922f8, type: 3}
+  - {fileID: 21300000, guid: 089a8df7930584d4997396a862aea3b0, type: 3}
+  - {fileID: 21300000, guid: 629cd908646030f46b6dce5256422e47, type: 3}
+  - {fileID: 21300000, guid: 3e0c1a0889f70f44eab8ea7d2f8c5bd5, type: 3}
+  - {fileID: 21300000, guid: 961dea08928a9df49b45820523e46fa5, type: 3}
+  - {fileID: 21300000, guid: e0d0fa18308d9874999cb049406d5344, type: 3}
+  - {fileID: 21300000, guid: abcd5c18883d1db4faa8bf0780c91960, type: 3}
+  - {fileID: 21300000, guid: 72f9eb587e53f444c9460ac617eaa3e6, type: 3}
+  - {fileID: 21300000, guid: 627e1b78c8d23f942953019eb2ba1fad, type: 3}
+  - {fileID: 21300000, guid: 9a5f42a8bc8c6e44082a85d8d0d610e4, type: 3}
+  - {fileID: 21300000, guid: 9454d7c809f637e49b1986c86dfb68f1, type: 3}
+  - {fileID: 21300000, guid: 286901f8695ca6349b8d5742ee1533e0, type: 3}
+  - {fileID: 21300000, guid: 5cef4f194cc9c0542a42f3a0338f1cce, type: 3}
+  - {fileID: 21300000, guid: 21a36f29d6855db48a11b55d980cb32b, type: 3}
+  - {fileID: 21300000, guid: 8f724b69703db9a4180d1a1c0aaa1dbf, type: 3}
+  - {fileID: 21300000, guid: 30d99789732581649af4c7d0a7bf7ccd, type: 3}
+  - {fileID: 21300000, guid: 0ea119d9d81472d49ab6d59da4d319fa, type: 3}
+  - {fileID: 21300000, guid: 5cad015a2a13558479b88cfde452af0b, type: 3}
+  - {fileID: 21300000, guid: 122d255a604eed14bac3d0bb114cd623, type: 3}
+  - {fileID: 21300000, guid: b1f14f5adcdbbcd41aaa6d780f2b3571, type: 3}
+  - {fileID: 21300000, guid: cec7ccaabb780fa4fa2f96712e8cc547, type: 3}
+  - {fileID: 21300000, guid: 3f5935ca432ab2646b32f3e5217ec926, type: 3}
+  - {fileID: 21300000, guid: faf916caedfc34c4cacd4d579178ad78, type: 3}
+  - {fileID: 21300000, guid: 3249d0eada683a54b9c2af837b2cce30, type: 3}
+  - {fileID: 21300000, guid: 9b60824b38279f84ba634e23151071b2, type: 3}
+  - {fileID: 21300000, guid: ee6b517b27a96264e93db04df7463a7a, type: 3}
+  - {fileID: 21300000, guid: ed870ecbb1c390f4690e72b5898e371e, type: 3}
+  - {fileID: 21300000, guid: 3b7714fb6bdd1304bbe4830cbdd32a67, type: 3}
+  - {fileID: 21300000, guid: f73d960c15709a647b8a17f56b0adeb8, type: 3}
+  - {fileID: 21300000, guid: 83ab1a0ca8d91fe4a87601fc5313bcf3, type: 3}
+  - {fileID: 21300000, guid: 735e8e4cf7c117a44885d94eaf1a3398, type: 3}
+  - {fileID: 21300000, guid: 6db5597c454a6e342af567d523f62cd2, type: 3}
+  - {fileID: 21300000, guid: f95bd4bce6438fa4096ab12633d7dc77, type: 3}
+  - {fileID: 21300000, guid: 8b8ecdbcdbcef4c42be51567d70a9e17, type: 3}
+  - {fileID: 21300000, guid: 13d0d90da7ec2504cafb40e0b8b86ad4, type: 3}
+  - {fileID: 21300000, guid: 2545371d7d8a6f44f8fa7c9325f2535b, type: 3}
+  - {fileID: 21300000, guid: 971dc05d511f8b84da4509d80f41e8f9, type: 3}
+  - {fileID: 21300000, guid: e7649d9d6f6714846a9b516629ece45b, type: 3}
+  - {fileID: 21300000, guid: 20e14fadeb2769d41b3631a5a99a957b, type: 3}
+  - {fileID: 21300000, guid: 1f56e5eda4a9e0e4080de4bc3de4bbfb, type: 3}
+  - {fileID: 21300000, guid: 7c2606ed2ede1e94d8df3f7d938dfa08, type: 3}
+  - {fileID: 21300000, guid: 52834c0e07c7d9c498476a19afed1180, type: 3}
+  - {fileID: 21300000, guid: 1e1ba21e6e9edf041b435c6de5d61a74, type: 3}
+  - {fileID: 21300000, guid: bf65b61e0a33dcb4090a19c19f2754f5, type: 3}
+  - {fileID: 21300000, guid: 8f78865e5b8fbe44984eb36b947b5cd0, type: 3}
+  - {fileID: 21300000, guid: 6102e88e663b2234fa1c6db9af025a15, type: 3}
+  - {fileID: 21300000, guid: 1e0ebe9e50d96a34abb51296ba8c7139, type: 3}
+  - {fileID: 21300000, guid: 0d1110be36410584e8155a63e9284818, type: 3}
+  - {fileID: 21300000, guid: 4902161fe355b65478a68e6845a866b2, type: 3}
+  - {fileID: 21300000, guid: dd03ce1ff9a047649adde2480211c226, type: 3}
+  - {fileID: 21300000, guid: 9ca9ea7f842690548a43944814b89e7c, type: 3}
+  - {fileID: 21300000, guid: e61cdecfef8239f4883aeab5c9921f53, type: 3}
+  - {fileID: 21300000, guid: 4db60bdf666d2af4c84074b8da3f19c3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tv_remote_tape_frame_0045
+  - tv_remote_tape_frame_0028
+  - tv_remote_tape_frame_0051
+  - tv_remote_tape_frame_0091
+  - tv_remote_tape_frame_0019
+  - tv_remote_tape_frame_0041
+  - tv_remote_tape_frame_0037
+  - tv_remote_tape_frame_0017
+  - tv_remote_tape_frame_0030
+  - tv_remote_tape_frame_0069
+  - tv_remote_tape_frame_0065
+  - tv_remote_tape_frame_0086
+  - tv_remote_tape_frame_0050
+  - tv_remote_tape_frame_0052
+  - tv_remote_tape_frame_0036
+  - tv_remote_tape_frame_0039
+  - tv_remote_tape_frame_0001
+  - tv_remote_tape_frame_0077
+  - tv_remote_tape_frame_0068
+  - tv_remote_tape_frame_0005
+  - tv_remote_tape_frame_0012
+  - tv_remote_tape_frame_0044
+  - tv_remote_tape_frame_0003
+  - tv_remote_tape_frame_0014
+  - tv_remote_tape_frame_0070
+  - tv_remote_tape_frame_0015
+  - tv_remote_tape_frame_0047
+  - tv_remote_tape_frame_0027
+  - tv_remote_tape_frame_0049
+  - tv_remote_tape_frame_0029
+  - tv_remote_tape_frame_0072
+  - tv_remote_tape_frame_0033
+  - tv_remote_tape_frame_0061
+  - tv_remote_tape_frame_0035
+  - tv_remote_tape_frame_0007
+  - tv_remote_tape_frame_0076
+  - tv_remote_tape_frame_0071
+  - tv_remote_tape_frame_0079
+  - tv_remote_tape_frame_0054
+  - tv_remote_tape_frame_0013
+  - tv_remote_tape_frame_0075
+  - tv_remote_tape_frame_0016
+  - tv_remote_tape_frame_0040
+  - tv_remote_tape_frame_0053
+  - tv_remote_tape_frame_0090
+  - tv_remote_tape_frame_0043
+  - tv_remote_tape_frame_0083
+  - tv_remote_tape_frame_0011
+  - tv_remote_tape_frame_0087
+  - tv_remote_tape_frame_0042
+  - tv_remote_tape_frame_0074
+  - tv_remote_tape_frame_0038
+  - tv_remote_tape_frame_0021
+  - tv_remote_tape_frame_0048
+  - tv_remote_tape_frame_0018
+  - tv_remote_tape_frame_0085
+  - tv_remote_tape_frame_0020
+  - tv_remote_tape_frame_0088
+  - tv_remote_tape_frame_0084
+  - tv_remote_tape_frame_0067
+  - tv_remote_tape_frame_0058
+  - tv_remote_tape_frame_0073
+  - tv_remote_tape_frame_0046
+  - tv_remote_tape_frame_0082
+  - tv_remote_tape_frame_0009
+  - tv_remote_tape_frame_0010
+  - tv_remote_tape_frame_0023
+  - tv_remote_tape_frame_0008
+  - tv_remote_tape_frame_0026
+  - tv_remote_tape_frame_0004
+  - tv_remote_tape_frame_0078
+  - tv_remote_tape_frame_0081
+  - tv_remote_tape_frame_0062
+  - tv_remote_tape_frame_0060
+  - tv_remote_tape_frame_0032
+  - tv_remote_tape_frame_0024
+  - tv_remote_tape_frame_0064
+  - tv_remote_tape_frame_0080
+  - tv_remote_tape_frame_0002
+  - tv_remote_tape_frame_0089
+  - tv_remote_tape_frame_0066
+  - tv_remote_tape_frame_0034
+  - tv_remote_tape_frame_0022
+  - tv_remote_tape_frame_0025
+  - tv_remote_tape_frame_0031
+  - tv_remote_tape_frame_0063
+  - tv_remote_tape_frame_0059
+  - tv_remote_tape_frame_0055
+  - tv_remote_tape_frame_0056
+  - tv_remote_tape_frame_0006
+  - tv_remote_tape_frame_0057
+  m_Tag: all ticker tape tv remote sprites
+  m_IsVariant: 0

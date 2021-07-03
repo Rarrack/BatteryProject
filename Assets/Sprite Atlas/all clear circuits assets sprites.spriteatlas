@@ -31,7 +31,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 3060fd718d1b9bf41ab03e0c5beb7877, type: 3}
-    totalSpriteSurfaceArea: 41927974
+    totalSpriteSurfaceArea: 43627575
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -42,16 +42,19 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f76629813f9ae6d4683f514ffba0449e, type: 3}
   - {fileID: 21300000, guid: 3b03fc82646189e478a9003a3f4b5012, type: 3}
   - {fileID: 21300000, guid: 783612a2551eff14c98ec6a80fcec041, type: 3}
+  - {fileID: 21300000, guid: 6c9c4133578343642bf1d5ad171a6904, type: 3}
   - {fileID: 21300000, guid: ea9b3cb30f3e4c64c8a5865477c2072a, type: 3}
   - {fileID: 21300000, guid: b3c1d9440bd462c4880fcca29b0944d6, type: 3}
   - {fileID: 21300000, guid: 77f94d8423100e049b2b8fdce7142397, type: 3}
   - {fileID: 21300000, guid: 875e3d056dc62154b9d6de0a719ca5d3, type: 3}
+  - {fileID: 21300000, guid: 1d9220b5371736b4a8bb4a97a42ba653, type: 3}
   - {fileID: 21300000, guid: d9a8c30640d65c249a44422c1c69829c, type: 3}
   - {fileID: 21300000, guid: b9a39ac6d7fdb8d498e266c897b26e72, type: 3}
   - {fileID: 21300000, guid: 069eb8376a2b976458b1f262323a1592, type: 3}
   - {fileID: 21300000, guid: 50b61c19921211846b9c57fd8e99e70c, type: 3}
   - {fileID: 21300000, guid: d36d9cb9b18ee8e42b46b1b68f84369a, type: 3}
   - {fileID: 21300000, guid: 218467e977e3546488de53cca9ad2c24, type: 3}
+  - {fileID: 21300000, guid: 66a4a30a99ece6e47bba5036f64cf8ae, type: 3}
   - {fileID: 21300000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
   - {fileID: 21300000, guid: f83598ba4484b984fad0c176a471e93f, type: 3}
   - {fileID: 21300000, guid: 18a07d8bbe37fcf4a970133633bebba3, type: 3}
@@ -69,16 +72,19 @@ SpriteAtlas:
   - concepts_D Goal Complete
   - Game_Bit_Button_red
   - Game_Bit_Pin_blue
+  - Game_Bit_Sim_card
   - Game_Bit_Toggle_Wall
   - concepts_AA Red
   - concepts_D Goal Overlay
   - concepts_D Goal
+  - Game_Bit_Pin_purple
   - concepts_D Green
   - Gate Draft
   - Game_Bit_Paperclip_outlines
   - concepts_AA Goal Complete
   - Game_Bit_Disableable_Wall
   - Game_Bit_Button_blue
+  - Game_Bit_Gears_all
   - concepts_AA Green
   - Game_Bit_Button_plate
   - concepts_AA Goal Overlay

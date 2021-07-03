@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all ticker tape cellphone sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 454dca1a1179f9f408079cda26ecded5, type: 3}
+    totalSpriteSurfaceArea: 80363520
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5169db10b26c7cc42a12655f6eddcf40, type: 3}
+  - {fileID: 21300000, guid: c09d64201e3e5f64db86ac3c254f1121, type: 3}
+  - {fileID: 21300000, guid: ad36f8308f3f1f5478e786fa30896118, type: 3}
+  - {fileID: 21300000, guid: 58966750e1788024b97209ff4f535643, type: 3}
+  - {fileID: 21300000, guid: cbc3b6701c65a9342b7ee68ceaffaeb0, type: 3}
+  - {fileID: 21300000, guid: cf0202b0463887b459f2fd6e27ccdfb4, type: 3}
+  - {fileID: 21300000, guid: 54a3f0e0df4e27f42a56141ce9a1dab9, type: 3}
+  - {fileID: 21300000, guid: 4cef8601e4f87694b8680d1688cfb99a, type: 3}
+  - {fileID: 21300000, guid: 7118f961693425e4c929d39b5a1953ed, type: 3}
+  - {fileID: 21300000, guid: d6243b616e6dbb24492bbf56337e87db, type: 3}
+  - {fileID: 21300000, guid: 64bd7e81d5daac94f8372e5762c84c9d, type: 3}
+  - {fileID: 21300000, guid: ecfa6342453c3da4cac39dabc3ba7158, type: 3}
+  - {fileID: 21300000, guid: 0ab3ae529698f2749a259d758639594b, type: 3}
+  - {fileID: 21300000, guid: af4dce62107876f4692990271baee3ef, type: 3}
+  - {fileID: 21300000, guid: 13daebe21aa06f447865f3d0da6b8de9, type: 3}
+  - {fileID: 21300000, guid: ac99a9f2ef479cf4980f63632a0abac6, type: 3}
+  - {fileID: 21300000, guid: 2e00320392cdb6c4a812529cab04004e, type: 3}
+  - {fileID: 21300000, guid: 9d4ef253427c5624c8166857782a3408, type: 3}
+  - {fileID: 21300000, guid: 643e47b37008c5b4588f98e7d6d4f489, type: 3}
+  - {fileID: 21300000, guid: 4f7fcee306fb49640a06bfb48ee8c952, type: 3}
+  - {fileID: 21300000, guid: dfb78f244e6121847be053e3582ea2cf, type: 3}
+  - {fileID: 21300000, guid: 1a9a00346a59eab4aba602fcf5fc6b78, type: 3}
+  - {fileID: 21300000, guid: 79973d548b5d43c4ba9898e773f64b00, type: 3}
+  - {fileID: 21300000, guid: 668218649249bab4c9de492697f4627f, type: 3}
+  - {fileID: 21300000, guid: a58d1115357cd3647ae9edcd00e9955d, type: 3}
+  - {fileID: 21300000, guid: 613f471639b3060449daea4ecc1b4a22, type: 3}
+  - {fileID: 21300000, guid: 5feb5b16b74ea1144b50f602ad4c18c4, type: 3}
+  - {fileID: 21300000, guid: 8e84b026e3ceaca418ed5ab36363c9d4, type: 3}
+  - {fileID: 21300000, guid: ff9b5246a91a4484395ca96219375ba0, type: 3}
+  - {fileID: 21300000, guid: f4cef64607d29cf4fb6750f8fd6d7552, type: 3}
+  - {fileID: 21300000, guid: 36aca486fd392f240939dd8f91adf069, type: 3}
+  - {fileID: 21300000, guid: 54c7ba86752a3c84dbf8cc86193467ff, type: 3}
+  - {fileID: 21300000, guid: 95b995d62f62f7a4e84460d21a8dea70, type: 3}
+  - {fileID: 21300000, guid: fbaca1670a69952489fcf2b8248add84, type: 3}
+  - {fileID: 21300000, guid: 18095e77d93e5ff47bc4f84ea2fa0894, type: 3}
+  - {fileID: 21300000, guid: 8c3e12a78219cda45bac38b0ed270882, type: 3}
+  - {fileID: 21300000, guid: 2d52fdc7071c89749b67e904d31d8466, type: 3}
+  - {fileID: 21300000, guid: c5fe28f7266b3054bb2086ec4cdaa1a5, type: 3}
+  - {fileID: 21300000, guid: 52041c0879a7ca94784e14dbba192536, type: 3}
+  - {fileID: 21300000, guid: 05ff4958f534efe489b2eb0b034098f4, type: 3}
+  - {fileID: 21300000, guid: c76575984b1e311419662f0c8e04964c, type: 3}
+  - {fileID: 21300000, guid: edfec1e860082e644a5eea22bc947fca, type: 3}
+  - {fileID: 21300000, guid: cfb042f80fac2e943986ba50e96bb86a, type: 3}
+  - {fileID: 21300000, guid: 5984fa39722c76740b8404c90e4f2607, type: 3}
+  - {fileID: 21300000, guid: 7ee04069859385844bd87ee5d34df415, type: 3}
+  - {fileID: 21300000, guid: 155e4589a78bb2a4f925f1d22af64fc3, type: 3}
+  - {fileID: 21300000, guid: aa756c993d7b62343bb7193b639ea3e1, type: 3}
+  - {fileID: 21300000, guid: eac9e62a01382b3428be44423fdf97e3, type: 3}
+  - {fileID: 21300000, guid: 884ee84a4b80a2341ba3387bf2bc2067, type: 3}
+  - {fileID: 21300000, guid: 63bbe86aa7dfa9845bbfd3e9f7cbe441, type: 3}
+  - {fileID: 21300000, guid: a6d0a10b3a060f24080d125e49816faf, type: 3}
+  - {fileID: 21300000, guid: 1d619fdbb2cff0b4b941c93e5dbd1cc5, type: 3}
+  - {fileID: 21300000, guid: f6a5095c0ce7b7b42bfed25a0be5c29d, type: 3}
+  - {fileID: 21300000, guid: 96e45e5c6639c1b47b23b1f9527b424a, type: 3}
+  - {fileID: 21300000, guid: 3fce9f5ceba92f841bee46ce119fc7ec, type: 3}
+  - {fileID: 21300000, guid: 3f4850ec0097ee9409d8696f9cbfd4c4, type: 3}
+  - {fileID: 21300000, guid: fffe7ffc8af1b7449b211fd0250f3466, type: 3}
+  - {fileID: 21300000, guid: 1c254c4d214d59049aa0b0ce29a8627e, type: 3}
+  - {fileID: 21300000, guid: 2e8066bd9454860488283da9892ac01a, type: 3}
+  - {fileID: 21300000, guid: b5125ccd518d28542aad6221e9b0425d, type: 3}
+  - {fileID: 21300000, guid: 6f3f84ed7b5363c44a3698e3efbcc145, type: 3}
+  - {fileID: 21300000, guid: 5dccf0fd00935ea429a60c047bb7cf1b, type: 3}
+  - {fileID: 21300000, guid: 8898480e69ef93740b068ac64f6eeafb, type: 3}
+  - {fileID: 21300000, guid: f1e82d0e83bdd194b8933d46eb7455ef, type: 3}
+  - {fileID: 21300000, guid: 02e7813e6d938e4458518d9fc9ec5e65, type: 3}
+  - {fileID: 21300000, guid: be069e6ec4868ba478b8d99ac08551ec, type: 3}
+  - {fileID: 21300000, guid: fe17f8eee69eee9429d702f161e3181f, type: 3}
+  - {fileID: 21300000, guid: ec2a751fce83cda4ea5936b80e1e8dec, type: 3}
+  - {fileID: 21300000, guid: 57fd834f86533d44a85978b729c237c7, type: 3}
+  - {fileID: 21300000, guid: 0b493f4ff7edaeb4b9be6c8bcb04bd73, type: 3}
+  - {fileID: 21300000, guid: 980b505f7539e714a8ec9df208829428, type: 3}
+  - {fileID: 21300000, guid: bc15907f45d86f64297479ce1f01363d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - cellphone_tape_frame_0011
+  - cellphone_tape_frame_0020
+  - cellphone_tape_frame_0037
+  - cellphone_tape_frame_0028
+  - cellphone_tape_frame_0002
+  - cellphone_tape_frame_0012
+  - cellphone_tape_frame_0043
+  - cellphone_tape_frame_0004
+  - cellphone_tape_frame_0061
+  - cellphone_tape_frame_0018
+  - cellphone_tape_frame_0027
+  - cellphone_tape_frame_0065
+  - cellphone_tape_frame_0055
+  - cellphone_tape_frame_0009
+  - cellphone_tape_frame_0029
+  - cellphone_tape_frame_0038
+  - cellphone_tape_frame_0021
+  - cellphone_tape_frame_0030
+  - cellphone_tape_frame_0067
+  - cellphone_tape_frame_0069
+  - cellphone_tape_frame_0013
+  - cellphone_tape_frame_0017
+  - cellphone_tape_frame_0056
+  - cellphone_tape_frame_0057
+  - cellphone_tape_frame_0062
+  - cellphone_tape_frame_0040
+  - cellphone_tape_frame_0007
+  - cellphone_tape_frame_0041
+  - cellphone_tape_frame_0042
+  - cellphone_tape_frame_0071
+  - cellphone_tape_frame_0003
+  - cellphone_tape_frame_0001
+  - cellphone_tape_frame_0025
+  - cellphone_tape_frame_0047
+  - cellphone_tape_frame_0035
+  - cellphone_tape_frame_0064
+  - cellphone_tape_frame_0015
+  - cellphone_tape_frame_0059
+  - cellphone_tape_frame_0053
+  - cellphone_tape_frame_0034
+  - cellphone_tape_frame_0023
+  - cellphone_tape_frame_0032
+  - cellphone_tape_frame_0052
+  - cellphone_tape_frame_0033
+  - cellphone_tape_frame_0045
+  - cellphone_tape_frame_0016
+  - cellphone_tape_frame_0036
+  - cellphone_tape_frame_0046
+  - cellphone_tape_frame_0024
+  - cellphone_tape_frame_0026
+  - cellphone_tape_frame_0051
+  - cellphone_tape_frame_0006
+  - cellphone_tape_frame_0022
+  - cellphone_tape_frame_0058
+  - cellphone_tape_frame_0054
+  - cellphone_tape_frame_0050
+  - cellphone_tape_frame_0019
+  - cellphone_tape_frame_0014
+  - cellphone_tape_frame_0044
+  - cellphone_tape_frame_0060
+  - cellphone_tape_frame_0039
+  - cellphone_tape_frame_0063
+  - cellphone_tape_frame_0066
+  - cellphone_tape_frame_0049
+  - cellphone_tape_frame_0048
+  - cellphone_tape_frame_0010
+  - cellphone_tape_frame_0008
+  - cellphone_tape_frame_0068
+  - cellphone_tape_frame_0005
+  - cellphone_tape_frame_0031
+  - cellphone_tape_frame_0072
+  - cellphone_tape_frame_0070
+  m_Tag: all ticker tape cellphone sprites
+  m_IsVariant: 0

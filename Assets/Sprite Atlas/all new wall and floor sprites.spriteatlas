@@ -30,24 +30,33 @@ SpriteAtlas:
       enableTightPacking: 0
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 3bccc9633455f744f82d371f02db0b1d, type: 3}
-    totalSpriteSurfaceArea: 27087710
+    - {fileID: 2800000, guid: 1138a97cfb5e6d14084d39a44cdf1aee, type: 3}
+    - {fileID: 2800000, guid: 4c56f08874fb5994898ea15df6f78220, type: 3}
+    - {fileID: 2800000, guid: e4c55c66bd30b0d49beb7a87d9287466, type: 3}
+    - {fileID: 2800000, guid: f9e90620bd143214698dd44644f30520, type: 3}
+    - {fileID: 2800000, guid: 267ad9be79e14a94da414c6b35157b32, type: 3}
+    - {fileID: 2800000, guid: 5af4fded3e87d7f4db5be74509e0a929, type: 3}
+    - {fileID: 2800000, guid: 8bf3728642046864ba0309ff05c37da6, type: 3}
+    - {fileID: 2800000, guid: 7eed049d5f840274dadbb479370f5f60, type: 3}
+    - {fileID: 2800000, guid: 906ed79f26c7b494ab28f697c3a27750, type: 3}
+    - {fileID: 2800000, guid: f15dcd7860cb1304fa8acaf091b303d4, type: 3}
+    - {fileID: 2800000, guid: e51ed14e607060640a59ffb9684cac40, type: 3}
+    - {fileID: 2800000, guid: 7f60383f50e0dc24f8e6dabea1f50a29, type: 3}
+    - {fileID: 2800000, guid: 112a5fadfc9e98e4ba97a568cfd81d80, type: 3}
+    - {fileID: 2800000, guid: 424493aa9e2488341b1cf439513eaf03, type: 3}
+    - {fileID: 2800000, guid: 09634bb2d464bb04a91b0cf473483237, type: 3}
+    totalSpriteSurfaceArea: 15291230
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: f9e90620bd143214698dd44644f30520, type: 3}
-  - {fileID: 21300000, guid: de4b3bb157d725f44b1ba83b113f80d0, type: 3}
   - {fileID: 21300000, guid: 09634bb2d464bb04a91b0cf473483237, type: 3}
-  - {fileID: 21300000, guid: e0b9e975affa33a41be7280076e942a7, type: 3}
   - {fileID: 21300000, guid: e4c55c66bd30b0d49beb7a87d9287466, type: 3}
   - {fileID: 21300000, guid: 8bf3728642046864ba0309ff05c37da6, type: 3}
   - {fileID: 21300000, guid: f15dcd7860cb1304fa8acaf091b303d4, type: 3}
   - {fileID: 21300000, guid: 4c56f08874fb5994898ea15df6f78220, type: 3}
-  - {fileID: 21300000, guid: b9316959a18d9de4c9cfb4a479388123, type: 3}
-  - {fileID: 21300000, guid: 5c8f9a6a4e09e2c4288eee4577be6b27, type: 3}
   - {fileID: 21300000, guid: 424493aa9e2488341b1cf439513eaf03, type: 3}
   - {fileID: 21300000, guid: 1138a97cfb5e6d14084d39a44cdf1aee, type: 3}
-  - {fileID: 21300000, guid: be9238acbe8dd7b43a3903e522aee929, type: 3}
   - {fileID: 21300000, guid: 7eed049d5f840274dadbb479370f5f60, type: 3}
   - {fileID: 21300000, guid: 112a5fadfc9e98e4ba97a568cfd81d80, type: 3}
   - {fileID: 21300000, guid: 5af4fded3e87d7f4db5be74509e0a929, type: 3}
@@ -57,18 +66,13 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 906ed79f26c7b494ab28f697c3a27750, type: 3}
   m_PackedSpriteNamesToIndex:
   - CC_Level_Floor_Purple
-  - CC_Level_Stage3_draft
   - CC_Level_Wall_Yellow
-  - CC_Level_Stage1_draft
   - CC_Level_Floor_Orange
   - CC_Level_Frame_Green
   - CC_Level_Frame_Yellow
   - CC_Level_Floor_Green
-  - CC_Level_Stage4_draft
-  - CC_Level_Stage4_draft_1
   - CC_Level_Wall_Purple
   - CC_Level_Floor_Blue
-  - CC_Level_Stage2_draft
   - CC_Level_Frame_Orange
   - CC_Level_Wall_Orange
   - CC_Level_Frame_Blue

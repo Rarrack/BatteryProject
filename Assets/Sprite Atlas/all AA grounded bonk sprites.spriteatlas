@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all AA grounded bonk sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 01a7fb85240521a47b20b9182abbbeb2, type: 3}
+    - {fileID: 2800000, guid: ad6e9e221316b2c4e925a2df02db3bc8, type: 3}
+    - {fileID: 2800000, guid: 75106b346fe98044aa4281f3ea9aa079, type: 3}
+    - {fileID: 2800000, guid: 45bc4681ff7ef084696f0818f039cde3, type: 3}
+    - {fileID: 2800000, guid: ab1ba721c96dcac4a980a39dfbc3d404, type: 3}
+    - {fileID: 2800000, guid: e538971c3a05a214eb41718d2d579c60, type: 3}
+    - {fileID: 2800000, guid: 8bcf86e92e6cb46458c23e3e5706ea0d, type: 3}
+    - {fileID: 2800000, guid: 8fd95eafa2e3ba34c84d0f1b39567ebe, type: 3}
+    - {fileID: 2800000, guid: 334a79075351fd043b8e18432ae59949, type: 3}
+    totalSpriteSurfaceArea: 26486784
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ab1ba721c96dcac4a980a39dfbc3d404, type: 3}
+  - {fileID: 21300000, guid: 45bc4681ff7ef084696f0818f039cde3, type: 3}
+  - {fileID: 21300000, guid: ad6e9e221316b2c4e925a2df02db3bc8, type: 3}
+  - {fileID: 21300000, guid: 75106b346fe98044aa4281f3ea9aa079, type: 3}
+  - {fileID: 21300000, guid: 01a7fb85240521a47b20b9182abbbeb2, type: 3}
+  - {fileID: 21300000, guid: 334a79075351fd043b8e18432ae59949, type: 3}
+  - {fileID: 21300000, guid: 8bcf86e92e6cb46458c23e3e5706ea0d, type: 3}
+  - {fileID: 21300000, guid: e538971c3a05a214eb41718d2d579c60, type: 3}
+  - {fileID: 21300000, guid: 8fd95eafa2e3ba34c84d0f1b39567ebe, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - face15_unwellBonk_AA_frame_0007
+  - face15_unwellBonk_AA_frame_0006
+  - face15_unwellBonk_AA_frame_0004
+  - face15_unwellBonk_AA_frame_0005
+  - face15_unwellBonk_AA_frame_0003
+  - face15_unwellBonk_AA_frame_0011
+  - face15_unwellBonk_AA_frame_0009
+  - face15_unwellBonk_AA_frame_0008
+  - face15_unwellBonk_AA_frame_0010
+  m_Tag: all AA grounded bonk sprites
+  m_IsVariant: 0

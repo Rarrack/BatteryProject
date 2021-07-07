@@ -30,8 +30,37 @@ SpriteAtlas:
       enableTightPacking: 0
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 55a3cd4788f1b5b4886ddd8d7917ddb3, type: 3}
-    totalSpriteSurfaceArea: 50236713
+    - {fileID: 2800000, guid: 8ff5e432e91e0ba4f9401d2950fd800f, type: 3}
+    - {fileID: 2800000, guid: b8ed458e3fd906245b4e6545b5de5c2b, type: 3}
+    - {fileID: 2800000, guid: 1589a1b7c01fa144ba6031d8ad0de2e3, type: 3}
+    - {fileID: 2800000, guid: 33676c1534be5b54ea36c017e9c0030a, type: 3}
+    - {fileID: 2800000, guid: e5700c1df38e0e547b9d09fb58c08e21, type: 3}
+    - {fileID: 2800000, guid: a96822e7ff101754088e827c3d4e9335, type: 3}
+    - {fileID: 2800000, guid: 4d9a625c3648e2842bb93828664d83ca, type: 3}
+    - {fileID: 2800000, guid: eea045b3b42ca4b46ab7bdfe0c4a52e8, type: 3}
+    - {fileID: 2800000, guid: 451749073b6d8fb4485d446c84b9b0e9, type: 3}
+    - {fileID: 2800000, guid: 4503c879e3e40ec46805096d407afd45, type: 3}
+    - {fileID: 2800000, guid: 5e68de6c20402e6438f813d7bb841aae, type: 3}
+    - {fileID: 2800000, guid: b28798783e0b0224d9e35e6aab56f0d6, type: 3}
+    - {fileID: 2800000, guid: 5521eb12396aff343b57c662b46ea624, type: 3}
+    - {fileID: 2800000, guid: c3cabda412652c54ab9902f714940ccd, type: 3}
+    - {fileID: 2800000, guid: e4b869280f43efe4fa8bd27e401ba59c, type: 3}
+    - {fileID: 2800000, guid: 596999abe45310149bcb9c48c4b5aa95, type: 3}
+    - {fileID: 2800000, guid: a5bd71893e03f6d4f8e2cf8052bec552, type: 3}
+    - {fileID: 2800000, guid: c539aeec5810c2044909dba4021fc767, type: 3}
+    - {fileID: 2800000, guid: 50665bfa2a66fbc458f84c0fec2a31fe, type: 3}
+    - {fileID: 2800000, guid: 1aa0e40b73e5d424089b0e5f84e40a6f, type: 3}
+    - {fileID: 2800000, guid: afb0ba9b003ee9c45ab053c89b2706b7, type: 3}
+    - {fileID: 2800000, guid: c2112bfa030607e43ade30463b562fbd, type: 3}
+    - {fileID: 2800000, guid: 43e696eabc6559b4ebe0db66d01b46a9, type: 3}
+    - {fileID: 2800000, guid: f04a40b0c6f476f4a87d516004368255, type: 3}
+    - {fileID: 2800000, guid: cd8f9c012931d4b4c9daf73d64c89cbb, type: 3}
+    - {fileID: 2800000, guid: a88da21537cf4dd46b1f1e650295070e, type: 3}
+    - {fileID: 2800000, guid: c2f47c4e9d330ac49b39d95a111d5ada, type: 3}
+    - {fileID: 2800000, guid: c86119a7b6ec1a84ea00f64f7d47202c, type: 3}
+    - {fileID: 2800000, guid: 56cd8ebca3c990446a06d0f982e1ecc1, type: 3}
+    - {fileID: 2800000, guid: 1368958b3a76e4542a62d654c23d7381, type: 3}
+    totalSpriteSurfaceArea: 48920211
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -65,7 +94,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: e5700c1df38e0e547b9d09fb58c08e21, type: 3}
   - {fileID: 21300000, guid: c2f47c4e9d330ac49b39d95a111d5ada, type: 3}
   - {fileID: 21300000, guid: b8ed458e3fd906245b4e6545b5de5c2b, type: 3}
-  - {fileID: 21300000, guid: c7723a2f5e00e054dbaf6f9dacb2ccc1, type: 3}
   m_PackedSpriteNamesToIndex:
   - Level 4-6 Preview
   - Level 5-1 Preview
@@ -97,6 +125,5 @@ SpriteAtlas:
   - Level 1-5 Preview
   - Level 5-3 Preview
   - Level 1-2 Preview
-  - Level 4-2 Preview (with Blueprint BG)
   m_Tag: all preview sprites
   m_IsVariant: 0

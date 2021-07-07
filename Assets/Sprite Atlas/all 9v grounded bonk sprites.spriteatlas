@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all 9v grounded bonk sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 518a0c9ae635ab54081d293eea1fdb55, type: 3}
+    - {fileID: 2800000, guid: f119ab86d07fd57479b5becfccb0f644, type: 3}
+    - {fileID: 2800000, guid: e662aab04a124754db7b54ce6cc407cd, type: 3}
+    - {fileID: 2800000, guid: 0aa1b8650ad6bef4881f269288167126, type: 3}
+    - {fileID: 2800000, guid: 30b97ae06c1da1848bceb2c30fb0848d, type: 3}
+    - {fileID: 2800000, guid: 7eafee3bdbe4d534aae89c7ff8e41efa, type: 3}
+    - {fileID: 2800000, guid: d67cc0bd5da571b48809cf01d92a80f0, type: 3}
+    - {fileID: 2800000, guid: 61b48a06a23520a4ab878de7153b1b8c, type: 3}
+    - {fileID: 2800000, guid: 6d1231e444c3cca4a84c31d3c004f076, type: 3}
+    - {fileID: 2800000, guid: 2a73bb4b1235468489818bddb1122a78, type: 3}
+    totalSpriteSurfaceArea: 29313040
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e662aab04a124754db7b54ce6cc407cd, type: 3}
+  - {fileID: 21300000, guid: 30b97ae06c1da1848bceb2c30fb0848d, type: 3}
+  - {fileID: 21300000, guid: 6d1231e444c3cca4a84c31d3c004f076, type: 3}
+  - {fileID: 21300000, guid: 0aa1b8650ad6bef4881f269288167126, type: 3}
+  - {fileID: 21300000, guid: 61b48a06a23520a4ab878de7153b1b8c, type: 3}
+  - {fileID: 21300000, guid: f119ab86d07fd57479b5becfccb0f644, type: 3}
+  - {fileID: 21300000, guid: 518a0c9ae635ab54081d293eea1fdb55, type: 3}
+  - {fileID: 21300000, guid: 7eafee3bdbe4d534aae89c7ff8e41efa, type: 3}
+  - {fileID: 21300000, guid: 2a73bb4b1235468489818bddb1122a78, type: 3}
+  - {fileID: 21300000, guid: d67cc0bd5da571b48809cf01d92a80f0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - face15_unwellBonk_9v_frame_0004
+  - face15_unwellBonk_9v_frame_0006
+  - face15_unwellBonk_9v_frame_0010
+  - face15_unwellBonk_9v_frame_0005
+  - face15_unwellBonk_9v_frame_0009
+  - face15_unwellBonk_9v_frame_0003
+  - face15_unwellBonk_9v_frame_0002
+  - face15_unwellBonk_9v_frame_0007
+  - face15_unwellBonk_9v_frame_0011
+  - face15_unwellBonk_9v_frame_0008
+  m_Tag: all 9v grounded bonk sprites
+  m_IsVariant: 0

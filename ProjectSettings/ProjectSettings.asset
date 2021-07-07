@@ -167,7 +167,7 @@ PlayerSettings:
   buildNumber: {}
   AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 21
-  AndroidTargetSdkVersion: 30
+  AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -258,7 +258,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Logan/Desktop/CC.keystore
+  AndroidKeystoreName: C:/Users/Moose 2.0/Documents/Git Repos/Clear Circuits/CC.keystore
   AndroidKeyaliasName: cc
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

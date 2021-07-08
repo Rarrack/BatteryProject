@@ -23,14 +23,31 @@ SpriteAtlas:
     platformSettings: []
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 2
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 946ec13846513934c993c03d4bc7e1d3, type: 3}
+    - {fileID: 2800000, guid: 39fd96a8b3eedcb4db0699883f9e2434, type: 3}
+    - {fileID: 2800000, guid: 6eea524142dc29b4eb260e1c5896b2f1, type: 3}
+    - {fileID: 2800000, guid: 9f66cbbadb359f14bbef77ba515cf883, type: 3}
+    - {fileID: 2800000, guid: 518c40075da1a924f928ce5fa6dbf257, type: 3}
+    - {fileID: 2800000, guid: 01fd20db184258645807193b5c4708df, type: 3}
+    - {fileID: 2800000, guid: 040b0e338a9cb094380b906b8a3d23dd, type: 3}
+    - {fileID: 2800000, guid: f4f8ea9cedfac8c4383e60d0300ca76e, type: 3}
+    - {fileID: 2800000, guid: 9e85953beea52d24bb3aa4c7e11a6b79, type: 3}
+    - {fileID: 2800000, guid: 6b59c65bdc3847b42b0a7027ce13dcea, type: 3}
+    - {fileID: 2800000, guid: 96b57377df1babf4aa8babc83f67ccf9, type: 3}
+    - {fileID: 2800000, guid: e17b29b1689ea144e9c3f64bcebcdce1, type: 3}
+    - {fileID: 2800000, guid: dde3c37f864e03d49b21fa427c4aca50, type: 3}
+    - {fileID: 2800000, guid: 9646df7f8e70313429ba995fb6533263, type: 3}
+    - {fileID: 2800000, guid: ccef3fc153714414296affa541b5431b, type: 3}
+    - {fileID: 2800000, guid: 7b918c05faad4354a8f9efb27dba0a3c, type: 3}
+    - {fileID: 2800000, guid: 769eff729e5718346a824bb55616e7d6, type: 3}
+    - {fileID: 2800000, guid: 77fcceec31affaa4f8f4f27dbbecd1f8, type: 3}
+    - {fileID: 2800000, guid: 2a5ae3c0f951eb041b06af9fcf765ac0, type: 3}
     totalSpriteSurfaceArea: 52973568
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}

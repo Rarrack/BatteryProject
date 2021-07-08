@@ -381,6 +381,22 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 442
       objectReference: {fileID: 0}
+    - target: {fileID: 212515935694598782, guid: 1fdf294a77b5d714c8dc751693495446,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66a4a30a99ece6e47bba5036f64cf8ae,
+        type: 3}
+    - target: {fileID: 61164680145145396, guid: 1fdf294a77b5d714c8dc751693495446,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 6.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 61164680145145396, guid: 1fdf294a77b5d714c8dc751693495446,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 11.81
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fdf294a77b5d714c8dc751693495446, type: 3}
 --- !u!1001 &288467328
@@ -565,11 +581,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.902
       objectReference: {fileID: 0}
-    - target: {fileID: 5701701834100246110, guid: 71b1822a892af98458ba9df2d73d1224,
-        type: 3}
-      propertyPath: check
-      value: 
-      objectReference: {fileID: 1559967172}
     - target: {fileID: 5701701834100246104, guid: 71b1822a892af98458ba9df2d73d1224,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -585,6 +596,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 441
       objectReference: {fileID: 0}
+    - target: {fileID: 5701701834100246110, guid: 71b1822a892af98458ba9df2d73d1224,
+        type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 1559967172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71b1822a892af98458ba9df2d73d1224, type: 3}
 --- !u!1 &305623925 stripped

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all battery goal sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: d9a8c30640d65c249a44422c1c69829c, type: 3}
+    - {fileID: 2800000, guid: f76629813f9ae6d4683f514ffba0449e, type: 3}
+    - {fileID: 2800000, guid: 77f94d8423100e049b2b8fdce7142397, type: 3}
+    - {fileID: 2800000, guid: 875e3d056dc62154b9d6de0a719ca5d3, type: 3}
+    - {fileID: 2800000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
+    - {fileID: 2800000, guid: 50b61c19921211846b9c57fd8e99e70c, type: 3}
+    - {fileID: 2800000, guid: 18a07d8bbe37fcf4a970133633bebba3, type: 3}
+    - {fileID: 2800000, guid: 5a315d7d3b2aa484eba7a54eb204dd5c, type: 3}
+    totalSpriteSurfaceArea: 23501214
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f76629813f9ae6d4683f514ffba0449e, type: 3}
+  - {fileID: 21300000, guid: 77f94d8423100e049b2b8fdce7142397, type: 3}
+  - {fileID: 21300000, guid: 875e3d056dc62154b9d6de0a719ca5d3, type: 3}
+  - {fileID: 21300000, guid: d9a8c30640d65c249a44422c1c69829c, type: 3}
+  - {fileID: 21300000, guid: 50b61c19921211846b9c57fd8e99e70c, type: 3}
+  - {fileID: 21300000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
+  - {fileID: 21300000, guid: 18a07d8bbe37fcf4a970133633bebba3, type: 3}
+  - {fileID: 21300000, guid: 5a315d7d3b2aa484eba7a54eb204dd5c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - concepts_D Goal Complete
+  - concepts_D Goal Overlay
+  - concepts_D Goal
+  - concepts_D Green
+  - concepts_AA Goal Complete
+  - concepts_AA Green
+  - concepts_AA Goal Overlay
+  - concepts_AA Goal
+  m_Tag: all battery goal sprites
+  m_IsVariant: 0

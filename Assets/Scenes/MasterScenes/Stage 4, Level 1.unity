@@ -2970,6 +2970,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 412
       objectReference: {fileID: 0}
+    - target: {fileID: 212515935694598782, guid: 1fdf294a77b5d714c8dc751693495446,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66a4a30a99ece6e47bba5036f64cf8ae,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fdf294a77b5d714c8dc751693495446, type: 3}
 --- !u!1 &1884620271
@@ -3373,6 +3379,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 413
       objectReference: {fileID: 0}
+    - target: {fileID: 212515935694598782, guid: 1fdf294a77b5d714c8dc751693495446,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66a4a30a99ece6e47bba5036f64cf8ae,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fdf294a77b5d714c8dc751693495446, type: 3}
 --- !u!1001 &1932557580

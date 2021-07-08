@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all AA charge sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 581a3d4592229434c84741b73335d33e, type: 3}
+    - {fileID: 2800000, guid: bc04c26a925b6ab488461edf99f784fa, type: 3}
+    - {fileID: 2800000, guid: ccf430d01d1c0d54bb1e64129a4684e4, type: 3}
+    - {fileID: 2800000, guid: e9126a71c6d09cb4faef6a9c7499f7b0, type: 3}
+    - {fileID: 2800000, guid: 8797e756f8f533c4a9191e6992b55b44, type: 3}
+    - {fileID: 2800000, guid: c43783522196df14b901c871ad6618dc, type: 3}
+    - {fileID: 2800000, guid: f3d3c8f956dab6444ad59b2b00117ac2, type: 3}
+    totalSpriteSurfaceArea: 20600832
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ccf430d01d1c0d54bb1e64129a4684e4, type: 3}
+  - {fileID: 21300000, guid: e9126a71c6d09cb4faef6a9c7499f7b0, type: 3}
+  - {fileID: 21300000, guid: c43783522196df14b901c871ad6618dc, type: 3}
+  - {fileID: 21300000, guid: 581a3d4592229434c84741b73335d33e, type: 3}
+  - {fileID: 21300000, guid: 8797e756f8f533c4a9191e6992b55b44, type: 3}
+  - {fileID: 21300000, guid: f3d3c8f956dab6444ad59b2b00117ac2, type: 3}
+  - {fileID: 21300000, guid: bc04c26a925b6ab488461edf99f784fa, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - AA charge frame 4
+  - AA charge frame 5
+  - AA charge frame 7
+  - AA charge frame 2
+  - AA charge frame 6
+  - AA charge frame 8
+  - AA charge frame 3
+  m_Tag: all AA charge sprites
+  m_IsVariant: 0

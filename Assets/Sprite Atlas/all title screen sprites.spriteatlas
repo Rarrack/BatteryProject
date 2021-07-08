@@ -30,25 +30,16 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: cd727d05c40da3449963f59f71e75f76, type: 3}
-    totalSpriteSurfaceArea: 17095448
+    - {fileID: 2800000, guid: a27dc29caef8a1b46a5372695efb7ccb, type: 3}
+    - {fileID: 2800000, guid: 57697e2e1b13e4f428d1d532582e0aab, type: 3}
+    totalSpriteSurfaceArea: 4456448
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: bd616974fb43d90489720c8effa53408, type: 3}
-  - {fileID: 21300000, guid: a3afb105d60580546a4d0c37705e91ac, type: 3}
-  - {fileID: 21300000, guid: 8662c30558e05c04da500128164036e0, type: 3}
-  - {fileID: 21300000, guid: 4d3319887703ff344b61add8f1f9d313, type: 3}
   - {fileID: 21300000, guid: a27dc29caef8a1b46a5372695efb7ccb, type: 3}
-  - {fileID: 21300000, guid: 979e3abd837680b459e5d8d22afb73e2, type: 3}
   - {fileID: 21300000, guid: 57697e2e1b13e4f428d1d532582e0aab, type: 3}
   m_PackedSpriteNamesToIndex:
-  - updated_Title_Screen_blank copy
-  - updated_Title_Screen
-  - Menu_settings
-  - updated_Title_Screen_blank_logo
   - Main_Logo
-  - Menu_start
   - NO CLOUD TITLE SCREEN
   m_Tag: all title screen sprites
   m_IsVariant: 0

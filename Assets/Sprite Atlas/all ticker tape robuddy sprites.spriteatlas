@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all ticker tape robuddy sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 0463cb873c3399d48a0c4cd396e5be4e, type: 3}
+    - {fileID: 2800000, guid: 15d9f7f7e86a5b041ad5a3018eb54427, type: 3}
+    - {fileID: 2800000, guid: 3de7f4602b34e0443a81cf1a69cdeacd, type: 3}
+    - {fileID: 2800000, guid: 4f1acc5394c240c48979339eaad1cec7, type: 3}
+    - {fileID: 2800000, guid: 93a98890b24eafe4d9b2b00a75b41a18, type: 3}
+    - {fileID: 2800000, guid: bad5c1f9ff52238409ec5ee0eb93bff2, type: 3}
+    - {fileID: 2800000, guid: 967c2af71b3634942a7c467a62f7fbc9, type: 3}
+    - {fileID: 2800000, guid: 7baf9ff1d60c1384086915ed65efbb32, type: 3}
+    - {fileID: 2800000, guid: 7b3c765b8f684c34692901106f4a9192, type: 3}
+    - {fileID: 2800000, guid: 61554547f1b668d43ab3ba453ae876d3, type: 3}
+    - {fileID: 2800000, guid: 328fd589fe5ea7d41a905312e6e914bb, type: 3}
+    - {fileID: 2800000, guid: 56c45eb840a09244b820425fd9a1dc2e, type: 3}
+    - {fileID: 2800000, guid: efae23ff09a5b8b42929d55c37c31d8d, type: 3}
+    - {fileID: 2800000, guid: 496bacdc5e137e74596e273e87820eb1, type: 3}
+    - {fileID: 2800000, guid: 41ba3609478e3d94eb2dc222fb801da3, type: 3}
+    - {fileID: 2800000, guid: ed4a38de56dd8f5479c118baed5f7884, type: 3}
+    - {fileID: 2800000, guid: be44ee78d08d55448be4ceb5161a1a16, type: 3}
+    - {fileID: 2800000, guid: eb819fe3ae6dfd54eb28c6990ccbe3e6, type: 3}
+    - {fileID: 2800000, guid: 5edec413b7512fd4d8d8623749c0c89b, type: 3}
+    - {fileID: 2800000, guid: 15800700e10df864b85ed055a83171c0, type: 3}
+    - {fileID: 2800000, guid: ef548926b0b598b469097d43d6d38d73, type: 3}
+    - {fileID: 2800000, guid: f69a2bcd34e404843be68a9ad10967c0, type: 3}
+    - {fileID: 2800000, guid: f441a397685659b43a99ea3b4cd89f86, type: 3}
+    - {fileID: 2800000, guid: bcbf1b0ae9ffafd429bc6c7225946593, type: 3}
+    - {fileID: 2800000, guid: 66b5871ac94dccc48af86b72a8d0649f, type: 3}
+    - {fileID: 2800000, guid: 08f31a0167abf1f43bffefa0d00e37b5, type: 3}
+    - {fileID: 2800000, guid: 321dd17b558bfae4fbffbd4f0efa90bf, type: 3}
+    - {fileID: 2800000, guid: b157ad28449aa224a9108280f66b1fab, type: 3}
+    - {fileID: 2800000, guid: 8065cf162acbc4d4d962259864bf778c, type: 3}
+    - {fileID: 2800000, guid: c3fc6ee8470269d4a9eccf69538f10f7, type: 3}
+    - {fileID: 2800000, guid: 4f29838417d8ea84ba57fe2ee200b843, type: 3}
+    - {fileID: 2800000, guid: 25888c1612620d44ead0595a6d32115d, type: 3}
+    - {fileID: 2800000, guid: 8c64f2b2303df7241b1bf851cefc4c6d, type: 3}
+    - {fileID: 2800000, guid: 8f324a1eaeda14949a6b10be7d9a8638, type: 3}
+    - {fileID: 2800000, guid: 1637ac1fb63232044bebf8febf4e86e7, type: 3}
+    - {fileID: 2800000, guid: aebf6c1808a562a4b8ab2af47b5a7a9b, type: 3}
+    totalSpriteSurfaceArea: 40181760
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 15800700e10df864b85ed055a83171c0, type: 3}
+  - {fileID: 21300000, guid: 3de7f4602b34e0443a81cf1a69cdeacd, type: 3}
+  - {fileID: 21300000, guid: 93a98890b24eafe4d9b2b00a75b41a18, type: 3}
+  - {fileID: 21300000, guid: 08f31a0167abf1f43bffefa0d00e37b5, type: 3}
+  - {fileID: 21300000, guid: 7baf9ff1d60c1384086915ed65efbb32, type: 3}
+  - {fileID: 21300000, guid: 8c64f2b2303df7241b1bf851cefc4c6d, type: 3}
+  - {fileID: 21300000, guid: 5edec413b7512fd4d8d8623749c0c89b, type: 3}
+  - {fileID: 21300000, guid: 4f1acc5394c240c48979339eaad1cec7, type: 3}
+  - {fileID: 21300000, guid: eb819fe3ae6dfd54eb28c6990ccbe3e6, type: 3}
+  - {fileID: 21300000, guid: 4f29838417d8ea84ba57fe2ee200b843, type: 3}
+  - {fileID: 21300000, guid: 25888c1612620d44ead0595a6d32115d, type: 3}
+  - {fileID: 21300000, guid: 8065cf162acbc4d4d962259864bf778c, type: 3}
+  - {fileID: 21300000, guid: ef548926b0b598b469097d43d6d38d73, type: 3}
+  - {fileID: 21300000, guid: 61554547f1b668d43ab3ba453ae876d3, type: 3}
+  - {fileID: 21300000, guid: 0463cb873c3399d48a0c4cd396e5be4e, type: 3}
+  - {fileID: 21300000, guid: f441a397685659b43a99ea3b4cd89f86, type: 3}
+  - {fileID: 21300000, guid: 15d9f7f7e86a5b041ad5a3018eb54427, type: 3}
+  - {fileID: 21300000, guid: 967c2af71b3634942a7c467a62f7fbc9, type: 3}
+  - {fileID: 21300000, guid: aebf6c1808a562a4b8ab2af47b5a7a9b, type: 3}
+  - {fileID: 21300000, guid: b157ad28449aa224a9108280f66b1fab, type: 3}
+  - {fileID: 21300000, guid: be44ee78d08d55448be4ceb5161a1a16, type: 3}
+  - {fileID: 21300000, guid: 56c45eb840a09244b820425fd9a1dc2e, type: 3}
+  - {fileID: 21300000, guid: c3fc6ee8470269d4a9eccf69538f10f7, type: 3}
+  - {fileID: 21300000, guid: 41ba3609478e3d94eb2dc222fb801da3, type: 3}
+  - {fileID: 21300000, guid: 328fd589fe5ea7d41a905312e6e914bb, type: 3}
+  - {fileID: 21300000, guid: bad5c1f9ff52238409ec5ee0eb93bff2, type: 3}
+  - {fileID: 21300000, guid: bcbf1b0ae9ffafd429bc6c7225946593, type: 3}
+  - {fileID: 21300000, guid: 66b5871ac94dccc48af86b72a8d0649f, type: 3}
+  - {fileID: 21300000, guid: 7b3c765b8f684c34692901106f4a9192, type: 3}
+  - {fileID: 21300000, guid: 321dd17b558bfae4fbffbd4f0efa90bf, type: 3}
+  - {fileID: 21300000, guid: 496bacdc5e137e74596e273e87820eb1, type: 3}
+  - {fileID: 21300000, guid: f69a2bcd34e404843be68a9ad10967c0, type: 3}
+  - {fileID: 21300000, guid: 8f324a1eaeda14949a6b10be7d9a8638, type: 3}
+  - {fileID: 21300000, guid: ed4a38de56dd8f5479c118baed5f7884, type: 3}
+  - {fileID: 21300000, guid: 1637ac1fb63232044bebf8febf4e86e7, type: 3}
+  - {fileID: 21300000, guid: efae23ff09a5b8b42929d55c37c31d8d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - robuddy_tape_frame_0034
+  - robuddy_tape_frame_0017
+  - robuddy_tape_frame_0019
+  - robuddy_tape_frame_0040
+  - robuddy_tape_frame_0022
+  - robuddy_tape_frame_0047
+  - robuddy_tape_frame_0033
+  - robuddy_tape_frame_0018
+  - robuddy_tape_frame_0032
+  - robuddy_tape_frame_0045
+  - robuddy_tape_frame_0046
+  - robuddy_tape_frame_0043
+  - robuddy_tape_frame_0035
+  - robuddy_tape_frame_0024
+  - robuddy_tape_frame_0015
+  - robuddy_tape_frame_0037
+  - robuddy_tape_frame_0016
+  - robuddy_tape_frame_0021
+  - robuddy_tape_frame_0050
+  - robuddy_tape_frame_0042
+  - robuddy_tape_frame_0031
+  - robuddy_tape_frame_0026
+  - robuddy_tape_frame_0044
+  - robuddy_tape_frame_0029
+  - robuddy_tape_frame_0025
+  - robuddy_tape_frame_0020
+  - robuddy_tape_frame_0038
+  - robuddy_tape_frame_0039
+  - robuddy_tape_frame_0023
+  - robuddy_tape_frame_0041
+  - robuddy_tape_frame_0028
+  - robuddy_tape_frame_0036
+  - robuddy_tape_frame_0048
+  - robuddy_tape_frame_0030
+  - robuddy_tape_frame_0049
+  - robuddy_tape_frame_0027
+  m_Tag: all ticker tape robuddy sprites
+  m_IsVariant: 0

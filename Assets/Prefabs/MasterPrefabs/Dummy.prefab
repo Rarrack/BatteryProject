@@ -125,6 +125,7 @@ MonoBehaviour:
   check: {fileID: 0}
   charged: 1
   victorySprite: {fileID: 0}
+  idleClips: []
 --- !u!50 &50591611878541566
 Rigidbody2D:
   serializedVersion: 4
@@ -154,7 +155,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565666099491146}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f40e1cedb4ef42849bb6a10925a7fd11, type: 2}
   m_CullingMode: 0

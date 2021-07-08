@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: all AA impact sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ff1191ee8c84bdc4b914291fdb748592, type: 3}
+    totalSpriteSurfaceArea: 117719040
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 925b7a50b43a6ed44af290753dd45ea6, type: 3}
+  - {fileID: 21300000, guid: 1cb0ff608744a53428ae1bf1d4e3df3b, type: 3}
+  - {fileID: 21300000, guid: 1a690da0af1797f4ca6f289b548736ba, type: 3}
+  - {fileID: 21300000, guid: b5b1ebd0cd0b97e418d0ef1ca7728706, type: 3}
+  - {fileID: 21300000, guid: 7da86e01696d5434e848efc0c35eeb36, type: 3}
+  - {fileID: 21300000, guid: ab1ba721c96dcac4a980a39dfbc3d404, type: 3}
+  - {fileID: 21300000, guid: 45bc4681ff7ef084696f0818f039cde3, type: 3}
+  - {fileID: 21300000, guid: ad6e9e221316b2c4e925a2df02db3bc8, type: 3}
+  - {fileID: 21300000, guid: 48c52103fd5c0514a89c58d75c2ee0a7, type: 3}
+  - {fileID: 21300000, guid: 09b38f13d7c785648a839aae12151c80, type: 3}
+  - {fileID: 21300000, guid: 567f5fb38b0b557468151c24d1671e41, type: 3}
+  - {fileID: 21300000, guid: 59ae55d39c7b7cb488efa15d22d68fe0, type: 3}
+  - {fileID: 21300000, guid: 75106b346fe98044aa4281f3ea9aa079, type: 3}
+  - {fileID: 21300000, guid: ee294794840022c4d979492d34ec337e, type: 3}
+  - {fileID: 21300000, guid: 656ef4a4562ee02479eac83b57c60be3, type: 3}
+  - {fileID: 21300000, guid: 2047857547dfb1745ab167993069500c, type: 3}
+  - {fileID: 21300000, guid: 01a7fb85240521a47b20b9182abbbeb2, type: 3}
+  - {fileID: 21300000, guid: d322b5d5485d5f84ca40e9b623e6bd2a, type: 3}
+  - {fileID: 21300000, guid: 51bd87c6b6949454c9b50d12d900d434, type: 3}
+  - {fileID: 21300000, guid: d089eac6b69e39e479987754ef4540e3, type: 3}
+  - {fileID: 21300000, guid: 24bb5dd643959274097d3d6fba32c9c6, type: 3}
+  - {fileID: 21300000, guid: b5b839e6ddc53b443a82890767ab8281, type: 3}
+  - {fileID: 21300000, guid: 334a79075351fd043b8e18432ae59949, type: 3}
+  - {fileID: 21300000, guid: f0d927b779f59ce479e28a671576288b, type: 3}
+  - {fileID: 21300000, guid: 0efcca081970c4d488f8b5a8b2d2e9c2, type: 3}
+  - {fileID: 21300000, guid: 92e7e129c0e2c03488c617fb03f8426b, type: 3}
+  - {fileID: 21300000, guid: 5857974947c34e34abe5a1935784f826, type: 3}
+  - {fileID: 21300000, guid: 8bcf86e92e6cb46458c23e3e5706ea0d, type: 3}
+  - {fileID: 21300000, guid: ed737cf97256cc844821c0aa93d92d6a, type: 3}
+  - {fileID: 21300000, guid: 2a81318a17149cc458349c63a0fbd2c5, type: 3}
+  - {fileID: 21300000, guid: e64bddea5d1ef8d40b46b1d18a3a21e1, type: 3}
+  - {fileID: 21300000, guid: e8a1be2bf8cd561449a02f00f8b4a45c, type: 3}
+  - {fileID: 21300000, guid: 39b6905b5282b244dabb714ad5a85229, type: 3}
+  - {fileID: 21300000, guid: e538971c3a05a214eb41718d2d579c60, type: 3}
+  - {fileID: 21300000, guid: 0ff0082c90954b742b255ce23a3c6f25, type: 3}
+  - {fileID: 21300000, guid: e9e7825c71551b04ba74b5ca8721c12e, type: 3}
+  - {fileID: 21300000, guid: a0bb9d8d7a872cf4ea1568bc3527bcb8, type: 3}
+  - {fileID: 21300000, guid: 21835d2fb943bfb4aae8f63521c8014d, type: 3}
+  - {fileID: 21300000, guid: 8fd95eafa2e3ba34c84d0f1b39567ebe, type: 3}
+  - {fileID: 21300000, guid: b82b32ffe392c7842af7fc7864978e36, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - face 4 AA frame 14
+  - face 4 AA frame 17
+  - face15_unwellBonk_AA_frame_0019
+  - face15_unwellBonk_AA_frame_0002
+  - face 4 AA frame 11
+  - face15_unwellBonk_AA_frame_0007
+  - face15_unwellBonk_AA_frame_0006
+  - face15_unwellBonk_AA_frame_0004
+  - face 4 AA frame 3
+  - face 4 AA frame 9
+  - face15_unwellBonk_AA_frame_0001
+  - face15_unwellBonk_AA_frame_0016
+  - face15_unwellBonk_AA_frame_0005
+  - face 4 AA frame 15
+  - face 4 AA frame 4
+  - face 4 AA frame 13
+  - face15_unwellBonk_AA_frame_0003
+  - face 4 AA frame 1
+  - face15_unwellBonk_AA_frame_0017
+  - face 4 AA frame 2
+  - face15_unwellBonk_AA_frame_0013
+  - face15_unwellBonk_AA_frame_0015
+  - face15_unwellBonk_AA_frame_0011
+  - face15_unwellBonk_AA_frame_0018
+  - face 4 AA frame 16
+  - face 4 AA frame 5
+  - face15_unwellBonk_AA_frame_0021
+  - face15_unwellBonk_AA_frame_0009
+  - face 4 AA frame 12
+  - face15_unwellBonk_AA_frame_0012
+  - face 4 AA frame 6
+  - face 4 AA frame 18
+  - face15_unwellBonk_AA_frame_0022
+  - face15_unwellBonk_AA_frame_0008
+  - face 4 AA frame 7
+  - face 4 AA frame 8
+  - face 4 AA frame 10
+  - face15_unwellBonk_AA_frame_0020
+  - face15_unwellBonk_AA_frame_0010
+  - face15_unwellBonk_AA_frame_0014
+  m_Tag: all AA impact sprites
+  m_IsVariant: 0

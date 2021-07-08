@@ -602,16 +602,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.64776707
       objectReference: {fileID: 0}
-    - target: {fileID: 5701701834100246110, guid: 71b1822a892af98458ba9df2d73d1224,
-        type: 3}
-      propertyPath: check
-      value: 
-      objectReference: {fileID: 622836078}
-    - target: {fileID: 5701701834100246110, guid: 71b1822a892af98458ba9df2d73d1224,
-        type: 3}
-      propertyPath: charged
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5701701834100246104, guid: 71b1822a892af98458ba9df2d73d1224,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -626,6 +616,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 527
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701701834100246110, guid: 71b1822a892af98458ba9df2d73d1224,
+        type: 3}
+      propertyPath: check
+      value: 
+      objectReference: {fileID: 622836078}
+    - target: {fileID: 5701701834100246110, guid: 71b1822a892af98458ba9df2d73d1224,
+        type: 3}
+      propertyPath: charged
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71b1822a892af98458ba9df2d73d1224, type: 3}
@@ -1068,6 +1068,21 @@ PrefabInstance:
       propertyPath: battery.Array.data[2]
       value: 
       objectReference: {fileID: 892535432}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 291943235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 521
+      objectReference: {fileID: 0}
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: batteries.Array.size
@@ -1108,21 +1123,6 @@ PrefabInstance:
       propertyPath: walls.Array.data[1]
       value: 
       objectReference: {fileID: 2089207197}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 291943235
-      objectReference: {fileID: 0}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 521
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
 --- !u!1001 &887936029
@@ -2580,41 +2580,6 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 520
       objectReference: {fileID: 0}
-    - target: {fileID: 114560053366876446, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1902184409}
-    - target: {fileID: 114560053366876446, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1902184409}
-    - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LevelSelect
-      objectReference: {fileID: 0}
-    - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114018953832454450, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1902184409}
-    - target: {fileID: 114018953832454450, guid: 916d5bbe381d68b46b584b9b0545fcda,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MainMenu
-      objectReference: {fileID: 0}
     - target: {fileID: 1655410570535820, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2633,15 +2598,50 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 524
       objectReference: {fileID: 0}
+    - target: {fileID: 114560053366876446, guid: 916d5bbe381d68b46b584b9b0545fcda,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1902184409}
+    - target: {fileID: 114560053366876446, guid: 916d5bbe381d68b46b584b9b0545fcda,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextLevel
+      objectReference: {fileID: 0}
     - target: {fileID: 7694365193992172701, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
       propertyPath: m_SortingOrder
       value: 526
       objectReference: {fileID: 0}
+    - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1902184409}
+    - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LevelSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943737741816936, guid: 916d5bbe381d68b46b584b9b0545fcda,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5514968444612147065, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
       propertyPath: m_SortingOrder
       value: 527
+      objectReference: {fileID: 0}
+    - target: {fileID: 114018953832454450, guid: 916d5bbe381d68b46b584b9b0545fcda,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1902184409}
+    - target: {fileID: 114018953832454450, guid: 916d5bbe381d68b46b584b9b0545fcda,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 3018131663494447537, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
@@ -2808,6 +2808,21 @@ PrefabInstance:
       propertyPath: battery.Array.data[2]
       value: 
       objectReference: {fileID: 892535432}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 291943235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 522
+      objectReference: {fileID: 0}
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: batteries.Array.size
@@ -2842,21 +2857,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 291943235
-      objectReference: {fileID: 0}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 522
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
@@ -3154,6 +3154,21 @@ PrefabInstance:
       propertyPath: battery.Array.data[2]
       value: 
       objectReference: {fileID: 892535432}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 291943235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 520
+      objectReference: {fileID: 0}
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: batteries.Array.size
@@ -3189,21 +3204,6 @@ PrefabInstance:
       propertyPath: walls.Array.data[0]
       value: 
       objectReference: {fileID: 1062598585}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 291943235
-      objectReference: {fileID: 0}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 7863419405703026906, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 520
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
 --- !u!1 &1902184405
@@ -3307,8 +3307,8 @@ MonoBehaviour:
   bgmSlider: {fileID: 887936031}
   sfxSlider: {fileID: 887936030}
   victoryTypes:
-  - {fileID: 21300000, guid: e465751ed19a036488bf05965d75479e, type: 3}
-  - {fileID: 21300000, guid: 5202dc1b516fc9642b74ca44f948faa5, type: 3}
+  - {fileID: 21300000, guid: 7e89f44263bad9645971092929c2c1af, type: 3}
+  - {fileID: 21300000, guid: fbcce515706cd8a4da8ea98ca7f3de14, type: 3}
 --- !u!114 &1902184410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3631,11 +3631,6 @@ PrefabInstance:
       propertyPath: battery.Array.data[0]
       value: 
       objectReference: {fileID: 461220589}
-    - target: {fileID: 4801956578489600277, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
-        type: 3}
-      propertyPath: battery
-      value: 
-      objectReference: {fileID: 461220589}
     - target: {fileID: 3013445197351704552, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -3651,5 +3646,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 523
       objectReference: {fileID: 0}
+    - target: {fileID: 4801956578489600277, guid: f0bdce4f23dbd8f48aa4f376978ef66b,
+        type: 3}
+      propertyPath: battery
+      value: 
+      objectReference: {fileID: 461220589}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0bdce4f23dbd8f48aa4f376978ef66b, type: 3}

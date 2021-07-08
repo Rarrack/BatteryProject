@@ -561,26 +561,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1804900692}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &508135280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508135279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b707897b6126a645a4294191e88b3e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selected: 0
-  check: {fileID: 86679670}
-  charged: 1
-  states:
-  - {fileID: 21300000, guid: 5edc8b8cdc380a64eb17b2fa4911f3a3, type: 3}
-  - {fileID: 21300000, guid: ca83ff2f940f8894aadc851c7b266f92, type: 3}
-  - {fileID: 21300000, guid: ac033a7cd32b07a4caea370e75b9e1ba, type: 3}
-  - {fileID: 21300000, guid: d9a8c30640d65c249a44422c1c69829c, type: 3}
 --- !u!1001 &600764600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2281,7 +2261,7 @@ PrefabInstance:
     - target: {fileID: 2493254329712313965, guid: c56ba19e61c1c034ba174d708ca5417b,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2493254329712313971, guid: c56ba19e61c1c034ba174d708ca5417b,
         type: 3}
@@ -2558,6 +2538,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 130
       objectReference: {fileID: 0}
+    - target: {fileID: 1954372803, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1281150205
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954372803, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
+      propertyPath: m_SortingLayer
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954372803, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
+      propertyPath: m_SortingOrder
+      value: 133
+      objectReference: {fileID: 0}
     - target: {fileID: 114560053366876446, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2587,18 +2579,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 1954372803, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1281150205
-      objectReference: {fileID: 0}
-    - target: {fileID: 1954372803, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
-      propertyPath: m_SortingLayer
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 1954372803, guid: 916d5bbe381d68b46b584b9b0545fcda, type: 3}
-      propertyPath: m_SortingOrder
-      value: 133
       objectReference: {fileID: 0}
     - target: {fileID: 7215620948023881414, guid: 916d5bbe381d68b46b584b9b0545fcda,
         type: 3}
@@ -2929,7 +2909,7 @@ PrefabInstance:
     - target: {fileID: 5701701834100246110, guid: 71b1822a892af98458ba9df2d73d1224,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71b1822a892af98458ba9df2d73d1224, type: 3}
@@ -2939,26 +2919,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2055620632}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2055620634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055620633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b707897b6126a645a4294191e88b3e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selected: 0
-  check: {fileID: 86679670}
-  charged: 1
-  states:
-  - {fileID: 21300000, guid: b5c85e8b48a5f2346a0428dfe00c0546, type: 3}
-  - {fileID: 21300000, guid: b3c1d9440bd462c4880fcca29b0944d6, type: 3}
-  - {fileID: 21300000, guid: e9de9189478dc5a4e8f911c45322a4cb, type: 3}
-  - {fileID: 21300000, guid: 4561c6aaa79fd4d478f50581b967fb8d, type: 3}
 --- !u!1 &2146435242
 GameObject:
   m_ObjectHideFlags: 0

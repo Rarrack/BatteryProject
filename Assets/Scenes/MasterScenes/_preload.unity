@@ -175,19 +175,19 @@ MonoBehaviour:
     isLooping: 1
     playOnAwake: 0
   - audioName: Stage 4 Theme
-    audioClip: {fileID: 8300000, guid: 57c433c6de20df447a466b331c30639c, type: 3}
+    audioClip: {fileID: 8300000, guid: 4227c6248dc16ae469cbfca06a7bba8e, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 1
     playOnAwake: 0
   - audioName: Stage 5 Theme
-    audioClip: {fileID: 8300000, guid: 57c433c6de20df447a466b331c30639c, type: 3}
+    audioClip: {fileID: 8300000, guid: 7b05ce3fce0bcb74bb8418a1fa664ce1, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 1
     playOnAwake: 0
   - audioName: Victory Theme
-    audioClip: {fileID: 8300000, guid: 57c433c6de20df447a466b331c30639c, type: 3}
+    audioClip: {fileID: 8300000, guid: 504dd5eb3d88ac241a60b0d40e649e9c, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 0
@@ -311,19 +311,19 @@ MonoBehaviour:
     isLooping: 0
     playOnAwake: 0
   - audioName: Rolling
-    audioClip: {fileID: 8300000, guid: eddd4a4f4090cf6489a9f2139c7ae651, type: 3}
+    audioClip: {fileID: 8300000, guid: e2ddb0c4900e024488d306456fead8b8, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 0
     playOnAwake: 0
   - audioName: Charge
-    audioClip: {fileID: 8300000, guid: 3571d830bf4579c449cd1d6b212deb92, type: 3}
+    audioClip: {fileID: 8300000, guid: 93ca306012e39274e9c8ab38761607d7, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 0
     playOnAwake: 0
   - audioName: Ground
-    audioClip: {fileID: 8300000, guid: 9d5785a5b8f19e240bc070bc6e01edc2, type: 3}
+    audioClip: {fileID: 8300000, guid: 1fe924f358e16db409a7c730ec731620, type: 3}
     volume: 1
     source: {fileID: 0}
     isLooping: 0

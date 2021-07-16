@@ -172,11 +172,11 @@ public class ObjectTouchMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(i >= 300)
-        {
-            animator.Play("Test Idle");
-            i = 0;
-        }
+        //if(i >= 300)
+        //{
+        //    animator.Play("Test Idle");
+        //    i = 0;
+        //}
 
         foreach (Touch touch in Input.touches)
         {

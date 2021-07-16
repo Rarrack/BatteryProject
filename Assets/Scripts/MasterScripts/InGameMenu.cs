@@ -28,6 +28,7 @@ public class InGameMenu : MonoBehaviour
     int masterCount;
     int allFilled = 0;
     bool win = false;
+    int activateWin = 0;
     public List<Sprite> victoryTypes;
 
     int whereTo = 0;
@@ -88,6 +89,16 @@ public class InGameMenu : MonoBehaviour
                 win = !win;
                 GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopStageMusic(SceneManager.GetActiveScene().buildIndex);
                 GameObject.Find("__bgm").GetComponent<BGM_Manager>().PlayMusic("Victory Theme");
+                //WinScreen();
+            }
+        }
+
+        if(win == true && activateWin <= 120)
+        {
+            activateWin += 1;
+        
+            if(activateWin >= 120)
+            {
                 WinScreen();
             }
         }

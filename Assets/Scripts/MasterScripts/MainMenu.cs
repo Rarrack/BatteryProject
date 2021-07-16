@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
     GameObject Settings; //settings object
     GameObject LevelPreview; //level preview object
     GameObject Credits; //credits object
+    GameObject DeleteConfirm;
 
     // Volume sliders
     public Slider bgmSlider;
@@ -121,6 +122,7 @@ public class MainMenu : MonoBehaviour
         Settings = GameObject.Find("Settings");
         LevelPreview = GameObject.Find("Level Preview");
         Credits = GameObject.Find("Credits");
+        DeleteConfirm = GameObject.Find("Delete Confirmation");
         fadeScreen = GameObject.Find("Fader");
 
         int x = PlayerPrefs.GetInt("Level Select"); // Sets variable that determines whether scene starts on level select screen
@@ -138,6 +140,7 @@ public class MainMenu : MonoBehaviour
             Settings.SetActive(false);
             LevelPreview.SetActive(false);
             Credits.SetActive(false);
+            DeleteConfirm.SetActive(false);
         }
         else
         {
@@ -145,6 +148,7 @@ public class MainMenu : MonoBehaviour
             Settings.SetActive(false);
             LevelPreview.SetActive(false);
             Credits.SetActive(false);
+            DeleteConfirm.SetActive(false);
             PlayerPrefs.SetInt("Level Select", 0);
             PlayerPrefs.Save();
         }
@@ -257,6 +261,16 @@ public class MainMenu : MonoBehaviour
     {
         GameObject.Find("__bgm").GetComponent<BGM_Manager>().StopMusic("Main Theme");
         SceneManager.LoadScene(sceneToLoad);
+    }
+
+    public void DataDeleteOn()
+    {
+        DeleteConfirm.SetActive(true);
+    }
+
+    public void DataDeleteBackout()
+    {
+        DeleteConfirm.SetActive(false);
     }
 
     public void DataPurge() // deletes all save data

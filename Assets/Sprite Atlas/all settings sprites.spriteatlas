@@ -43,7 +43,6 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 878ed5772bbfc2d47bfe8698eeb28a91, type: 3}
     - {fileID: 2800000, guid: 4ceb89a84e767594bb4c57901b8575d1, type: 3}
     - {fileID: 2800000, guid: 9436def85e76f63419c7ef53344f31e8, type: 3}
-    - {fileID: 2800000, guid: bd32904ab2abe9948963035efa2040f9, type: 3}
     - {fileID: 2800000, guid: ecc4d95aa1af57e44827a8b6e2b0a43c, type: 3}
     - {fileID: 2800000, guid: 0848c69a8ba66d04e9c32c921a61b908, type: 3}
     - {fileID: 2800000, guid: 0d04d23be960b3247bc24b4a3d078104, type: 3}
@@ -51,7 +50,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 573bfc3c57543f14288696a48cfc7eb0, type: 3}
     - {fileID: 2800000, guid: af9162ec6402b3146a87f85fc80e27fa, type: 3}
     - {fileID: 2800000, guid: 31c324df76138f342b69186e68489547, type: 3}
-    totalSpriteSurfaceArea: 0
+    totalSpriteSurfaceArea: 21803634
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -68,7 +67,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 878ed5772bbfc2d47bfe8698eeb28a91, type: 3}
   - {fileID: 21300000, guid: 4ceb89a84e767594bb4c57901b8575d1, type: 3}
   - {fileID: 21300000, guid: 9436def85e76f63419c7ef53344f31e8, type: 3}
-  - {fileID: 21300000, guid: bd32904ab2abe9948963035efa2040f9, type: 3}
   - {fileID: 21300000, guid: ecc4d95aa1af57e44827a8b6e2b0a43c, type: 3}
   - {fileID: 21300000, guid: 0848c69a8ba66d04e9c32c921a61b908, type: 3}
   - {fileID: 21300000, guid: 0d04d23be960b3247bc24b4a3d078104, type: 3}
@@ -90,7 +88,6 @@ SpriteAtlas:
   - FINAL_LEVEL_SCREEN_move_counter
   - SETTINGS_SCREEN_Settings_Screen_text_only
   - SETTINGS_SCREEN_tick_mark
-  - CC - Credits Screen
   - FINAL_SETTINGS_SCREEN_back_button_straight
   - FINAL_LEVEL_SCREEN_menu_button_torn
   - FINAL_SETTINGS_SCREEN_delete_data_button

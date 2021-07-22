@@ -21,7 +21,7 @@ public class LevelManager : MonoBehaviour
             for (int i = 0; i < scenes.Count; i++)
             {
                 PlayerPrefs.SetInt("Level " + (i + 1), 0);
-                PlayerPrefs.SetInt("Count " + (i + 1), 1);
+                PlayerPrefs.SetInt("Count " + (i + 1), 0);
             }            
             PlayerPrefs.SetInt("Level " + 1, 1); // Sets first level to be active by default 
 

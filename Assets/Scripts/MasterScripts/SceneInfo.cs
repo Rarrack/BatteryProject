@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class SceneInfo : MonoBehaviour
 {
-    UnityEngine.UI.Button button;
+    Button button;
     MainMenu menu;
     StageSwitch switcher;
     public int levelNumber;
     public int sceneCount;
+    public GameObject rating;
+    public Sprite[] ratings;
 
     public Sprite levelImg; //the image of the level itself.
                             //each level needs its image stored in this public varibale.
@@ -20,8 +23,9 @@ public class SceneInfo : MonoBehaviour
         menu = GameObject.Find("Main Menu Canvas").GetComponent<MainMenu>();
         switcher = GameObject.Find("Stage Select").GetComponent<StageSwitch>();
         int x = PlayerPrefs.GetInt("Level " + levelNumber);
-        button = GetComponent<UnityEngine.UI.Button>();
-        if(x == 0)
+        button = GetComponent<Button>();
+
+        if (x == 0)
         {
             button.interactable = false;
         }
@@ -29,6 +33,8 @@ public class SceneInfo : MonoBehaviour
         {
             button.interactable = true;
         }
+
+        LevelRating();
     }
 
     // Update is called once per frame
@@ -37,6 +43,26 @@ public class SceneInfo : MonoBehaviour
         if(PlayerPrefs.GetInt("Level " + levelNumber) == 1)
         {
             button.interactable = true;
+        }
+    }
+
+    public void LevelRating()
+    {
+        if(PlayerPrefs.GetInt("Count " + levelNumber) == 0)
+        {
+            rating.SetActive(false);
+        }
+
+        if(PlayerPrefs.GetInt("Count " + levelNumber) > 0 && PlayerPrefs.GetInt("Count " + levelNumber) >= sceneCount)
+        {
+            rating.SetActive(true);
+            rating.GetComponent<Image>().sprite = ratings[0];
+        }
+
+        if(PlayerPrefs.GetInt("Count " + levelNumber) > 0 && PlayerPrefs.GetInt("Count " + levelNumber) <= sceneCount)
+        {
+            rating.SetActive(true);
+            rating.GetComponent<Image>().sprite = ratings[1];
         }
     }
 

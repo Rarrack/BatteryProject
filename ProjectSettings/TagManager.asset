@@ -103,6 +103,9 @@ TagManager:
   - name: Level Batteries and Goals Layer
     uniqueID: 291943235
     locked: 0
+  - name: Level Tutorial Canvas Layer
+    uniqueID: 2288039631
+    locked: 0
   - name: Level Win Canvas Layer
     uniqueID: 3013817091
     locked: 0

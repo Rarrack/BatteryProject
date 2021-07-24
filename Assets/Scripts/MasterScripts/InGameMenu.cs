@@ -9,6 +9,7 @@ public class InGameMenu : MonoBehaviour
     GameObject Menu;
     GameObject GamePlay;
     GameObject Win;
+    GameObject Tutorial;
 
     public Slider bgmSlider;
     public Slider sfxSlider;
@@ -57,7 +58,9 @@ public class InGameMenu : MonoBehaviour
         Menu = GameObject.Find("Menu Canvas");
         GamePlay = GameObject.Find("Game Canvas");
         Win = GameObject.Find("Win Canvas");
+        Tutorial = GameObject.Find("Tutorial");
         fadeScreen = GameObject.Find("Fader");
+
 
         bgmSlider.value = PlayerPrefs.GetFloat("BGM Volume", 0.7f);
         sfxSlider.value = PlayerPrefs.GetFloat("SFX Volume", 0.7f);
@@ -70,9 +73,100 @@ public class InGameMenu : MonoBehaviour
             goals.Add(gl);
         }
 
-        Menu.SetActive(false);
-        GamePlay.SetActive(true);
-        Win.SetActive(false);
+        switch ((SceneManager.GetActiveScene().buildIndex - 1))
+        {
+            case 1:
+                if(PlayerPrefs.GetInt("Tutorial 1") == 0)
+                {
+                    Tutorial.SetActive(true);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(false);
+                    Win.SetActive(false);
+                    PlayerPrefs.SetInt("Tutorial 1", 1);
+                }
+                else
+                {
+                    Tutorial.SetActive(false);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(true);
+                    Win.SetActive(false);
+                }
+                return;
+            case 7:
+                if (PlayerPrefs.GetInt("Tutorial 2") == 0)
+                {
+                    Tutorial.SetActive(true);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(false);
+                    Win.SetActive(false);
+                    PlayerPrefs.SetInt("Tutorial 2", 1);
+                }
+                else
+                {
+                    Tutorial.SetActive(false);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(true);
+                    Win.SetActive(false);
+                }
+                return;
+            case 13:
+                if (PlayerPrefs.GetInt("Tutorial 3") == 0)
+                {
+                    Tutorial.SetActive(true);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(false);
+                    Win.SetActive(false);
+                    PlayerPrefs.SetInt("Tutorial 3", 1);
+                }
+                else
+                {
+                    Tutorial.SetActive(false);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(true);
+                    Win.SetActive(false);
+                }
+                return;
+            case 19:
+                if (PlayerPrefs.GetInt("Tutorial 4") == 0)
+                {
+                    Tutorial.SetActive(true);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(false);
+                    Win.SetActive(false);
+                    PlayerPrefs.SetInt("Tutorial 4", 1);
+                }
+                else
+                {
+                    Tutorial.SetActive(false);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(true);
+                    Win.SetActive(false);
+                }
+                return;
+            case 25:
+                if (PlayerPrefs.GetInt("Tutorial 5") == 0)
+                {
+                    Tutorial.SetActive(true);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(false);
+                    Win.SetActive(false);
+                    PlayerPrefs.SetInt("Tutorial 5", 1);
+                }
+                else
+                {
+                    Tutorial.SetActive(false);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(true);
+                    Win.SetActive(false);
+                }
+                return;
+            default:
+                Tutorial.SetActive(false);
+                Menu.SetActive(false);
+                GamePlay.SetActive(true);
+                Win.SetActive(false);
+                return;
+        }
     }
 	
 	// Update is called once per frame

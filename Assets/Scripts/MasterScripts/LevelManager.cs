@@ -22,7 +22,12 @@ public class LevelManager : MonoBehaviour
             {
                 PlayerPrefs.SetInt("Level " + (i + 1), 0);
                 PlayerPrefs.SetInt("Count " + (i + 1), 0);
-            }            
+            }
+            for (int i = 0; i < 6; i++)
+            {
+                PlayerPrefs.SetInt("Tutorial " + (i + 1), 0);
+            }
+
             PlayerPrefs.SetInt("Level " + 1, 1); // Sets first level to be active by default 
 
             PlayerPrefs.SetInt("Level Select", 0); // Check to see if level select is active
@@ -33,7 +38,6 @@ public class LevelManager : MonoBehaviour
 
             PlayerPrefs.Save(); // Saves all PlayerPref information
         }
-
     }
 
     // Start is called before the first frame update

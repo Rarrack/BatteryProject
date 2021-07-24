@@ -66,6 +66,7 @@ public class ChargeAndGround : MonoBehaviour
                     }
                     //collision.gameObject.GetComponent<Animator>().SetBool("Charged", false);
                     collision.gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
+                    //collision.gameObject.GetComponent<ParticleSystem>().Stop(); //Mateusz added this code so if it breaks, blame him
                     break;
                 case true:
                     //collision.gameObject.GetComponent<Animator>().SetBool("Charging", true);

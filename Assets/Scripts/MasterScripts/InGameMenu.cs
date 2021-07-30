@@ -226,6 +226,7 @@ public class InGameMenu : MonoBehaviour
     public void Back()
     {
         GameObject.Find("__sfx").GetComponent<SFX_Manager>().PlaySound("Back");
+        Tutorial.SetActive(false);
         Menu.SetActive(false);
         GamePlay.SetActive(true);
         Win.SetActive(false);
@@ -263,6 +264,7 @@ public class InGameMenu : MonoBehaviour
 
     public void WinScreen()
     {
+        Tutorial.SetActive(false);
         Menu.SetActive(false);
         GamePlay.SetActive(false);
         Win.SetActive(true);

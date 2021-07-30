@@ -12,14 +12,14 @@ public class WallDisable : MonoBehaviour
     {
         animator = GetComponent<Animator>();
 
-        if(disabled == false)
-        {
-            Enable();
-        }
-        else
-        {
-            Disable();
-        }
+        //if(disabled == false)
+        //{
+        //    Enable();
+        //}
+        //else
+        //{
+        //    Disable();
+        //}
     }
 
     // Update is called once per frame
@@ -43,6 +43,6 @@ public class WallDisable : MonoBehaviour
         //GetComponent<SpriteRenderer>().color = new Color(curCol.r, curCol.g, curCol.b, 1);
         animator.SetBool("Close", false);
         animator.SetBool("Open", true);
-        GetComponent<BoxCollider2D>().enabled = true;
+        GetComponent<BoxCollider2D>().enabled = false;
     }
 }

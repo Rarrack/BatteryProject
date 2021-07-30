@@ -41,11 +41,11 @@ public class DisableWalls : MonoBehaviour
             {
                 if (walls[i].GetComponent<WallDisable>().disabled == false)
                 {
-                    walls[i].GetComponent<WallDisable>().Disable();
+                    walls[i].GetComponent<WallDisable>().Enable();
                 }
                 else
                 {
-                    walls[i].GetComponent<WallDisable>().Enable();
+                    walls[i].GetComponent<WallDisable>().Disable();
                 }
             }
 

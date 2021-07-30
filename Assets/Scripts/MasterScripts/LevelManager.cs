@@ -23,7 +23,7 @@ public class LevelManager : MonoBehaviour
                 PlayerPrefs.SetInt("Level " + (i + 1), 0);
                 PlayerPrefs.SetInt("Count " + (i + 1), 0);
             }
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 7; i++)
             {
                 PlayerPrefs.SetInt("Tutorial " + (i + 1), 0);
             }

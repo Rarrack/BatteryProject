@@ -109,7 +109,7 @@ public class InGameMenu : MonoBehaviour
                     Win.SetActive(false);
                 }
                 return;
-            case 13:
+            case 8:
                 if (PlayerPrefs.GetInt("Tutorial 3") == 0)
                 {
                     Tutorial.SetActive(true);
@@ -126,7 +126,7 @@ public class InGameMenu : MonoBehaviour
                     Win.SetActive(false);
                 }
                 return;
-            case 19:
+            case 13:
                 if (PlayerPrefs.GetInt("Tutorial 4") == 0)
                 {
                     Tutorial.SetActive(true);
@@ -143,7 +143,7 @@ public class InGameMenu : MonoBehaviour
                     Win.SetActive(false);
                 }
                 return;
-            case 25:
+            case 19:
                 if (PlayerPrefs.GetInt("Tutorial 5") == 0)
                 {
                     Tutorial.SetActive(true);
@@ -160,8 +160,25 @@ public class InGameMenu : MonoBehaviour
                     Win.SetActive(false);
                 }
                 return;
+            case 25:
+                if (PlayerPrefs.GetInt("Tutorial 6") == 0)
+                {
+                    Tutorial.SetActive(true);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(false);
+                    Win.SetActive(false);
+                    PlayerPrefs.SetInt("Tutorial 6", 1);
+                }
+                else
+                {
+                    Tutorial.SetActive(false);
+                    Menu.SetActive(false);
+                    GamePlay.SetActive(true);
+                    Win.SetActive(false);
+                }
+                return;
             default:
-                Tutorial.SetActive(false);
+                //Tutorial.SetActive(false);
                 Menu.SetActive(false);
                 GamePlay.SetActive(true);
                 Win.SetActive(false);
@@ -264,7 +281,7 @@ public class InGameMenu : MonoBehaviour
 
     public void WinScreen()
     {
-        Tutorial.SetActive(false);
+        //Tutorial.SetActive(false);
         Menu.SetActive(false);
         GamePlay.SetActive(false);
         Win.SetActive(true);

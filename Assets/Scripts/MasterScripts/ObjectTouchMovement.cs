@@ -317,13 +317,21 @@ public class ObjectTouchMovement : MonoBehaviour
         check.moving = false;
         if (gameObject.tag != "dummy")
         {
-            if(Charged == false)
+            if (collision.gameObject.tag != "ChargeGround")
             {
-                animator.Play("Impact G");
+                if (Charged == false)
+                {
+                    animator.Play("Impact G");
+                }
+                else
+                {
+                    animator.Play("Impact");
+                }
             }
             else
             {
-                animator.Play("Impact");
+                animator.Play("Charging");
+                animator.SetBool("Charged", true);
             }
             
         }

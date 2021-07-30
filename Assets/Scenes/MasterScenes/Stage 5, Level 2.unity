@@ -1860,6 +1860,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 522
       objectReference: {fileID: 0}
+    - target: {fileID: 114936812177196324, guid: b36f19c8ad153104d92c859bd6920dae,
+        type: 3}
+      propertyPath: masterCount
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6828318816583954773, guid: b36f19c8ad153104d92c859bd6920dae,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2852,11 +2857,11 @@ PrefabInstance:
         type: 3}
       propertyPath: walls.Array.data[0]
       value: 
-      objectReference: {fileID: 866909016}
+      objectReference: {fileID: 1062598585}
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
@@ -3177,7 +3182,7 @@ PrefabInstance:
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
       propertyPath: walls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
         type: 3}
@@ -3203,7 +3208,12 @@ PrefabInstance:
         type: 3}
       propertyPath: walls.Array.data[0]
       value: 
-      objectReference: {fileID: 1062598585}
+      objectReference: {fileID: 866909016}
+    - target: {fileID: 3687037223648669381, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd,
+        type: 3}
+      propertyPath: walls.Array.data[1]
+      value: 
+      objectReference: {fileID: 2089207197}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f30cfeffc8231642a3b1d8e8bf1abbd, type: 3}
 --- !u!1 &1902184405

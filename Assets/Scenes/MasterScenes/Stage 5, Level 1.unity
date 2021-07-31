@@ -2579,15 +2579,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Reset
       objectReference: {fileID: 0}
+    - target: {fileID: 114936812177196324, guid: b36f19c8ad153104d92c859bd6920dae,
+        type: 3}
+      propertyPath: masterCount
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5502521129232154002, guid: b36f19c8ad153104d92c859bd6920dae,
         type: 3}
       propertyPath: m_SortingOrder
       value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 114936812177196324, guid: b36f19c8ad153104d92c859bd6920dae,
-        type: 3}
-      propertyPath: masterCount
-      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6828318816583954773, guid: b36f19c8ad153104d92c859bd6920dae,
         type: 3}
